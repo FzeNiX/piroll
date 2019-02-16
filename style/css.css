@@ -42,8 +42,10 @@ div.header{
 }
 
 div.header div.logo{
-	display: block;
+	display: flex;
 	float: left;
+	justify-content: center;
+	flex-direction: column;
 }
 
 div.header ul.menu-container{
