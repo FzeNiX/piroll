@@ -60,6 +60,10 @@ div.header ul.menu-container a{
 	vertical-align: sub;
 }
 
+div.header ul.menu-container a:hover{
+	color: #4ca8ff;
+}
+
 div.header ul.menu-container a.active{
 	text-decoration: none;
 	width: 100%;
