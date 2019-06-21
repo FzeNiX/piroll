@@ -1,0 +1,989 @@
+Formal written policies that describe proper and unacceptable behavior when using computer and network systems is called ___. | Answer: ACCEPTABLE USE POLICIES (AUPs)
+
+A security control that stops behavior immediately and does not rely on human decisions is called ___. | Answer: AUTOMATED CONTROL
+
+A confirmed event that compromises the confidentiality, integrity, or availability of information is called ___. | Answer: BREACH
+
+Most senior leader responsible for managing risks related to data privacy is called ___. | Answer: CHIEF PRIVACY OFFICER (CPO)
+
+Legally binding agreements on the handling and disclosure of company material is called ___. | Answer: CONFIDENTIALITY AGREEMENT (CA)
+
+A security control that restores a system or process is called ___. | Answer: CORRECTIVE CONTROL
+
+Level of protection based on data type is called ___. | Answer: DATA CLASSIFICATION
+
+With ___ the actual information can be viewed only when the data is decrypted with a key. | Answer: DATA ENCRYPTION
+
+A manual security control that identifies a behavior after it has happened is called ___. | Answer: DETECTIVE CONTROL
+
+Any digital material owned by an organization including text, graphics, audio, video, and animations is called ___. | Answer: DIGITAL ASSETS
+
+The concept that an individual should know what information about them is being collected. An individual should also be told how that information is being used is called ___. | Answer: FULL DISCLOSURE
+
+Any product of human intellect that is unique and not obvious with some value in the marketplace is called ___. | Answer: INTELLECTUAL PROPERTY (IP)
+
+A mark or comment placed inside the document itself indication a level of protection is called ___. | Answer: LABEL
+
+A security control that does not stop behavior immediately and relies on human decisions is called ___. | Answer: MANUAL CONTROL
+
+Legally binding agreement on the handling and disclosure of company material is called ___. | Answer: NON-DISCLOSURE AGREEMENT (NDA)
+
+The difference between what policies and procedure state should be done and what is actually performed is called ___. | Answer: OPERATIONAL DEVIATION
+
+Sensitive information used to uniquely identify an individual in a way that could potentially be exploited is called ___. | Answer: PERSONALLY IDENTIFIABLE INFORMATION (PII)
+
+An automated security control that stops a behavior immediately is called ___. | Answer: PREVENTIVE CONTROL
+
+Any record required by law to be made available to the public and are made or filed by a governmental entity is called ___. | Answer: PUBLIC RECORD
+
+The risk that remains after all the controls have been applied is called ___. | Answer: RESIDUAL RISK
+
+Training about security policies, threats, and handling of digital assets is called ___. | Answer: SECURITY AWARENESS PROGRAM
+
+Adherence to the organization's set of rules with regard to policy is called ___. | Answer: SECURITY POLICY COMPLIANCE
+
+1. Policy compliance is ___?
+1. The effort to follow an organization's policy
+2. When customers read a Web site policy statement
+3. Adherence to an organization's policy
+4. Failure to follow to an organization's policy | Answer: Adherence to an organization's policy
+
+2. What is an automated control?
+1. A control that stops behavior immediately and does not rely on human decisions
+2. A control that does not stop behavior immediately and relies on human decisions
+3. A control that does not stop behavior immediately but automates notification of incident
+4. A control that stops behavior immediately and relies on human decisions | Answer: A control that stops behavior immediately and does not rely on human decisions
+
+3. Which of the following is NOT a business driver?
+1. Ability to acquire the newest technology
+2. Cost of maintaining controls
+3. Ability to legally defend
+4. Customer satisfaction | Answer: Ability to acquire the newest technology
+
+4. A firewall is generally considered an example of a ___ control. | Answer: Preventive
+
+5. What is an information security policy?
+1. A policy that defines acceptable behavior of a customer
+2. A policy that defines what hardware to purchase
+3. A policy that defines how to protect information in any form
+4. A policy that defines the type of uniforms guards should wear | Answer: A policy that defines how to protect information in any form
+
+6. Which of the following is not a type of security control?
+1. Preventative
+2. Correlative
+3. Detective
+4. Corrective | Answer: Correlative
+
+7. Security awareness programs have two enforcement components: the ___ and the ___.
+1. Carrot, rewards
+2. Leaders, managers
+3. Board of directors, HR
+4. Carrot, stick | Answer: Carrot, stick
+
+8. Most security policies require that a label be applied when a document is classified.
+TRUE OR FALSE | Answer: FALSE
+
+9. What are the benefits to having a security awareness program emphasize the business risk?
+1. Risk becomes more relevant to employees
+2. Security policies are more likely to be followed
+3. Provides employees a foundation to deal with unexpected risk
+4. All the above | Answer: Risk becomes more relevant to employees
+Security policies are more likely to be followed
+Provides employees a foundation to deal with unexpected risk
+
+ALL the answers
+
+10. Within which of the following do security policies need to define PII legal requirements?
+1. The context of the business and location
+2. The limits set by the business to maximize profit
+3. What is acceptable by the shareholders
+4. Moral obligation to the greater good | Answer: The context of the business and location
+
+11. Information used to open or access a bank account is generally considered PII data.
+TRUE OR FALSE | Answer: TRUE
+
+12. Which of the following is not a benefit of having an acceptable use policy?
+1. Outlines disciplinary action for improper behavior
+2. Prevents employees from misusing the Internet
+3. Reduces business liability
+4. Defines proper behavior while using the Internet | Answer: Prevents employees from misusing the Internet
+
+13. Lower risk exposure can be perceived only through actual measurement.
+TRUE OR FALSE | Answer: FALSE
+
+14. Which of the following do you need to measure to achieve operational consistency?
+1. Consistency
+2. Quality
+3. Results
+4. All the above | Answer: Consistency
+Quality
+Results
+ALL the answers
+
+15. Well-defined and properly implemented security policies help the business in which of the following ways?
+1. Maximize profit
+2. Reduce risk
+3. Produce consistent and reliable products
+4. All the above | Answer: Maximize profit
+Reduce risk
+Produce consistent and reliable products
+
+ALL the answers
+
+The process of determining the identity of an individual or device is called ___. | Answer: AUTHENTICATION
+
+Ensuring accessibility of information to authorized users when required is called ___. | Answer: AVAILABILITY
+
+A management technique used to improve the efficiency and effectiveness of a process within an organization is called ___. | Answer: BUSINESS PROCESS REENGINEERING (BPR)
+
+Limiting access to information/data to authorized users only is called ___. | Answer: CONFIDENTIALITY
+
+An ad hoc, ongoing effort to improve business products, services, or process is called ___. | Answer: CONTINUOUS IMPROVEMENT
+
+The state of data stored on any type of media is called ___. | Answer: DATA AT REST
+
+The state of data when traveling over or through a network is called ___.. | Answer: DATA IN TRANSIT
+
+The act of managing implementation and compliance with organizational policies is called ___. | Answer: GOVERNANCE
+
+The parameters within which a policy, standard, or procedure recommended when possible but are optional is called ___. | Answer: GUIDELINE
+
+The implementation of controls designed to ensure confidentiality, integrity, availability, and non-repudiation is called ___. | Answer: INFORMATION ASSURANCE
+
+The act of protecting information systems or IT infrastructures from unauthorized use, access, disruption, or destruction is called ___. | Answer: INFORMATION SYSTEMS SECURITY (ISS)
+
+The five-phase management process of controlling the planning, implementation, evaluation, and maintenance of information systems security is called ___. | Answer: INFORMATION SYSTEMS SECURITY MANAGEMENT LIFE CYCLE
+
+The act of ensuring that information has not been improperly changed is called ___. | Answer: INTEGRITY
+
+A principle that restricts information access to only those users with an approved and valid requirement is called ___. | Answer: NEED TO KNOW
+
+The concept of applying technology in way that an individual cannot deny or dispute they were part of a transaction is called ___. | Answer: NONREPUDIATION
+
+A document that states how the organization is to perform and conduct business functions and transactions with a desired outcome is called ___. | Answer: POLICY
+
+A structure for organizing policies, standards, procedures, and guidelines is called ___. | Answer: POLICY FRAMEWORK
+
+A written statement describing the steps required to implement a process is called ___. | Answer: PROCEDURE
+
+A set of policies that establish how an organization secures its facilities and IT infrastructure. It can also address how the organization meets regulatory requirements is called ___. | Answer: SECURITY POLICIES
+
+The portion of a service contract that formally defines the level of service. These agreements are typical in telecommunications contracts for voice and data transmission circuits is called ___. | Answer: SERVICE LEVEL AGREEMENT (SLA)
+
+An established and proven norm or method. The can be a procedural or technical ___ implemented organization-wide. | Answer: STANDARD
+
+1. What is the issue in the following? John works in the accounting dept. but travels to other company locations. He must present the past quarter's figures to the CEO in the morning. He forgot to update the Power Point presentation on his desktop computer at the main office.
+1. Unauthorized access to the system
+2. Integrity of the data
+3. Availability of the data
+4. Nonrepudiation of the data
+5. Unauthorized use of the system | Answer: Availability of the data
+
+2. Governance is the practice of ensuring an entity is in conformance to policies, regulations, ___, and procedures. | Answer: Standards
+
+3. COBIT is a widely accepted international best practices policy framework.
+TRUE OR FALSE | Answer: True
+
+4. Which of the following are generally accepted as IA tenets but not ISS tenets? (Select 2)
+1. Confidentiality
+2. Integrity
+3. Availability
+4. Authentication
+5. Nonrepudiation | Answer: Authentication
+Nonrepudiation
+
+5. Greg has developed a document on how to operate and back up the new financial sections storage area network. In it, he lists the steps required for powering up and down the system as well as configuring the backup tape unit. Greg has written ___. | Answer: Procedure
+
+6. When should a wireless security policy be initially written?
+1. When the industry publishes new wireless standards
+2. When a vendor presents wireless solutions to the business
+3. When the next generation of wireless technology is launched
+4. After a company decides to implement wireless and before it is installed | Answer: After a company decides to implement wireless and before it is installed
+
+7. A toy company is developing the next generation of children's reading aids. They already produced a comparable product, but the new one will not be available on shelves for another two years. What process would drive policies related to the new product's information systems security?
+1. Continuous improvement
+2. Business process reengineering
+3. Encryption
+4. Information systems security management life cycle
+5. Software development life cycle | Answer: Business process reengineering
+
+8. Implementation and enforcement of policies is a challenge. The biggest hindrance to implementation of policies is the ___ factor. | Answer: Human
+
+9. Information systems security policies should support ___. | Answer: Business Operations
+
+10. Security policies focus on providing consistent protection of information in the system. This happens by controlling multiple aspects of the information system that directly or indirectly affect normal operations at some point.While there are many different benefits to supporting operations, some are more prevalent than others. Which of the following are aspects of ISS policies that extend to support business operations?
+1. Controlling change to the IT infrastructure 
+2. Protecting data at rest and in transit
+3. Protecting systems from the insider threat
+4. 2 & 3 Only
+5. All the above | Answer: Controlling change to the IT infrastructure 
+Protecting data at rest and in transit
+Protecting systems from the insider threat
+
+11. Ted is an administrator in the server backup area. He is reviewing the contract for the offsite storage facility for validity. This contract includes topics such as the amount of storage space required, the pickup and delivery of media, response times during an outage, and security of media within the facility. This contract is an example of information security.
+TRUE OR FALSE | Answer: FALSE
+
+Established rules on how consumers and their information should be handled during an e-commerce transaction is called ___. | Answer: CONSUMER RIGHTS
+
+The laws that set expectations on how your personal information should be protected and limits place on how the data should be shared is called ___. | Answer: DATA PRIVACY
+
+___ is defined as 1. Information that supports a conclusion or 2. Material presented to a regulator to show compliance. | Answer: EVIDENCE
+
+A formal process to identify threats, potential attacks, and impacts to an an organization is called ___. | Answer: INFORMATION SECURITY RISK ASSESSMENT
+
+A framework that contains a comprehensive list of concepts, practices, and processes for managing IT services is called ___. | Answer: INFORMATION TECHNOLOGY AND INFRASTRUCTURE LIBRARY (ITIL)
+
+Software that blocks access to specific sites on the Internet is called ___. | Answer: INTERNET FILTERS
+
+The practice of agreeing to use of personal information beyond its original purpose is called ___. | Answer: OPT-IN
+
+The practice of declining persuasion to use personal information beyond its original purpose is called ___. | Answer: OPT-OUT
+
+A worldwide information security standard that describes how to protect credit card information is called ___. | Answer: PAYMENT CARD INDUSTRY DATA SECURITY STANDARD (PCI DSS)
+
+In e-commerce, broadly deals with how personal information is handled and what it is used for is called ___. | Answer: PERSONAL PRIVACY
+
+A formal process to identify threats, potential attacks, and impacts to an organization is called ___. | Answer: RISK ASSESSMENT
+
+When related to compliance, it's the mapping of regulatory requirements to policies and controls is called ___. | Answer: SECURITY CONTROL MAPPING
+
+A person who buys stock in a company (investor) is called ___. | Answer: SHAREHOLDER
+
+A widely accepted auditing standard created by the American Institute of Certified Public Accountants and examines an organizations control environment is called ___. | Answer: STATEMENT ON AUDITING STANDARD 70 (SAS 70)
+
+1. When creating laws and regulations, the government's sole concern is the privacy of the individual.
+TRUE OR FALSE | Answer: FALSE
+
+2. Which of the following are pressures on creating security policies?
+1. Shareholder value
+2. Regulations
+3. Technology vulnerabilities and limitations
+4. 2 and 3 only
+5. All the above | Answer: Shareholder value
+Regulations
+Technology vulnerabilities and limitations
+
+All the above
+
+3. Which of the following laws require proper security controls for handling privacy data?
+1. HIPAA
+2. GLBA
+3. FERPA
+4. 2 & 3 only
+5. All the above | Answer: HIPAA
+GLBA
+FERPA
+All the above
+
+4. Which of the following are control objectives for PCI DSS?
+1. Maintain an information security policy 
+2. Protect cardholder data
+3. Alert when credit cards are illegally used
+4. 1 & 2 only
+5. None of the above | Answer: Maintain an information security policy 
+Protect cardholder data
+
+1 & 2 only
+
+5. A SAS 70 audit is popular because it allows a service auditor to review an organization's ___ and issue an independent opinion. | Answer: Control environment
+
+6. Health care providers are those that process and facilitate billing.
+TRUE OR FALSE | Answer: FALSE
+
+7. The law that attempts to limit children's exposure to sexually explicit material is ___. | Answer: CIPA
+
+8. It is easier to quantify leading practices than best practices.
+TRUE OR FALSE | Answer: TRUE
+
+9. You should always write new security policies each time a new regulation is issued.
+TRUE OR FALSE | Answer: FALSE
+
+10. What should you ask for to gain confidence that a vendor's security controls are adequate?
+1. A SAS 70 Type I audit
+2. A SAS 70 Type II audit
+3. A list of all internal audits
+4. All the above | Answer: A SAS 70 Type II audit
+
+11. Why is it important to map regulatory requirements to policies and controls?
+1. To demonstrate compliance to regulators
+2. To ensure regulatory requirements are covered
+3. To demonstrate the importance of a security control
+4. All the above | Answer: To demonstrate compliance to regulators
+To ensure regulatory requirements are covered
+To demonstrate the importance of a security control
+
+All the above
+
+Generally any business software that an end user (including customers) touches is considered an application is called ___. | Answer: APPLICATION SOFTWARE
+
+A formal program that reduces the likelihood of accidental or malicious loss of data is called ___. | Answer: DATA LEAKAGE PROTECTION (DLP)
+
+A formal program that reduces the likelihood of accidental or malicious loss of data is called ___. | Answer: DATA LOSS PROTECTION (DLP)
+
+In the context of workstation central management systems, refers to processes that determine what is installed on a workstation; it could also refer to knowing what information sits on a workstation is called ___. | Answer: DISCOVERY MANAGEMENT
+
+A logical piece of our technology infrastructure with similar risks and business requirements is called ___. | Answer: DOMAIN
+
+A policy that discusses what is acceptable when using the company email system is called ___. | Answer: EMAIL POLICY
+
+A protocol used to exchange files over a LAN or WAN is called ___. | Answer: FILE TRANSFER PROTOCOL (FTP)
+
+A device that filters the traffic in and out of a LAN is called ___. | Answer: FIREWALL
+
+A network with little or no controls that limit network traffic is called ___. | Answer: FLAT NETWORK
+
+In the context of workstation central management systems, provides support to the end user is called ___. | Answer: HELP DESK MANAGEMENT
+
+Used to connect multiple devices within a local area network. it has ports and as the traffic flows through the device, the traffic is duplicated so all ports can see the traffic is called ___. | Answer: HUB
+
+In the context of workstation central management systems, refers to tracking what workstation and related network devices exist is called ___. | Answer: INVENTORY MANAGEMENT
+
+Refers to the organization's local area network infrastructure is called ___. | Answer: LAN DOMAIN
+
+Refers to the technical infrastructure that connects the organization's local area network to a wide area network is called ___. | Answer: LAN-TO-WAN DOMAIN
+
+In the context of workstation central management systems, refers to extracting logs from the workstation is called ___. | Answer: LOG MANAGEMENT
+
+Refers to making sure that devices on the network, such as workstations and servers, have current patches from the vendor is called ___. | Answer: PATCH MANAGEMENT
+
+Places importance on privacy in the business and discusses the regularity landscape and government mandates and often talks about physical security and the importance of \"locking up\" sensitive information is called ___. | Answer: PRIVACY POLICY
+
+Refers to the technology that controls how end users connect to an organization's local area network is called ___. | Answer: REMOTE ACCESS DOMAIN
+
+Enhanced authentication over what's typically found in the office. Usually requires more than an ID and Password, such as a security token or smart card is called ___. | Answer: REMOTE AUTHENTICATION
+
+Connects local area networks to wide area networks is called ___. | Answer: ROUTER
+
+Usually refers to IT security, this can include making sure end users have limited rights and access controls are in place, among many other techniques and process is called ___. | Answer: SECURITY MANAGEMENT
+
+A network that limits how computers are able to talk to each other is called ___. | Answer: SEGMENT NETWORK
+
+A network device that can read communications traffic on a LAN is called ___. | Answer: SNIFFER
+
+A type of attack in which the hacker adds SQL code to a Web or application input to gain access to or alter data in the database is called ___. | Answer: STRUCTURED QUERY LANGUAGE (SQL) Injection
+
+A piece of equipment similar to a hub but can filter traffic. It typically routes traffic only to the port where the system is connected. This reduces network traffic, thus reducing the chance of someone intercepting the traffic is called ___. | Answer: SWITCH
+
+Rules of conduct on how and when access to systems is permitted. It covers end user credentials like IDs and passwords is called ___. | Answer: SYSTEM ACCESS POLICY
+
+Software that supports the running of the applications is called ___. | Answer: SYSTEM SOFTWARE
+
+This refers to the technology needed to collect, process, and store the information. It includes controls related to hardware and software is called ___. | Answer: SYSTEM/APPLICATION DOMAIN
+
+Requires end users to authenticate their identity using at least two of three different types of credentials. The three most commonly accepted types are something you know, something you have, and something you are is called ___. | Answer: TWO-FACTOR AUTHENTICATION
+
+This refers to any user accessing information and includes customers, employees, consultants, contractors, or any other third party is called ___. | Answer: USER DOMAIN
+
+This is set up between two devices to create an encrypted tunnel. All communications are protected from eaves dropping and considered highly secure and is called ___. | Answer: VIRTUAL PRIVATE NETWORK (VPN)
+
+This ___ includes wide area networks, which are networks that cover large geographical areas. | Answer: WAN DOMAIN
+
+Alterations to a Web page that result from a site defacement attack is called ___. | Answer: WEB GRAFFITI
+
+An attack on a Web site in which the site's content is altered, usually in a way that embarrasses the site owner is called ___. | Answer: WEB SITE DEFACEMENT
+
+The refers to any computing device used by end users. This usually means a desktop or laptop that is the main computer for the user is called ___. | Answer: WORKSTATION DOMAIN
+
+1. Private WANs must be encrypted at all times.
+TRUE OR FALSE | Answer: FALSE
+
+2. Which of the following attempts to identify where sensitive data is currently stored?
+1. Data Leakage Protection Inventory
+2. DLP Encryption Key
+3. Data Loss Protection Perimeter
+4. DLP Trojans | Answer: Data Leakage Protection Inventory
+
+3. Voice over Internet Protocol (VoIP) can be used over which of the following?
+1. LAN
+2. WAN
+3. Both
+4. Neither | Answer: LAN
+WAN
+
+4. Which of the following is not one of the seven domains of typical IT infrastructure?
+1. Remote Access Domain
+2. LAN Domain
+3. World Area Network Domain
+4. System/Application Domain | Answer: World Area Network Domain
+
+5. Which of the seven domains refers to the technical infrastructure that connects the organizations' LAN to WAN and allows end users to surf the Internet? | Answer: LAN to WAN Domain
+
+6. Many of the business benefits of Internet access over mobile devices include which of the following?
+1. Competitive advantage through real-time data access
+2. Increased customer responsiveness 
+3. Prevention of unauthorized access to customer private information
+4. 1 & 2 only
+5. None of the above | Answer: Competitive advantage through real-time data access
+Increased customer responsiveness
+
+7. A ___ is a term that refers to a network that limits what and how computers are able to talk to each other. | Answer: Segmented network
+
+8. A LAN is efficient for connecting computers within an office or groups of buildings.
+TRUE OR FALSE | Answer: TRUE
+
+9. What policy generally requires that employees lock up all documents and digital media at the end of a workday and when not in use?
+1. Acceptable use policy
+2. Clean Desk policy
+3. Privacy policy
+4. Walk out policy | Answer: Clean Desk policy
+
+10. What employees learn in awareness training influences them more than what they see within their department.
+TRUE OR FALSE | Answer: FALSE
+
+11. What kink of workstation management refers to knowing what software is installed?
+1. Inventory management
+2. Patch management
+3. Security management
+4. Discovery management | Answer: Discovery management
+
+12. Always applying the most struck authentication method is the best way to protect the business and ensure achievement of goals.
+TRUE OR FALSE | Answer: FALSE
+
+13. Generally, remote authentication provides which of the following?
+1. Fewer controls than if you were in the office
+2. The same controls than if you were in the office
+3. More controls than if you were in the office
+4. Less need for controls than in the office | Answer: More controls than if you were in the office
+
+14. Remote access does not have to be encrypted if strong authentication is used.
+TRUE OR FALSE | Answer: FALSE
+
+15. Where is a DMZ usually located?
+1. Inside the private LAN
+2. Within the WAN
+3. Between the private LAN and public WAN
+4. Within the mail server | Answer: Between the private LAN and public WAN
+
+A STATE OF INDIFFERENCE, OR THE SUPPRESSION OF EMOTIONS SUCH AS CONCERN, EXCITEMENT, MOTIVATION AND PASSION is called ___. | Answer: APATHY
+
+An individual accountable for assess ing the design and effectiveness of security policies and may be internal or external to an organization is called ___. | Answer: AUDITOR
+
+An individual accountable for monitoring adherence to laws and regulations is called ___. | Answer: COMPLIANCE OFFICER
+
+An individual responsible for the day-to-day maintenance of data and the quality of that data. May perform backups and recover data as needed. Also grants access based on approval from the data owner is called ___. | Answer: DATA CUSTODIAN
+
+An individual who establishes procedures on how data should be handled is called ___. | Answer: DATA MANAGER
+
+An individual who approves user access rights to information that is needed to perform day-to-day operations is called ___. | Answer: DATA OWNER
+
+The end user of an application. Is accountable for handling data appropriately by understanding security policies and following approved processes and procedures is called ___. | Answer: DATA USER
+
+How various tasks are grouped into specialties to enhance the depth and quality of work product is called ___. | Answer: DIVISION OF LABOR
+
+A senior business leader accountable for approving security policy implementation, driving the security message within an organization, and ensuring that policies are given appropriate priority is called ___. | Answer: EXECUTIVE
+
+An organization with few layers separating the leaders from the bottom ranks of workers is called ___. | Answer: FLAT ORGANIZATIONAL STRUCTURE
+
+An organization with multiple layers of reporting, which separates leaders from the bottom ranks of workers is called ___. | Answer: HIERARCHICAL ORGANIZATIONAL STRUCTURE
+
+An individual accountable for identifying, developing, and implementing security policies and corresponding security controls is called ___. | Answer: INFORMATION SECURITY OFFICER (ISO)
+
+Relates to the number of areas of control achieved through the number of direct reports found in an organization is called ___. | Answer: SPAN OF CONTROL
+
+1. Which of the following is a basic element of motivation?
+1. Pride
+2. Self-interest
+3. Success
+4. 2 and 3
+5. All the above | Answer: ALL THE ABOVE
+Pride
+Self-interest
+Success
+
+2. Which personality type often breaks through barriers that previously prevent success?
+1. Attackers
+2. Commanders
+3. Analyticals
+4. Pleasers | Answer: Commanders
+
+3. Avoiders like to ___ and will do ___ but not much more. | Answer: Be in the background; precisely what is asked of them
+
+4. As the number of specialties increases so does ___. | Answer: The cost of business
+
+5. In hierarchical organizations, the leaders are close to the workers that deliver products and services.
+TRUE OR FALSE | Answer: FALSE
+
+6. User apathy often results in an employee just going through the motions.
+TRUE OR FALSE | Answer: TRUE
+
+7. Which of the following is a method for overcoming apathy?
+1. Avoiding redundancy
+2. Issuing company directives
+3. Engaging in communication
+4. Requiring obedience to policies | Answer: Engaging in communication
+
+8. Why is HR policy language often intentionally vague? | Answer: Vague avoids language that could be interpreted as an employment contract or unintended promise.
+Vague allows managers and lawyers the flexibility to interpret and apply policies broadly.
+
+9. In the case of policies, it is important to demonstrate to business how policies will reduce risk and will be derived in a way that keeps costs low.
+TRUE OR FALSE | Answer: TRUE
+
+10. Interpreting security policies against new business situations and new technologies ensures the business gets the maximum benefit from the policies over time.
+TRUE OR FALSE | Answer: TRUE
+
+11. Kotter's EightStep Change Jodel can help an organization gain support for ___ changes. | Answer: Security policy
+
+12. When a catastrophic security breach occurs, who is ultimately held accountable by regulators and the public?
+1. Company officers
+2. The CIO
+3. The ISO
+4. The data owner | Answer: Company officers
+
+13. Which of the following are attributes of entrepreneurs?
+1. Innovators
+2. Well educated in business management 
+3. More likely to take risks
+4. 1 and 3
+5. 2 and 3 | Answer: 1 & 3
+Innovators
+More likely to take risks
+
+14. A company can have two sets of enterprise security policies, if necessary, to address the needs of individual business units.
+TRUE OR FALSE | Answer: FALSE
+
+15. Which of the following is the best measure of success for a security policy?
+1. Number of security controls developed as a result
+2. The number of people aware of the policy
+3. Reduction in risk
+4. The rank of the highest executive who approved it | Answer: Reduction in risk
+
+The ability to reasonably ensure conformity and adherence to organization policies, standards, procedures to laws and regulations is called ___. | Answer: COMPLIANCE
+
+A deviation from a centrally supported and approved IT security standard and can come about because of a lack of preparedness by the organization to comply with a standard or due to the use of a technology that has not been sanctioned by the standards is called ___. | Answer: EXCEPTION
+
+A capstone document that establishes the reporting lines and delegation of responsibilities for Information Security to management below the organization's chief information officer (CIO) or other executive leader is called ___. | Answer: INFORMATION SECURITY PROGRAM CHARTER
+
+Information security standards published by the ISO and by the International Electrotecnical Commission (IEC) | Answer: ISO/IEC 27000 SERIES
+
+A standard that focuses on areas of current relevance and concern to an organization. This is used to express security control requirement, typically for non-technical processes and are used to guide human behavior is called ___. | Answer: ISSUE-SPECIFIC STANDARD
+
+A logical structure that is established to organize policy documentation into groupings and categories that make it easier for employees to find and understand the contents of various policy documents is called ___. | Answer: IT POLICY FRAMEWORK
+
+A publication for the US National Institute of standards and Technology (NIST) and is titled \"Recommended Security controls for Federal Information Systems and Organizations is called ___. | Answer: NIST SP 800-53
+
+A standard that focusses on specific technology or systems being used within an organization. These are used to express the security control implementation requirements for some specific technology is called ___. | Answer: SYSTEM-SPECIFIC STANDARD
+
+1. An IT policy framework charter includes which of the following?
+1. The program's purpose and mission
+2. The program's scope within the organization
+3. Assignment of responsibilities for program implementation
+4. Compliance management
+5. 1, 2, and 3 only
+6. 1, 2, 3, and 4 | Answer: 1. The program's purpose and mission
+2. The program's scope within the organization
+3. Assignment of responsibilities for program implementation
+4. Compliance management
+
+ALL ANSWERS
+
+2. Which of the following is the first step in establishing an information security program?
+1. Adoption of an information security policy framework or charter
+2. Development and implementation of an information security standards manual
+3. Development of a security awareness-training program for employees
+4. Purchase of security access control software | Answer: Adoption of an information security policy framework or charter
+
+3. Which of the following are generally accepted and widely used policy frameworks? Select three
+1. COBIT
+2. ISO/IEC 27002
+3. NIST SP 800-53
+4. NIPP | Answer: COBIT
+ISO/IEC 27002
+NIST SP 800-53
+
+4. Security policies provide the \"what\" and \"why\" of security measures.
+TRUE OR FALSE | Answer: TRUE
+
+5. ___ are best defined as high-level statements, beliefs, goals, and objectives. | Answer: Policies
+
+6. which of the following is not mandatory?
+1. Standard
+2. Guideline
+3. Procedure
+4. Baseline | Answer: Guideline
+
+7. Which of the following includes all of the detailed actions and tasks that personnel are required to follow?
+1. Standard
+2. Guideline
+3. Procedure
+4. Baseline | Answer: Procedure
+
+8. Risk management is the process of reducing risk to an acceptable level.
+TRUE OR FALSE | Answer: TRUE
+
+9. List the five tenets of information assurance that you should consider when building an IT policy framework. | Answer: 1. Confidentiality
+2. Integrity
+3. Availability
+4. Authorization
+5. Nonrepudiation
+
+10. Preservation of confidentiality in information systems requires that the information not be disclosed to ___. | Answer: Unauthorized persons or processes
+
+11. When building a policy framework, which of the following information systems factors should be considered?
+1. Unauthorized access to and use of the system
+2. Unauthorized disclosure of information 
+3. Disruption of the system
+4. Modification of information
+5. Destruction of information resources
+6. 1, 2, and 5 only
+7. 1, 2,, 3, 4, and 5 | Answer: Unauthorized access to and use of the system
+Unauthorized disclosure of information 
+Disruption of the system
+Modification of information
+Destruction of information resources
+
+The approach of using multiple layers of security to protect against a single point is called ___. | Answer: DEFENSE IN DEPTH
+
+A person with enthusiasm for a cause or project and often gains acceptance for a project from a wide audience is called ___. | Answer: EVANGELIST
+
+The practice and science of classification and hierarchical ___ is a tree structure of classifications for a given set of objects or documents is called ___. | Answer: TAXONOMY
+
+1. When writing policies and standards, you should address the six key questions who, what, where, when, why and how.
+TRUE OR FALSE | Answer: TRUE
+
+2. All policy and standards libraries follow a universal numbering scheme for consistency between organizations.
+TRUE OR FALSE | Answer: FALSE
+
+3. Guideline documents are often tied to a specific control standard.
+TRUE OR FALSE | Answer: TRUE
+
+4. Which of the following is not an administrative control?
+1. Development of policies, standards, procedures, and guidelines
+2. Screening of personnel
+3. Change control procedures
+4. Logical access control mechanisms | Answer: Logical access control mechanisms
+
+5. Which of the following are common steps taken in the development of documents such as security policies, standards, and procedures?
+1. Design, development, publication, coding, and testing
+2. Feasibility, development, approval, implementation and integration
+3. Initiation, evaluation, development, approval, publication, implementation, and maintenance
+4. Design, coding, evaluation, approval, publication, and implementation | Answer: Initiation, evaluation, development, approval, publication, implementation, and maintenance
+
+6. Which departments should review policies and standards before official approval? (Select four)
+1. Technical
+2. Legal
+3. HR
+4. Maintenance
+5. Audit | Answer: Technical
+Legal
+HR
+Audit
+
+7. Controls are implemented to do which of the following?
+1. Create new standards
+2. Protect systems from attacks on the confidentiality, integrity, and availability of the system
+3. Eliminate all risk and eliminate the potential for loss
+4. Support guidelines | Answer: Protect systems from attacks on the confidentiality, integrity, and availability of the system
+
+8. Which type of control is associated with responding to and fixing a security incident?
+1. Deterrent
+2. Compensating
+3. Corrective
+4. Detective | Answer: Corrective
+
+9. List examples of physical security control items. | Answer: Devices and processes used to control physical access
+Fences
+Security guards
+Locked doors
+Motion detectors
+Alarms
+
+10. Security ___ are the technical implementations of the policies defined by the organization. | Answer: Procedures
+
+11. A(n) ___ is a plan or course of action used by an organization to convey instructions from its senior-most management to those who make decisions, take actions, and perform other duties on behalf of the organization. | Answer: Policy
+
+12. The principle that states security is improved when it is implemented as a series of overlapping controls is called ___. | Answer: Defense in depth
+
+13. Security principles are needed in the absence of complete information to make high-quality security decisions.
+TRUE OR FALSE | Answer: TRUE
+
+14. \"Access to all Organization information resources connected to the network must be controlled by using user IDs and appropriate authentication\" is a statement you might find in a procedure document.
+TRUE OR FALSE | Answer: FALSE
+
+15. Which of the following does a policy change control board do? (Select two).
+1. Assess policies and standards and makes recommendations for change
+2. Determines the policy and standards library numbering scheme
+3. Implements technical controls as business conditions change
+4. Review requested changes too the policy framework | Answer: Assess policies and standards and makes recommendations for change
+Review requested changes too the policy framework
+
+A committee that deals with audit issues and non-finacial risks is called ___. | Answer: AUDIT COMMITTEE
+
+An organization that developed a framework for validation internal controls and managing enterprise risks; focuses on finical operations and risk management is called ___. | Answer: COMMITTEE OF SPONSORING ORGANIZATIONS (COSO)
+
+Relates to the impact on the business for failing to comply with legal obligations is called ___. | Answer: COMPLIANCE RISK
+
+A widely accepted framework that brings together business and control requirements with technical issues is called ___. | Answer: CONTROL OBJECTIVES FOR INFORMATION AND RELATED TECHNOLOGY (COBIT)
+
+A person that implements policies and procedures such as backup, versioning, uploading, downloading and database administration is called ___. | Answer: DATA ADMINISTRATOR
+
+A person that grants access rights and assesses information security threats to organization is called ___. | Answer: DATA SECURITY ADMINISTRATOR
+
+The owner of data and approver of access rights and is responsible for data quality is called ___. | Answer: DATA STEWARD
+
+A framework that aligns strategic goals, operations effectiveness, reporting, and compliance objectives; not technology specific is called ___. | Answer: ENTERPRISE RISK MANAGEMENT (ERM)
+
+A committee that helps align the security committee to organization goals and objectives is called ___. | Answer: EXECUTIVE COMMITTEE
+
+Events that could potentially impact the business when it fails to provide adequate liquidity to meet its obligations is called ___. | Answer: FINANCIAL RISK
+
+A set of tools that bring together the capabilities to systematically manage risk and policy compliance is called ___. | Answer: GOVERNANCE, RISK MANAGEMENT AND COMPLIANCE (GRC)
+
+A role that deals with all aspects of information such as security, quality, definition, and availability; responsible for data quality is called ___. | Answer: HEAD OF INFORMATION MANAGEMENT
+
+An individual accountable for identifying, developing, and implementing security policies and corresponding security controls is called ___. | Answer: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO)
+
+Having two or more layers of independent controls to reduce risk is called ___. | Answer: LAYERED SECURITY APPROACH
+
+An organization that creates security guidelines on security controls for federal information systems is called ___. | Answer: NATIONAL INSTITUE OF STANDARDS AND TECHNOLOGY (NIST)
+
+___ is a framework for information security assessment and planning consisting of tools, techniques, and methods. | Answer: OCTAVE
+
+An event that disrupts the daily activities of an organization is called ___. | Answer: OPERATIONAL RISK
+
+A committee that provides important information on the risk appetite of the organization and various businesses is called ___. | Answer: OPERATIONAL RISK COMMITTEE
+
+Understanding risks and determining how much potential risk and related problems the business is willing to accept is called ___. | Answer: RISK APPETITE
+
+A domain in the ISACA Risk IT framework that calls for analyzing risk and determining impact on the business is called ___ | Answer: RISK EVALUATION
+
+A domain in the ISACA Risk IT framework that ensures that risk management activity aligns with the business goals, objectives, and tolerances is called ___. | Answer: RISK GOVERNANCE
+
+A domain in the ISACA Risk IT framework that specifies the ability to react so that risks are reduced and remedied in a cost-effective manner is called ___. | Answer: RISK RESPONSE
+
+A committee that acts as a steering committee for the information security program is called ___. | Answer: SECURITY COMMITTEE
+
+Underlying principle states that no individual should be able to execute a high-risk transaction or conceal errors or fraud in the normal course of their duties is called ___. | Answer: SEPARATION OF DUTIES (SOD)
+
+An event that may change how the entrée organization operates is called ___. | Answer: STRATEGIC RISK
+
+Focusing resources to deliver the greatest benefits is called ___. | Answer: VALUE DELIVERY
+
+1. The security committee is the key committee for the CISO?
+TRUE OR FALSE | Answer: TRUE
+
+2. Which of the following is not an IT security policy framework?
+1. COBIT
+2. ISO
+3. ERM
+4. OCTAVE | Answer: ERM
+
+3. Which of the following are PCI DSS network requirements?
+1. Network segregation
+2. Penetration testing
+3. Virus scanning
+4. All the above
+5. 1 and 2 only | Answer: Network segregation
+Penetration testing
+Virus scanning
+
+ALL THE ABOVE
+
+4. Which of the following are common IT framework characteristics?
+1. Risk based management 
+2. Aligned business risk appetite
+3. Reduced operation disruption and losses
+4. Established path from requirements to control
+5. All the above
+6. 1 and 3 only | Answer: Risk based management 
+Aligned business risk appetite
+Reduced operation disruption and losses
+Established path from requirements to control
+
+ALL THE ABOVE
+
+5. Which of the following applies to both GRC and ERM?
+1. Defines an approach to reduce risk
+2. Applies rigid framework to eliminate redundant controls, policies, and efforts
+3. Passively enforces security policy
+4. Seeks line of sight into root causes of risks | Answer: Defines an approach to reduce risk
+
+6. The underlying concept of SOD is that individuals execute high risk transactions as they receive pro-approval.
+TRUE OR FALSE | Answer: FALSE
+
+7. A risk management and metrics team is generally the first team to respond to an incident.
+TRUE OR FALSE | Answer: FALSE
+
+8. which of the following approves business access to data?
+1. Data steward
+2. Data guardian
+3. Data administrator
+4. 1 and 3
+5. All the above | Answer: Data steward
+
+9. Which of the following is not a key area of improvement noted after COBIT implementation?
+1. Value delivery
+2. Decentralization of the risk function
+3. Better resourcing of IT
+4. Better communication | Answer: Decentralization of the risk function
+
+10. A security team's organizational structure defines the team's ___. | Answer: Priorities or specialties
+
+11. Implementing a governance framework can allow an organization to systemically identify and prioritize risks.
+TRUE OR FALSE | Answer: TRUE
+
+12. The more layers of approval required for SOD, the more ___ it is to implement the process. | Answer: Expensive or burdensome
+
+13. Monitoring detects which of the following?
+1. A network breach
+2. Hackers probing the network
+3. 1 and 2
+4. None of the above | Answer: A network breach
+Hackers probing the network
+
+14. All organizations should have a full-time team dedicated to collecting, reviewing, and reporting to demonstrate adherence to regulation.
+TRUE OR FALSE | Answer: FALSE
+
+A leading technique, methodology, or technology that through experience has proved to be very reliable and tends to produce consistent and quality results is called ___. | Answer: BEST PRACTICE
+
+Temporary workers who can be assigned to any role is called ___. | Answer: CONTRACTORS
+
+Assets that are essential for the society and economy to function is called ___. | Answer: CRITICAL INFRASTRUCTURE
+
+In the context of information security, this refers to a process by which senior leaders through a chain of command are apprised of a risk. This continues one level of organizational structure at a time until the issue is addressed or has reached the highest level of the organization is called ___. | Answer: ESCALATION
+
+Granting elevated rights temporarily to enable a person to resolve a problem quickly and provides emergency access to unprivileged users is called ___. | Answer: FIRECALL-ID PROCESS
+
+To eliminate as many security risks as possible by reducing access rights to the minimum needed to perform any task, ensuring access is authenticated to unique individuals, removing all nonessential software, and other configuration steps that eliminate opportunities for unauthorized access is called ___. | Answer: HARDEN
+
+An employee, consultant, contractor, or vendor; the ___ may even be the IT technical people who designed the system, application, or security that is being hacked. The ___ know the organization and the applications. | Answer: INSIDER
+
+An ___ is when two or more audit disciplines are combined to conduct a single audit | Answer: INTEGRATED AUDIT
+
+Captures the keystrokes of a user is called ___. | Answer: KEYLOGGER SOFTWARE
+
+___ is a separate platform used to collect logs from platforms throughout the network. | Answer: LOG SERVER
+
+When a hacker outlines a story in which the employee is asked to reveal information that weakens the security is called ___. | Answer: PRETEXTING
+
+Designed to heighten the awareness and accountability of those users with administrator rights is called ___. | Answer: PRIVILEGED-LEVEL ACCESS AGREEMENT (PAA)
+
+Individuals responsible for designing and implementing a security program within an organization is called ___. | Answer: SECURITY PERSONNEL
+
+.Manipulating or tricking a person into weakening the security of an organization is called ___. | Answer: SOCIAL ENGINEERING
+
+A type of attack in which the hacker adds this code to a Web or application input box to gain access to or alter data in the database is called ___. | Answer: STRUCTURE QUERY LANGUAGE (SQL) INJECTION
+
+Hardware and software that collects critical information to keep a facility operating is called ___. | Answer: SUPERVISORY CONTROL AND DATA ACQUISITION (SCADA) SYSTEM
+
+A complete record of what access was granted and the business reason behind it in order to resolve a problem is called ___. | Answer: TROUBLE TICKET
+
+1. Pretexting is when a hacker breaks into a firewall.
+TRUE OR FALSE | Answer: FALSE
+
+2. What can key logger software capture?
+1. Usernames
+2. Passwords
+3. Websites visited 
+4. All the above | Answer: Usernames
+Passwords
+Websites visited
+
+3. You can use a ___ process to grant temporary elevated rights. | Answer: Firecall-ID
+
+4. Security awareness is required by which of the following?
+1. Law
+2. Customers
+3. Shareholders
+4. All the above | Answer: Law
+
+5. A(n) ___ looks at risk and issues an independent opinion. | Answer: Auditor
+
+6. A privileged-level access agreement (pas) prevents an administrator from abusing elevated rights. 
+TRUE OR FALSE | Answer: FALSE
+
+7. which of the following does an acceptable use policy relate to?
+1. Server to server communication
+2. Users accessing the Internet
+3. Encryption when transmitting files
+4. 1 and 2 | Answer: Users accessing the Internet
+
+8. A(n) ___ has inside information on how an organization operates. | Answer: Insider
+
+9. Social engineering occurs when a hacker posts her victories on s social Web site.
+TRUE OR FALSE | Answer: FALSE
+
+10. Typically in large organizations all administrators have the same level of authority.
+TRUE OR FALSE | Answer: FALSE
+
+11. A CISO must ___ risks if the business unit is not responsive. | Answer: Escalate
+
+An implementation technique to control access to a resource by maintaining a table of authorized user IDs is called ___. | Answer: ACCESS CONTROL LIST (ACL)
+
+Software or plug-ins that run within a client browser, usually when visiting certain Web sites is called ___. | Answer: ACTIVE CONTENT
+
+The act of recording relevant security events that occur on a computing or network device (server, workstation, firewall, etc.) This can also refer to a review of business and financial processes and files by an auditor is called ___. | Answer: AUDIT
+
+The process of removing unnecessary software on a server or workstation, turning off unneeded network ports and services, and preventing users from changing a machine's configuration is called ___. | Answer: HOST HARDENING
+
+A series of software agents, appliances, and servers that monitor for network activity that is deemed a threat, alerts, administrators, and logs the information. They operate by matching signatures of known poodle network attack traffic or by building over time a baseline of normal behavior then alerting on traffic that is anomalous to that normal pattern of behavior and is called ___. | Answer: INTRUSION DETECTION SYSTEM (IDS)
+
+A system that intercepts potentially hostile activity prior to it being process is called ___. | Answer: INTRUSION PREVENTION SYSTEM (IPS)
+
+An application firewall that is used to control the flow of traffic to and from the Internet to user workstations attached to a local area network. It intercepts the user's request for an Internet resource, initiates a new connection, and proxies the result back to the requestor and is called ___. | Answer: USER PROXY
+
+Automated information services over the Internet using standardized technologies and formats/protocols that simplify the exchange and integration of data. This helps organizations to inter-operate regardless of the types of operating systems, programming languages, and databases being used and is called ___. | Answer: WEB SERVICES
+
+1. The steps to implement security controls on a firewall would be documented within which of the following?
+1. Policy
+2. Control standard
+3. Baseline standard
+4. Procedure | Answer: Procedure
+
+2. A DMZ separates a LAN from which of the following?
+1. Phone network
+2. Internet network
+3. Cellular network
+4. VoIP network | Answer: Internet network
+
+3. Visitor control is an aspect of which of the following?
+1. Network security
+2. Personnel security
+3. Workstation security
+4. Physical security | Answer: Physical security
+
+4. Which of the following can you use to segment LANs?
+1. Routers and firewalls
+2. Routers and gateways
+3. Gateways and servers
+4. Servers and workstations | Answer: Routers and firewalls
+
+5. Without a policy that leads to controls that restrict employees from installing their own software on a company workstation, a company could suffer which of the following consequences?
+1. Malware on the network
+2. Lawsuits from software licensing issues
+3. Loss of productivity
+4. All the above | Answer: Malware on the network
+Lawsuits from software licensing issues
+Loss of productivity
+
+6. Good sources for security policies and standards include which of the following?
+1. US Government
+2. Private companies selling standards
+3. Professional organizations
+4. Vendors
+5. All the above | Answer: US Government
+Private companies selling standards
+Professional organizations
+Vendors
+
+7. Two-factor authentication is a typical control used by employees to remotely access which of the following?
+1. Workstation 
+2. LAN
+3. DMZ Web site
+4. WAN | Answer: LAN
+
+8. Which document outlines the specific controls that a technology device needs to support?
+1. Control standard
+2. Baseline standard
+3. Procedure
+4. Policy | Answer: Baseline standard
+
+9. The User Proxy control standard is needed for the ___ domain. | Answer: LAN-to-WAN
+
+10. The content for the documents in the policies and standards library should be written so they are ___ and ___. | Answer: Cohesive
+Coherent
+
+11. Production data should be sanitized before being used in a test environment.
+TRUE OR FALSE | Answer: TRUE
+
+12. Organizations should always create new policies tailored to their needs rather than adopt industry norms found on the Internet.
+TRUE OR FALSE | Answer: FALSE
