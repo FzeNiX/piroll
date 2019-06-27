@@ -1,0 +1,750 @@
+1. Which of the following are properties of a LAN protocol? (Choose three.)
+a. handles source and destination node addressing
+b. follows standards, such as the IEEE 802 standards
+c. has the ability to transport data in 8 GB packets or larger for network efficiency
+d. enables reliable network links
+abd
+
+2. The subnet mask is used for which of the following? (Choose two.)
+a. to disguise servers so they appear to be workstations
+b. to create subnetworks
+c. to bridge AppleTalk with TCP/IP
+d. to show the class of addressing
+bd
+
+3. The IPv6 address 0102:07cc:6218:0000:0000:0000:4572:4ebd can also be rewritten as which of the following? (Choose two.)
+a. 0102:07cc:6218:3x00:4572:4ebd
+b. 0102:07cc:6218::4572:4ebd
+c. 0102:07cc:6218:4572:4ebd
+d. 0102:07cc:6218:0:0:0:4572:4ebd
+bd
+
+4. You are debating with a colleague about whether to use PPTP or L2TP for remote communications. Which of the following is an advantage of using L2TP?
+a. PPTP uses a compressed packet that takes time to compress and decompress, whereas L2TP does not.
+b. L2TP forces the network to use a special carrier signal, which is faster than the carrier signal used by PPTP.
+c. L2TP can tunnel in more directions, including in reverse.
+d. L2TP can take advantage of MAC addresses, but PPTP cannot.
+d
+
+5. When a server crashes and goes offline on a network, which of the following helps to determine that the server is unavailable?
+a. ICMP
+b. DNS
+c. SMTP
+d. NFS
+a
+
+6. What flavor of Network Address Translation can be used to have one IP address allow many users to connect to global Internet?
+a. NAT
+b. PAT
+c. Static
+d. Dynamic
+b
+
+1. which of the following have been facilitated by the OSI model? (choose three)
+a. The development of network hardware that uses common interfaces
+b. Enabling users to retain their investment in network devices by helping to ensure old equipment communicates with new equipment
+c. Protocol stacking so that all network protocols can use 512-bit WEP encryption
+d. Enabling different types of LANs and MANs to communicate
+abd
+
+2. Which of the following fields would you find in a data link frame?
+a. Address of the transmitting node
+b. Address of the receiving node
+c. Data
+d. End of the frame designator
+e. All of the above
+e
+
+3. Which of the following is an IEEE standard for Ethernet
+a. 802.5
+b. 803.4
+c. 802.3
+d. 800.12as
+c
+
+4. An Internet browser works at which of the following OSI layers
+a. Presentation
+b. Application
+c. Network
+d. Transport
+b
+
+5. How is a collision determined on an Ethernet network
+a. By the size of the frame
+b. When the collision bit rs set to 1 in the frame
+c. When a NIC's collision attribute is set to binary 1111
+d. By signal strength
+d
+
+6. Beaconing occurs on which type of network?
+a. Wireless
+b. Token ring
+c. Ethernet
+d. IG
+b
+
+Which of the following network topologies contains a backbone which runs the length of the network?
+a. Star
+b. Tree
+c. Bus
+d. Ring
+c
+
+What piece of hardware is usually at the centre of a star network?
+a. modem
+b. switch
+c. firewall
+d. sever
+b
+
+If a computer in a star network fails, the network will:
+a. Still work un affected
+b. Work with limited capabilities
+c. Cease to function
+d. None of the above
+a
+
+The two main advantages of a star network are: (choose two)
+a. Cheap to set up
+b. Easy to implement
+c. Requires additional hardware
+d. Process data very fast
+e. Can store more data than other networks
+bd
+
+A combination of the bus and star topologies is called a:
+a. Combo network
+b. Starbus network
+c. Tree network
+d. Ring network
+c
+
+which of the following networks will allow an Ineternet connection?
+a. Bus
+b. Star
+c. Ring
+d. Tree
+e. All of the above
+e
+
+A large company has many computer resources including computers, servers, mainframes, network devices, computer development labs, computer databases, shared disk arrays, and so on. This is an example of which of the following? 
+a. an enterprise network 
+b. an extended client network 
+c. a radiating network 
+d. network concentration
+a
+
+Which of the following devices might be used to connect computers in a star topology? (Choose two) 
+a. conjunction box 
+b. switch 
+c. terminator 
+d. router
+bd
+
+What of the advantages of mesh topology? (choose three)
+a. Data can be transmitted from different devices simultaneously
+b. Even if one of the components fails there is always an alternative present. So data transfer doesn't get affected
+c. Expansion and modification in topology can be done without disrupting other node
+d. There are high chances of redundancy in many of the network connections
+abc
+
+which of the following have been facilitated by the OSI model? (choose three)
+a. The development of network hardware that uses common interfaces
+b. Enabling users to retain their investment in network devices by helping to ensure old equipment communicates with new equipment
+c. Protocol stacking so that all network protocols can use 512-bit WEP encryption
+d. Enabling different types of LANs and MANs to communicate
+abd
+
+Which of the following is true coaxial cables?
+a. It uses copper wires, which are good conduction of electricity
+b. Coaxial cables provide effective protection against EMI during data transmissions.
+c. It uses light rays instead of electricity to transmit data
+d. It can be differentiated into two categories, single-mode and multimode
+b
+
+What is the maximum bandwidth that can be supported by fiber optics cables?
+a. 10 Mbps
+b. 100 Mbps
+c. 1000 Mbps
+d. 2000 Mbps
+d
+
+Which cable connects the following? Workstation to Workstation, Switch to Switch and Router to PC?
+a. Straight
+b. Rollover
+c. Crossover
+d.Standard
+c
+
+Which cable connects the following? Switch to Router, Switch to workstation, hub to workstation?
+a. Straight
+b. Rollover
+c. Crossover
+d.Standard
+a
+
+1. Where is a switch can specified in the OSI model? (choose two)
+a. Physcial layer
+b. Data link 
+c. Network
+d. Session
+bc
+
+2. Which of the following is a classful routing protocol?
+a. EIGRP
+b. OSPF
+c. IGRP
+d. IS-IS
+e. RIP v 2
+c
+
+3. ____ is the ability to subnet a subnet and use different subnet masks with the same classful network
+a. CIDR
+b. VLSM
+c. Route Summarization
+d. BGP
+e. Classful
+b
+
+4. Which of the following is a state routing protocol?
+a. RIP
+b. IGRP
+c. OSPF
+d. EIRFP
+c
+
+5. What address does a switch use to make forwarding decisions?
+a. IP
+b. IPX
+c. MAC
+d. Apptalk
+c
+
+6. Which layer of OSI model does a switch use to make a forwarding decision?
+a. 1
+b. 2
+c. 3
+d. 4
+b
+
+7. Which of the following commands sets a trunk port on 2960 switch?
+a. Trunk on 
+b. Trunk all
+c. Switchport trunk on
+d. Switchport mode trunk
+d
+
+8. Which command will put 0/4 port in vlan 77?
+a. Switchport access vlan 77
+b. Switchport mode trunk vlan 77
+c. Switchport mode modevlan 77
+d. nope
+a
+
+9. which of these following are true about static routes? (choose two)
+a. They are created in interface configuration mode
+b. They require manual reconfiguration to accommodate network changes
+c. They automatically become the default gateway of the router
+d. They are identified in the routing table with the prefix S
+e. They are automatically updated whenever an interfaces is reconfigured or shutdown
+bd
+
+10. Which option shows a correctly configured IPv4 default static route?
+a. ip route 0.0.0.0.0.0.0.0 S0/0/0
+b. ip route 0.0.0.0.255.255.255.0 S0/0/0
+c. ip route 0.0.0.0.255.255.255.255 S0/0/0
+d. ip route 0.0.0.0.255.0.0.0 S0/0/0
+a
+
+11. Which two characteristics describe OSPF? (choose two)
+a. Classful
+b. Classless
+c. Linke Stare Protocol
+d. Distance Vector Protocol
+bc
+
+12. What are two functions of dynamic routing protocols? (choose two)
+a. To maintain routing tables
+b. To assure low router overhead
+c. To avoid exposing network information
+d. To discover the network
+e. To choose the path that is specified by the administrator
+ad
+
+13. Which of these commands can allow you enable the OSPF in Cisco router?
+a. Router(config.if)# ip ospf 1 area 0
+b. Router(config)# Router ospf 1
+c. Router(config-router)# network 10.1.1.0.0.0.255 area 0
+d. Router# network 10.1.1.0 area 0
+a
+
+14. Which of the following area benefits of VLAN?
+a. They increase the size collision domains
+b. They increase the size of broadcast domains while decreasing the number of collision domains
+c. They increase the size of broadcast domains while decreasing the number of broadcast domains
+d. They simplify switch administrartion
+c
+
+15. Which command will configure a switch port to use IEEE standard method of inserting VLAN membership information into Ethernet frames?
+a. Switch(config)# switchport trunk encapsulation isl
+b. Switch(config)# switchport trunk encapsulation ietf
+c. Switch(config)# switchport trunk encapsulation dot1q
+d. Switch(config.if)# switchport trunk encapsulation dot1q
+d
+
+16. Which two statements describes the OSPF routing protocols? (choose two)
+a. Used primarily as an EGP
+b. Has an administrative distance of 100
+c. Calculates its metric using bandwidth
+d. Automatically summarizes network at the classful boundaries
+e. Use Dijkstra's algorithm to build the SPF tree
+ce
+
+17. What is an advantage of OSPF compared to RIP?
+a. Fast convergence
+b. Less complexity
+c. Less CPU processing
+d. Low memory requirements
+a
+
+18. Which command sequence will allow only traffic from network 185.64.0.0 to enter interface s0?
+a. access-list 25 permit 185.64.0.0.255.255.0.0 int s0; ip access-list 25 out
+b. access-list 25 permit 185.64.0.0.255.255.0.0 int s0; ip access-group 25 out
+c. access-list 25 permit 185.64.0.0.0.0.255.255 int s0; ip access-list 25 in
+d. access-list 25 permit 185.64.0.0.0.0.255.255 int s0; ip access-group 25 in
+d
+
+19. What is the range of Extended IP access list?
+a. 0 to 99
+b. 1 to 99
+c. 100 to 199
+d. 1 to 199
+c
+
+20. Which item represents the standard IP ACL?
+a. Access-list 50 deny 192.168.1.1 0.0.0.255
+b. Access-list 110 permit ip any any
+c. Access-list 2500 deny tcp any host 192.168.1.1 eq 22
+d. Access-list 101 deny tcp any host 192.168.1.1
+a
+
+21. How does using the service password-encryption command on a router provide additional security?
+a. By encrypting all password passing through the router
+b. By encrypting passwords in the plain text configuration file
+c. By encrypting entry of encrypted password for access to the device
+d. By configuring an MD5 encrypted key to be used by routing protocols to validate routing exchanges
+e. By automatically suggesting encrypted password for use in configuring the router
+b
+
+22. Which command encrypts all plaintext passwords?
+a. Router# service password-encryption
+b. Router(config)# password-encryption
+c. Router(config)# service password-encryption
+d. Router# password-encryption
+c
+
+1. What is one of the differences between a virus and a worm?
+a. A virus itself replicating but a worm not
+b. A worm itself replicating but a virus not
+c. A virus spreads bu a worm doesn't spread
+d. A worm spreads bu a virus doesn't spread
+d
+
+2. What is the difference between a stateful firewall and a proxy firewall?
+a. Stateful firewalls have state, proxy firewalls do not
+b. Proxy firewalls have state, stateful firewalls do not
+c. Stateful firewalls terminate connections, proxy firewalls do not
+d. Proxy firewalls terminate connections, stateful firewalls do not
+d
+
+3. What is the most secure type of firewall?
+a. Packet Filter
+b. Stateful Firewall
+c. Circuit-level Proxy Firewall
+d. Application-layer Proxy Firewall
+a
+
+4. What tells a firewall how to reassemble a data stream that has been divided into packets?
+a. The source routing feature
+b. The number in the header's identifications field 
+c. the destination IP address
+d. The header checksum field in the packet header
+d
+
+5. Which of the following is true of signature-based IDSes?
+a. They alert administrators to deviations from "normal" traffic behavior
+b. They identify previously unknown attacks
+c. They technology in mature and reliable enough to use on production networks
+d. They scan network traffic or packets to identify matches with attack definitions files
+d
+
+1. which of these following factors that a network design? (choose three)
+a. purpose of network
+b. redundancy requirements
+c. chief information officer
+d. planning for security
+abd
+
+2. You are creating a wireless network for a small firm of graphic artists. Which of the following wireless technologies should you use for the most modem standards and longest reach?
+a. Infrared
+b. Bluetooth
+c. 802.11b or 802.11g
+d. 802.11n or 802.11ac/ad
+d
+
+3. When you design a wireless for your home, which of the following should you consider for your access point? (choose two)
+a. Place it on stable source power
+b. Locate it in a place that is out of reach, such as behind the refrigerator
+c. For best security, configure a unique SSID that it not used by a computers Communicating with it
+d. Purchase an access point that is CICS compatible
+ac
+
+1. Which range of port numbers are reserved for services that are commonly used by application that run on servers?
+a. 1 to 255
+b. 1 to 1023
+c. 1024 to 49151
+d. 49152 to 65535
+b
+
+2. Which of the following are advantages of using a virtual server? (choose two)
+a. Reduction in the number of computers needed
+b. Lower energy cost
+c. Less space required
+d. Faster network throughput at the nearest router
+ab
+
+1. What is Cloud Computing replacing?
+a. Corporate data centers
+b. Expensive personal computer hardware
+c. Expensive software upgrades
+d. All of the above
+d
+
+2. which of these following layers of Cloud Computing have?
+a. User, software, Platform, Infrastructure, Server
+b. Client, Application, Platform, Infrastructure, Server
+c. Software, Application, Platform, Infrastructure, Server
+d. User, Platform, Infrastructure, Software, Server
+b
+
+3. Which of the following are examples of common cloud computing models? (choose two)
+a. Dense cloud
+b. Public cloud
+c. Private cloud
+d. Remote optimized cloud
+bc
+
+4. You are setting up a virtual private network and are implementing the remote access protocol to use. Which of the following are you most likely to choose the remote access protocol?
+a. SLIP
+b. IPsec
+c. MAC2
+d. LIP
+b
+
+1. At which OSI layer(s) does a wireless NIC (WNIC) function? (choose two)
+a. wireless
+b. transactional
+c. Data link
+d. Physical
+cd
+
+2. As you set up a wireless network, you are concerned about having the ability to monitor your wireless network. Which of the following protocols can you use over a wireless network for network management and monitoring?
+a. 802.3
+b. SNMP
+c. telnet
+d. UDP
+b
+
+3. How does 802.11n handle the use of ACKs?
+a. It uses block ACKs, which make communications faster
+b. It uses split ACKs so that ACKs can be split and sent with different frames
+c. It uses asynchronous ACKs for more accuracy
+d. It does not use ACKs as a way to double the throughput
+a
+
+4. Your are designing a new network and want to go for part of the network. Your design specifications call for a wireless technology that can use the 2.4 and 5 GHz bands at up to 600 Mbps. Which of the following is the best fit for your network?
+a. 802.11n
+b. 802.11g
+c. 802.11b
+d. 802.11a
+a
+
+5. Which WLAN IEEE specifications allows up to 1Gbps at 5.0GHz?
+a. 802.11a
+b. 802.11b
+c. 802.11g
+d. 802.11n
+e. 802.11ac
+e
+
+6. Bluetooth uses which of the following communication techniques?
+a. Frequency hopping
+b. Half duplex multiplexing
+c. Channel dividing
+d. Channel mixing
+a
+
+7. When you design a wireless network around an access point, what topology is in use?
+a. Independent service set
+b. Cell roaming
+c. Hybrid rmg
+d. Extended service set
+ad
+
+Which of the following are transport layer protocols?
+a. TFTP
+b. ARP
+c. IP
+d. TCP and UDP
+d
+
+......... are examples of technologies that can be used for the SAN. (choose two)
+a. Fibre Channel
+b. iSCSI
+c. ESIA
+d. 802.16 shared storage
+ab
+
+An IEEE standard for wireless networking
+a. 802.3
+b. 802.11
+c. None of the other choices
+d. 802.16
+b
+
+Indicate the roles played by the MAC controller unit combined with the firmware of a NIC (choose two)
+a. detecting whether communications are duplex or nonduplex
+b. setting CRC error control information
+c. correctly encapsulating the source and destination address information in packets
+d. adjusting the signal tone of packets
+ab
+
+A group of servers placed in the same location, as in a computer machine room
+a. Cloud computing 
+b. Server Farm
+c. Rack
+d. Desktop Farm
+b
+
+A ________ routing tables is updated periodically using none of the dynamic routing protocols
+a. Static
+b. Dynamic
+c. None of the other choices
+d. Hierarchical
+b
+
+A private network that functions like a tunnel through a larger network-such as the Internet or an enterprise network-that is restricted to designated member clients only
+a. Wireless network
+b. Public network
+c. Virtual private network (VPN)
+d. Private network
+c
+
+_______ are properties of a LAN protocol (choose three)
+a. has the ability to transport data in 8 GB packets or larger for network efficiency
+b. follows standards, such as the IEEE 802 standards
+c. enables reliable network links
+d. handles source and destination node addressing
+bcd
+
+Which of the following commands is used to configure RIPv2 and not RIP?
+a. No version 1
+b. Router rip
+c. Router ripv2
+d. Version 2
+c
+
+A new pharmaceutical company with 82 employees is planning to have a Web site and to use a database for tracking data on drug research. What should be recommended for this company? (choose three)
+a. a server to house the research database
+b. a network with a domain to properly manage all of the user accounts
+c. a server for the Web site
+d. a peer-to-peer network because this will save monay
+abc
+
+Which types of connectors might be used with fiber-optic cables? (choose three)
+a. subscriber connector (SC)
+b. fiber-tip BNC
+c. Lucent Connector (LC)
+d. Mechanical Transfer Registered Jack (MT-RJ)
+acd
+
+Why is full duplex a better choices than half-duplex communications? (choose two)
+a. Full duplex uses jamming
+b. Full duplex uses buffering
+c. Full duplex enables simultaneous sending and receiving
+d. Full duplex has an automatic QoS configuration
+bc
+
+A one-to-all communication between on source and all hosts on a network is classified as a __________ communication
+a. broadcast
+b. unicast
+c. None of the other choices
+d. Multicast
+a
+
+This layer controls the passage of packets along routers on the network
+a. Data link layer
+b. Network layer
+c. Application layer
+d. Physical layer
+b
+
+Working with a bus or star-bus hybird network design, you should check ________ specifications to make sure you follow the bus segment length requirements?
+a. Red Hat
+b. none of the other choices
+c. IEEE
+d. NECA
+e. Microsoft
+c
+
+Which cable connects the following? Switch to Router, Switch to workstation, hub to workstation?
+a. Standard
+b. Rollover
+c. Straight
+d. Crossover
+c
+
+Which aspect of Wireless LAN security ensures that only company employees are able to access a corporate wireless LAN?
+a. Authorization
+b. Encryption
+c. Authentication
+d. Accounting
+c
+
+A user account is like a key that enables a user to be ______ to a network for accessing resources
+a. None of the other choices
+b. timed
+c. authenticated
+d. linked to a MAC address
+e. sourced
+c
+
+A company is considering the purchase of an office building in which there is 100BaseT cable and network equipement installed to each of the offices. The consulting reports to the company that the speed of transmissions to the network sockets in each office is _____
+a. 100Gbps
+b. 100Mbps
+c. 100Kbps
+d. None of the other choices
+e. 100Tbps
+b
+
+which of these following are true about static routes? (choose two)
+a. They are created in interface configuration mode
+b. They require manual reconfiguration to accommodate network changes
+c. They automatically become the default gateway of the router
+d. They are automatically updated whenever an interfaces is reconfigured or shutdown
+e. They are identified in the routing table with the prefix S
+be
+
+Which protocol is used to send a destination network unknown message back to originating hosts?
+a. ICMP
+b. BootP
+c. TCP
+d. ARP
+a
+
+A private network that functions like a tunnel through a larger network-such as the Internet or an enterprise network-that is restricted to designated member clients only
+a. Public network
+b. Wireless network
+c. Virtual private network (VPN)
+d. Private network
+c
+
+Which of the following are benefits of VLANs?
+a. They increase the size of broadcast domains while decreasing the number of collision domains
+b. They increase the size of collision domains
+c. They simplify switch administration
+d. They increase the number of broadcast domains while decreasing the size of the broadcast domains
+d
+
+An Internet browser works at which of the following OSI layers?
+a. Network
+b. Transport
+c. Presentation
+d. Application
+d
+
+A company using Hyper-V for virtual servers. On a virtual database server used by many in the company. __________ virtual network connections would be used to enable company-wide network access
+a. inernal
+b. private
+c. domain
+d. external
+e. None of the other choices
+d
+
+A TCP/IP-based protocol that enables a sending station to determine the MAC address of the intended receiving station
+a. ARP
+b. Routing
+c. DNS
+d. DHCP
+a
+
+Which of the following network topologies contains a backbone which runs the length of the network?
+a. Bus
+b. Ring
+c. Star
+d. Tree
+a
+
+What are two main types of access control lists (ACLs) in a Cisco Router? (choose two)
+a. Standard
+b. IEEE
+c. Specialized
+d. Extened
+ad
+
+___________ are advantages of using a virtual server (choose three)
+a. reduction in the number computer need
+b. less space required
+c. lower energy costs
+d. faster network throughput at the nearest router
+abc
+
+You are setting up a virtual private network and are implementing the remote access protocol to use. Which of the following are you most likely to choose the remote access protocol?
+b. MAC2
+a. LIP
+c. SLIP
+d. IPsec
+d
+
+A NIC on a network is malfunctioning by transmitting many extra frames each time it communicates. What might help to identify that NIC in order to repalce it? 
+a. physical address of the NIC
+b. None of the other choices
+c. Ethernet SNAP designator
+d. IP tag given the NIC
+e. distance from your computer yo the suspect computer as measured in voltage times amperage of the transmitted frames
+a
+
+A ______ normally connects LANs and WANs in the internet and has a table that is used for making decisions about the route
+a. Switch
+b. Router
+c. Hub
+d. Repeater
+b
+
+A wireless access point is generally considered to be a layer ______ device
+a. 4
+b. 5
+c. 3
+d. 2
+d
+
+Indicate the roles played by the MAC controller unit combined with the firmware of a NIC (choose two)
+a. adjusting the signal tone of packets
+b. detecting whether communications are duplex or nonduplex
+c. setting CRC error control information
+d. correctly encapsulating the source and destination address information in packets
+bc
+
+When you design a wireless for your home, which of the following should you consider for your access point? (choose two)
+a. Place it on stable source power
+b. Locate it in a place that is out of reach, such as behind the refrigerator
+c. Purchase an access point that is CICS compatible
+d. For best security, configure a unique SSID that it not used by a computers Communicating with it
+ad
+
+Which protocol do SMTP and IMAP use?
+a. TCP
+b. IP
+c. UDP
+d. ARP
+a
