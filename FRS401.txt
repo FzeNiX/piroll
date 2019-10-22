@@ -1,0 +1,3242 @@
+Database/web/email/chat/voice mail servers
+Answer: Application servers
+
+What is the best statement for taking advantage of a weakness in the security of an IT system?
+Answer: Exploit
+
+HTTP is_____?
+Answer: Hypertext Transfer Protocol
+
+Metasploit is____?
+Answer: Penetration testing software
+
+Contain IP address to MAC address mapping, the time the IP was leased
+Answer: DHCP Servers
+
+Handles multiplexing of process communication, provides end-to-end reliability, sequencing, flowcontrol, congestion control. Connection established through 3-way handshake.
+Answer: TCP
+
+Evidence collected from network device logs
+Answer: Packet analysis
+
+What port isused to connect to the Active Directory in Windows 2000?
+Answer: 389
+
+Monitor network traffic and alerts on suspicious activities
+Answer: NIDS/NIPS
+
+DDOS attack is______
+Answer: Many-to-one IP addresses
+
+Rules, Alerts, packet capture is
+Answer: NIDS/NIPS components
+
+Web server, Email server, network ports canning is
+Answer: One-to-one IP address
+
+Logs successful/failed login attempts for all devices within its authentication system
+Answer: Authentication Servers
+
+What method can be used in online-password attack?
+Answer: Dictionary attack - Bruteforce attack
+
+Contains routing tables that map router port swith the network, may function as packet filters
+Answer: Firewalls
+
+Communicates error messages and other conditions via IP datagrams
+Answer: Internet Control Message Protocol (ICMP)
+
+Addressing and Routing (src and dst) at Layer 3
+Answer: Internet Protocol (IP)
+
+Contains tables that store mapping between physical port and MAC addresses
+Answer: Switches
+
+Devices that pierce the shielding of copper cables
+Answer: Vampire Taps
+
+Stores web surfing log for an entire organization
+Answer: Web proxies
+
+MAC flooding (over flowing table) or ARP spoofing (fill table with fake value)
+Answer: Intercepting traffic from switches
+
+DNS is____
+Answer: Domain Name Server
+
+Distributed database used to map between domain names and IP addresses
+Answer: Domain Name System (DNS)
+
+Sensor, collector, aggregator, analysis
+Answer: Flow record processing system
+
+One source IP, one or more destination IOP, destination port numbers increasing incrementally, large volume of packets, out bound protocol flags set to SYN
+Answer: TCP port scan
+
+Sniffing, protocol understanding, Alerting and high fidelity
+Answer: NIDS/NIPS functionality
+
+Recovering and analyzing digital evidence from network resources
+Answer: Network Forensics
+
+Connection less, unreliable, used by DNS, SNMP, audio/video streaming
+Answer: User Datagram Protocol
+
+What character can be used t ocomment at the end of your SQL injection?
+Answer: # -
+
+Pattern matching, parsing fields, packet filtering
+Answer: Packet analysis techniques
+
+Provides mapping between IP addresses and MAC for a local subnet
+Answer: Address Resolution Protocol (ARP)
+
+Tool for capturing, filtering, and analyzing traffic
+Answer: tcpdump
+
+Comprehensive study of protocols, packets and flows, and methods for dissecting them
+Answer: Packet analysis use cases
+
+Data is broadcasted, easy to eavesdrop
+Answer: Intercepting traffic from hubs
+
+Libraries: libpcap and WinPcap, Tools: Wireshark, snort, nmap, ngrep, tcpdump
+Answer: Traffic acquisition software
+
+1.Physical, 2.DataLink, 3.Network, 4.Transport, 5.Session, 6. Presentation, 7.Application
+Answer: Open System Inter connection (OSI)
+
+Facilitates sending and receiving documents on the web
+Answer: Hyper Text Transfer Protocol (HTTP)
+
+Understand how a protocol works, how to identify and dissect it; canuse RFCs and standards to understands protocols
+Answer: Protocol analysis
+
+How do you prevent SQL Injection?
+Answer: Use Parameterized Queries
+
+May detect attacks in progress, can be tuned to give more granular data
+Answer: Network Intrusion Detection/Prevention Systems
+
+In default, HTTP services work on port?
+Answer: 80
+
+In default, HTTPS services work on port?
+Answer: 443
+
+Search from common values associated with a protocol, information in encapsulated protocol, port numbers, server functions, common header values
+Answer: Protocol identification
+
+MAC refers to
+Answer: Machine Address Control
+
+______________ is forensics applied to information stored or transported on network.
+Answer: Network forensics
+
+A network sniffer program is an example of:
+Answer: Packet collection tool
+
+The following is an application layer protocol
+Answer: All of the above (HTTP, SMTP, BOOTP)
+
+Packet capture file format, pcap is based on a library called
+Answer: libp cap
+
+Net Flow was developed by
+Answer: Cisco
+
+Anti-forensic prevents____.
+Answer: Forensic investigation process
+
+Which of the following type of attack CANNOT be deterred solely through technical means?
+Answer: Social engineering
+
+HTML is_____?
+Answer: Hypertext Markup Language
+
+Why do social engineering attacks often succeed?
+Answer: lack of security awareness
+
+SSL is_____?
+Answer: Secure Sockets Layer
+
+Which of the following is an example of the theft of network passwords without the use of software tools?
+Answer: Social engineering
+
+AJAX is?
+Answer: Asynchronous JavaScript And XML
+
+Which of the following measures can be used to guard against a social engineering attack?
+Answer: Education, limit available information and security policy.
+
+Which of the following is the major difference between a worm and a Trojan horse?
+Answer: Worms are self replicating while Trojan horses are not.
+
+What type of program will record system key strokes in a text file and email it to the author, and will also delete system logs every five days or whenever a backup is performed?
+Answer: Trojan
+
+Which of the following is the boolean operator for logical-and?
+Answer: &&
+
+In ISO 27002, which sections defines the responses and procedures around a security incident
+Answer: Information security incident management
+
+Which involves impersonation of users/devices?
+Answer: Impersonation
+
+In ISO 27002, which sections defines the restriction of access rights to networks, systems, applications, functions and data?
+Answer: Access control
+
+______________ are the two common data classification schemes
+Answer: Government and private sector/commercial business
+
+Which attack involves continual requests from a range of remote hosts?
+Answer: DDoS attack
+
+Which is a hashing function?
+Answer: MD5
+
+The mark average of Bob and Alice is 70%, Bob and Eve is 60%, and Alice and Eve is 60%. What is Eve's mark?
+Answer: 50%
+
+The mark average of Bob and Alice is 20%, Bob and Eve is 30%, and Alice and Eve is 40%. What is Eve's mark?
+Answer: 50%
+
+Which protocol is not supported by Snort?
+Answer: IGMP
+
+For an ARP reply, which destination MAC address is used?
+Answer: The destionation host
+
+What happens to the MD5 signature when a single character is changed in a file?
+Answer: The whole signature is changed
+
+Layer 4 the transmitted encapsulated data is know as a _____________
+Answer: segment
+
+Which is the easiest way for an intruder to defeat an IDS?
+Answer: Compromise the firewall
+
+What does the "SYN", "SYN,ACK", "ACK" sequence signify?
+Answer: The initial negotiation of a client-server connection
+
+Which commercial business/private sector data classification is used to control information about individuals within an organization?
+Answer: Private
+
+What hacker does not have many skills, and use standard scripting tools:
+Answer: Script kiddies
+
+Which involves actual deception of users and system operators?
+Answer: Mispresentation
+
+Which TCP does MSN Messenger use?
+Answer: 1863
+
+STRIDE is often used in relation to assessing threats against applications or operating systems. _______ is NOT an element of STRIDE
+Answer: Disclousre
+
+Which Snort command will filter for an incoming FTP response from an FTP server?
+Answer: alert tcp any 21 -> any any msg "FTP response"
+
+How many characters does a Hex MD5 signature have:
+Answer: 32
+
+How many characters does a Hex SHA-1 signature have:
+Answer: 40
+
+How many bits does an MD5 signature have:
+Answer: 128
+
+How many bits does an SHA-1 signature have:
+Answer: 160
+
+How many bits does an SHA-256 signature have:
+Answer: 160
+
+Which is a valid MD5 Hex signature:
+Answer: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+Which is an example of a one-way function
+Answer: MD5 and SHA-1
+
+Which is the following is an example of a MD5 signature:
+Answer: 455D04D3EBDE98FB5AB92B7363DFF33D
+
+What is the Diffie-Hellman method used for:
+Answer: To pass a secret key
+
+What is MD5 used for:
+Answer: To create a unique signature
+
+"What happens to the MD5 signature when a single character is changed in a file:"
+Answer: The signature cannot be produced
+
+What is the main weakness of the Diffie-Hellman method:
+Answer: It allows for a man-in-the-middle attack
+
+What does the "SYN", "SYN,ACK", "ACK" sequence signify:
+Answer: The initial negotiation of a client-server connection
+
+"For the ""SYN"", ""SYN,ACK"", ""ACK"" sequence, who generates the initial ""SYN"""
+Answer: The client
+
+"For the ""SYN"", ""SYN,ACK"", ""ACK"" sequence, who generates the ""SYN,ACK"""
+Answer: The server
+
+"For the ""SYN"", ""SYN,ACK"", ""ACK"" sequence, who
+Answer: 
+
+generates the ""ACK"""
+Answer: The client
+
+Which type of traffic cannot be deeply inspected:
+Answer: SSH, SFTP, SHTTP
+
+Which TCP port does SMTP use:
+Answer: 25
+
+Which TCP port does IMAP use:
+Answer: 143
+
+Which TCP port does POP-3 use:
+Answer: 110
+
+What is ARP used for:
+Answer: Discovering the MAC address of a host
+
+For an ARP request, which source MAC address is used
+Answer: The local host
+
+For an ARP request, which destination MAC address is used
+Answer: The broadcast address
+
+For an ARP reply which source MAC address is used
+Answer: The local host
+
+For an ARP reply, which destination MAC address is used
+Answer: The destination host
+
+Which is the encrypted port used for IMAP over SSL
+Answer: 993
+
+Which tool can determine if a file has been changed
+Answer: Hash signature
+
+Which tool shows the open TCP ports
+Answer: netstat
+
+Which tool shows the MAC address of the local host
+Answer: ipconfig
+
+Which tool shows the IP address of a domain name
+Answer: nslookup
+
+Which tool determines if a host is on-line
+Answer: ping
+
+Which transport protocol does DNS use
+Answer: UDP
+
+Which UDP port does DNS use
+Answer: 53
+
+"When a host sends an ARP for a node at 1.2.3.4, who will receive the reply"
+Answer: Only the host that asked for it
+
+"When a host sends an ARP for a node at 1.2.3.4, who will receive the ARP request"
+Answer: The whole network bounded by a router port
+
+Which tool does a vunerability analysis for a host
+Answer: nmap
+
+What does .NET use to provide hardware compatibility:
+Answer: MSIL
+
+"What does .NET use to provide different DLL versions to be supported:"
+Answer: Global Assembly Cache
+
+"What does .NET use to provide different languages to be used in .NET:"
+Answer: Common Language
+
+"What does .NET use to provide common classes, methods and properties:"
+Answer: Framework Class Library
+
+Where do .NET programs run:
+Answer: Within the CLR
+
+Which folder contains the .NET framework:
+Answer: C:\WINDOWS\Microsoft.NET\Framework\
+
+Which is the most recent .NET version
+Answer: .NET 3.5
+
+Which reference is required for Role-based security:
+Answer: System.Security.Principal
+
+Which method is used with WindowsPrinciple (myPrin) to test a role:
+Answer: myPrin.IsInRole()
+
+"What does .NET use to provide different DLL versions to be supported:"
+Answer: Global Assembly Cache
+
+What is the main advantage of the Global Assembly Cache in .NET:
+Answer: It stores different versions of DLLs
+
+Which XML tags will allow users access to a Web service:
+Answer: <authorization> <allow users="*"></authorization>
+
+"Which file contains the security settings for an ASP.NET Web service:"
+Answer: Web.config
+
+What is the strong name used in .NET assemblies:
+Answer: It uniquely identifies an assembly
+
+"Which command line option would generate the encryption keys for a
+Answer: 
+
+strong name in a .NET assembly:"
+Answer: sn -k
+
+Which is the correct format for the version number in .NET:
+Answer: "<major version>.<minor version>.<build
+
+number>.<revision>"
+Answer: 
+
+"For an assembly version number of 2.1.1500.10. What does the 2 represent:"
+Answer: Major version
+
+"For an assembly version number of 2.1.1500.10. What does the 1 represent:"
+Answer: Minor version
+
+"For an assembly version number of 2.1.1500.10. What does the 1500 represent:"
+Answer: Build version
+
+"For an assembly version number of 2.1.1500.10. What does the 10 represent:"
+Answer: Revision
+
+Which is the following is not stored in an assembly:
+Answer: The type of operating system used
+
+Which of the following sets the version number for an assembly:
+Answer: [assembly:AssemblyVersionAttribute("2.5.*")]
+
+Which of the following is true for the version number of 2.5.*:
+Answer: "A wild card is
+
+used for the build and the revision numbers, where the build process
+Answer: 
+
+automatically generates these numbers."
+Answer: 
+
+Which best defines the global assembly cache:
+Answer: "It is a cache within a machine that contains
+
+the assemblies which are to be shared with applications."
+Answer: 
+
+In which file is the Version attribute normally defined (for Form1):
+Answer: AssemblyInfo.cs
+
+Multiple versions of assemblies can exist in the GAC. True or false?
+Answer: True
+
+"An assembly can be dragged into the GAC using the Windows explorer.
+Answer: 
+
+True or false?"
+Answer: True
+
+"You have created a class that is derived from the ServicedComponent
+Answer: 
+
+class called DistributionApp. You need to install it into the Global Assembly
+Answer: 
+
+Cache and create the key pair that will be used to give the compiled assembly
+Answer: 
+
+a strong name. Which of the following commands will produce the key pair?
+Answer: 
+
+(Select the best choice.)"
+Answer: sn -k "mykey.snk"
+
+Which applications require the strongest security:
+Answer: Web services, and in .NET remoting
+
+"Which file is stored in the Config directory of the default
+Answer: 
+
+.NET Framework installation. It contains settings that are applied to all the
+Answer: 
+
+applications which run on the host."
+Answer: Machine configuration file
+
+"Which file contains settings which relate to a specific application.
+Answer: 
+
+These are named are Web.config (for Web applications) and App.config (for Windows applications)."
+Answer: Application configuration file
+
+"Which file defines the security policy for a hierarchy of
+Answer: 
+
+groups. It defines enterprise-level (Enterprise-sec.config), machine-level (Security.config), and user-level (Security.config) security policies:"
+Answer: Security configuration file
+
+Which is the .NET Framework Configuration Tool:
+Answer: Mscorcfg.msc
+
+"What occurs when a remote user tries to access the Web.config file on the Web server"
+Answer: It displays a message that it is forbidden to access the file.
+
+What is the default Web service security level for authentication:
+Answer: Windows
+
+Which authentication process uses IIS to authentication the client:
+Answer: Windows
+
+"Which authentication process uses an HTML log-in form to authenticate the client, which are then passed to the Web server for authentication:"
+Answer: Forms
+
+"Which authentication process uses a centralized authentication service is used to define access, with a single logon and profile services for member sites:"
+Answer: Passport
+
+"Which authentication process, when, on a successful authentication, the server issues a cookie to the client, which is then used by the client to access the Web service:"
+Answer: Forms
+
+"Which authentication process is typically used to register sites with a single passport, and grants a site-specific key:"
+Answer: Passport
+
+"Which of following is true for the authorization script of:
+Answer: 
+
+<authorization><deny users=""Fred""/> <allow
+Answer: 
+
+role=""Administrator"" /></authorization>"
+Answer: Fred is not allowed access to the service
+
+"Which of following is true for the authorization script of:
+Answer: 
+
+<authorization> <deny users=""Fred""/> <allow
+Answer: 
+
+role=""Administrator"" /> </authorization>"
+Answer: "Anyone in the Administrator role is allowed access to the service"
+
+"Which method verifies if the caller is a member the specified role. It returns a True if it is, else it returns a False. "
+Answer: Object.IsCallerInRole()
+
+Why is PGP computationaly efficient:
+Answer: It uses a shared-secret key
+
+How many bits, at a time, are used to encode using Base-64:
+Answer: 6 bits
+
+What is the advantage of using Base-64 as a convertor:
+Answer: It can convert binary
+
+How does HMAC differ from normal hashing methods:
+Answer: It uses a secret key to generate the hash function
+
+What is "silent" as Base64:
+Answer: Z29vZGJ5
+
+Which is not a method of obfuscation in .NET:
+Answer: Licencing checking
+
+Which WinPCap display filter will only show SYN/ACK TCP flags:
+Answer: tcp.flags.syn==1 and tcp.flags.ack==1
+
+Which WinPCap display filter will only show HTTP traffic:
+Answer: tcp.port == 80
+
+Which WinPCap display filter will only show FTP traffic:
+Answer: tcp.port == 21
+
+Which WinPCap display filter will only show TELNET traffic:
+Answer: tcp.port == 23
+
+Which WinPCap display filter will only show SMTP traffic:
+Answer: tcp.port == 25
+
+Which WinPCap display filter will only show IMAP traffic:
+Answer: tcp.port == 143
+
+Which WinPCap display filter will only show POP-3 traffic:
+Answer: tcp.port == 110
+
+"With a tunnelling DNS covert channel, Bob sends a request for dGVzdA==.alicehost.com.
+Answer: 
+
+What is the covert message (Refer to table, such as
+Answer: 
+
+from www.aardwulf.com/tutor/base64/base64.pdf):"
+Answer: test
+
+"With a tunnelling DNS covert channel, Bob sends a request for aGVsbG8=.alicehost.com.
+Answer: 
+
+What is the covert message (Refer to table, such as
+Answer: 
+
+from www.aardwulf.com/tutor/base64/base64.pdf):"
+Answer: hello
+
+"With a tunnelling DNS covert channel, Bob sends a
+Answer: 
+
+request for Z29vZGJ5ZQ==.alicehost.com.
+Answer: 
+
+What is the covert message (Refer to
+Answer: 
+
+table, such as from www.aardwulf.com/tutor/base64/base64.pdf):"
+Answer: goodbye
+
+"With a tunnelling DNS covert channel, Bob sends a request for aGFwcHk=.alicehost.com.
+Answer: 
+
+What is the covert message (Refer to table, such as
+Answer: 
+
+from www.aardwulf.com/tutor/base64/base64.pdf):"
+Answer: happy
+
+"With a tunnelling DNS covert channel, Bob sends a request for c2Fk.alicehost.com.
+Answer: 
+
+What is the covert message (Refer to table, such as from
+Answer: 
+
+www.aardwulf.com/tutor/base64/base64.pdf):"
+Answer: sad
+
+What is the main advantage of the one-time password system:
+Answer: Requires the password to be entered once
+
+Which tag in the Web.Config file is used to deny certain users:
+Answer: Authorization
+
+Which tag in the Web.Config file is used to deny certain groups:
+Answer: Authorization
+
+"Which tag in the Web.Config file is used to specify a forms-based login:"
+Answer: Authentication
+
+"Which tag in the Web.Config file is used to specify that the authentication is from the Windows user base:"
+Answer: Authentication
+
+"For the code of
+Answer: 
+
+""EventLog evt = new System.Diagnostics.EventLog();"",
+Answer: 
+
+which is an invalid property:"
+Answer: evt.Events
+
+"For the code of ""EventLog evt = new System.Diagnostics.EventLog();"",
+Answer: 
+
+which contains the contents of the Event log:"
+Answer: evt.Entries
+
+Which method is used to encrypt the encryption key in PGP:
+Answer: RSA
+
+"PGP uses RSA for the main encryption of the email content.
+Answer: 
+
+True or false:"
+Answer: False
+
+"A scan of a disk identifies the string ""JFIF"".
+Answer: 
+
+What is the likely type of file associated with this:"
+Answer: Document"
+
+"A scan of a disk identifies the string ""GIF89a"". What is the likely type of file associated with this:"
+Answer: Image
+
+"A scan of a disk identifies the hex sequence of 504B0304. What is the likely type of file associated with this:"
+Answer: ZIP file
+
+"An investigator wants to scan for the word ""test""
+Answer: 
+
+on a disk which contains the string in 16-bit Unicode. What is the search string:"
+Answer: \0t\0e\0s\0t
+
+How many colours are contained in a GIF colour table:
+Answer: 256
+
+How many colours are possible for each pixel in a GIF file:
+Answer: 16.7 million
+
+"For a 64-bit hash signature. How many Base-64 characters would be used:"
+Answer: 12
+
+"For a 192-bit hash signature. How many Base-64 characters would be used:"
+Answer: 32
+
+"For a 256-bit hash signature. How many Base-64 characters would be used:"
+Answer: 44
+
+"Which protocol on a switch should be setup to allow a host to capture traffic from other hosts:"
+Answer: SPAN
+
+Which TCP port does MSN Messenger use:
+Answer: 1863
+
+Which filter shows traffic for both 1.2.3.4 and 2.3.4.5:
+Answer: ip.addr == 1.2.3.4 or ip.addr == 2.3.4.5
+
+Which filter shows traffic between 1.2.3.4 and 2.3.4.5:
+Answer: ip.addr == 1.2.3.4 and ip.addr == 2.3.4.5
+
+"Which filter shows traffic that is not destined
+Answer: 
+
+for either 1.2.3.4 nor 2.3.4.5:"
+Answer: not ip.addr == 1.2.3.4 and not ip.addr == 2.3.4.5
+
+"Which filter will only show traffic for host 1.2.3.4 for FTP
+Answer: 
+
+traffic:"
+Answer: ip.addr == 1.2.3.4 and tcp.port == 21
+
+Which is a possible place to hide a convert message in an IP header:
+Answer: Identification
+
+Which field in the IP header identifies AH (Authentication Header):
+Answer: Protocol field
+
+"Which field in the IP header identifies ESP (Encapsulating Security Payload):"
+Answer: Protocol field
+
+Where should a standard ACLs be placed:
+Answer: As near the destination
+
+Where should an extended ACLs be placed:
+Answer: As near the source address as possible
+
+"For an address an ACL of <BR>access-list 1 deny 192.168.1.1
+Answer: 
+
+0.0.0.255<BR><BR>Will a node at 192.168.1.200 be denied:"
+Answer: Yes
+
+"For an address an ACL of <BR>access-list 1 deny 192.168.1.1
+Answer: 
+
+0.0.0.0<BR><BR>Will a node at 192.168.1.200 be denied:"
+Answer: No
+
+"Which is an example of apply an access-list of 5
+Answer: 
+
+on an interface for the incoming direction:"
+Answer: (config-if)# access-group 5 in
+
+"Which is an example of apply an access-list of 15 on an interface for the outgoing direction:"
+Answer: (config-if)# access-group 15 in
+
+For Static NAT, what is translated for incoming traffic:
+Answer: The destination IP address
+
+For Static NAT, what is translated for outgoing traffic:
+Answer: The source IP address
+
+For Dynamic NAT, what is translated for incoming traffic:
+Answer: The destination IP address
+
+For Dynamic NAT, what is translated for outgoing traffic:
+Answer: The destination IP address
+
+For PAT, what is translated for incoming traffic:
+Answer: The source IP address and TCP port
+
+For PAT, what is translated for outgoing traffic:
+Answer: The source IP address and TCP port
+
+"For a question of ""What is your favourite football team?"", what is the authentication method:"
+Answer: Something you know
+
+"For a question of ""What is your mother's maiden name?"", what is the authentication method:"
+Answer: Something you know
+
+"For a question of ""What is the name of your pet"", what is the authentication method:"
+Answer: Something you know
+
+"For a user to be authenticated with a smart card, what is the authentication method:"
+Answer: Something you have
+
+"For a user to be authenticated with a USB stick, what is the authentication method:"
+Answer: Something you have
+
+"For a user to be authenticated with a Visa card, what is the authentication method:"
+Answer: Something you have
+
+"For a user to be authenticated with a digital certificate, what is the authentication method:"
+Answer: Something you have
+
+"For a user to be authenticated with their fingerprints, what is the authentication method:"
+Answer: Something you are
+
+"For a user to be authenticated with their handprints, what is the authentication method:"
+Answer: Something you are
+
+"Which access-list blocks only even IP addresses
+Answer: 
+
+from 156.1.1.0/24 access to 10.0.0.0/24:"
+Answer: "access-list 100 deny ip
+
+156.1.1.0 0.0.0.254 10.0.0.0 0.0.0.255"
+Answer: 
+
+Which access-list allows traffic from all addresses in the range 192.168.3.0
+Answer: 
+
+to 192.168.3.255 :
+Answer: access-list 10 permit 192.168.3.0 0.0.0.255
+
+"Which access-list permits traffic originating from
+Answer: 
+
+any address on the 63.36.9.0 network to a Web site:"
+Answer: "access-list
+
+101 permit tcp 63.36.9.0 0.0.0.255 any eq 21"
+Answer: 
+
+Which command is used to define an ACL on an interface:
+Answer: ip access-group
+
+"Which command is used to define an ACL which can be applied to an interface:"
+Answer: access-list
+
+Which ACL bars every node from the 192.168.10.0 subnet:
+Answer: access-list 1 deny 192.168.10.0 0.0.0.255
+
+Which command can be used to prevent DOS attacks:
+Answer: ip inspect
+
+What does the ip host command achieve:
+Answer: Sets up a hosts table
+
+Which commands set the line console password:
+Answer: line con 0, password
+
+Which commands set the telnet password:
+Answer: line vty 0 4, password
+
+"Which command is ignored by the router in the set-up on an interface:"
+Answer: description
+
+How would 10.11.12.13 with a subnet mask of 255.0.0.0 be displayed:
+Answer: 10.11.12.13\8
+
+"How would 10.11.12.13 with a subnet mask of 255.255.0.0 be displayed:"
+Answer: 10.11.12.13\16
+
+"How would 10.11.12.13 with a subnet mask of 255.255.255.0 be displayed:"
+Answer: 10.11.12.13\24
+
+"How would 10.11.12.13 with a subnet mask of 255.255.255.240 be displayed:"
+Answer: 10.11.12.13\28
+
+"How would 192.168.0.22 with a subnet mask of 255.255.255.128 be displayed:"
+Answer: 192.168.0.22\25
+
+"How would 192.168.0.22 with a subnet mask of 255.255.255.192 be displayed:"
+Answer: 192.168.0.22\26
+
+"How would 192.168.0.22 with a subnet mask of 255.255.255.224 be displayed:"
+Answer: 192.168.0.22\27
+
+"How would 192.168.0.22 with a subnet mask of 255.255.255.240 be displayed:"
+Answer: 192.168.0.22\28
+
+Which command defines the message of the day:
+Answer: banner motd hello
+
+Which command defines the login message:
+Answer: banner login hello
+
+Which command defines the EXEC message:
+Answer: banner exec hello
+
+Which command enables the Web server:
+Answer: ip http server
+
+Which command defines a username named fred:
+Answer: username fred password bert
+
+Which TCP ports are typically used for SNMP:
+Answer: 161,162
+
+Which of the following IP address is not a private address:
+Answer: 146.176.1.5
+
+Which of the following is not a valid subnet mask:
+Answer: 255.164.0.0
+
+Which layer of the OSI model do routers operate:
+Answer: 1, 2 and 3
+
+Which layer of the OSI model do firewalls (packet filter) operate:
+Answer: 1, 2, 3 and 4
+
+Which router command is used to set the host name:
+Answer: hostname
+
+Which router command is used to set name server:
+Answer: ip name-server
+
+Which router command is used to set the domain name:
+Answer: ip domain-name
+
+What is the range of access-lists which relate to standard ACLs:
+Answer: 1-99
+
+What is the range of access-lists which relate to extended ACLs:
+Answer: 100-199
+
+"Which of the following is an example of a named
+Answer: 
+
+access list command:"
+Answer: (config-std-nacl)# deny 156.1.1.0 0.0.0.255
+
+Which of the following creates an access-list named Test1:
+Answer: (config)# ip access-list standard Test1
+
+When an EnCase user double-clicks on a file within EnCase what determines the action that will result.
+Answer: The settings in the FileTypes.ini file
+
+Search results are found in which of the following files.
+Answer: The case file
+
+If cluster #3552 entry in the FAT table contains a value of ?? this would mean:
+Answer: The cluster is unallocated
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. Bob@[a-z]+.com.
+Answer: Bob@America.com
+
+You are an investigator and have encountered a computer that is running at the home of a suspect. The computer does not appear to be a part of a network. The operating system is Windows XP Home. No programs are visibly running. You should:
+Answer: Pull the plug from the back of the computer
+
+A physical file size is.
+Answer: The total size of all the clusters used by the file
+
+In Unicode, one printed character is composed of ____ bytes of data.
+Answer: 2
+
+If cluster number 10 in the FAT contains the number 55, this means.
+Answer: that cluster 10 is used and the file continues in cluster number 55
+
+How are the results of a signature analysis examined.
+Answer: By sorting on the signature column in the Table view. By sorting on the signature column in the Table view
+
+The acronym ASCII stands for.
+Answer: American Standard Code for Information Interchange
+
+The default export folder remains the same for all cases.
+Answer: False
+
+The EnCase default export folder is.
+Answer: A case-specific setting that can be changed
+
+Hash libraries are commonly used to.
+Answer: Identify files that are already known to the user
+
+Which is the proper formula for determining the size in bytes of a hard drive that uses cylinders (C), heads (H), and sectors (S) geometry.
+Answer: C X H X S X 512
+
+Within EnCase, clicking on Save on the toolbar affects what file(s).
+Answer: The open case file
+
+EnCase uses the _________________ to conduct a signature analysis.
+Answer: file signature table
+
+EnCase is able to read and examine which of the following file systems.
+Answer: NTFS, EXT3, FAT, HFS
+
+ROM is an acronym for.
+Answer: Read Only Memory
+
+If a floppy diskette is in the ?drive, the computer will always boot to that drive before any other device. If a floppy diskette is in the ??drive, the computer will always boot to that drive before any other device.
+Answer: True
+
+A standard Windows 98 boot disk is acceptable for booting a suspect drive.
+Answer: True
+
+Search terms are case sensitive by default.
+Answer: True
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. Jan 1st , 2?0?00.
+Answer: Jan 1st , 2000
+
+An evidence file can be moved to another directory without changing the file verification..
+Answer: True
+
+Pressing the power button on a computer that is running could have which of the following results.
+Answer: All of the above could happen.
+
+How does EnCase verify that the evidence file contains an exact copy of the suspect hard drive? How does EnCase verify that the evidence file contains an exact copy of the suspect's hard drive.
+Answer: By means of an MD5 hash of the suspect hard drive compared to an MD5 hash of the data stored in the evidence file. By means of an MD5 hash of the suspect? Hard drive compared to an MD5 hash of the data stored in the evidence file.
+
+By default, EnCase will display the data from the end of a logical file, to the end of the cluster, in what color.
+Answer: Red
+
+A SCSI drive is pinned as a master when it is.
+Answer: A SCSI drive is not pinned as a master
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. [^a-z]Tom[^a-z].
+Answer: om? ? RP
+
+This question addresses the EnCase for Windows search process. If a target word is within a logical file, and it begins in cluster 10 and ends in cluster 15 (the word is fragmented), the search.
+Answer: Will find it because EnCase performs a logical
+
+An evidence file was archived onto five CD-Rom disks with the third file segment on disk number three. Can the contents of the third file segment be verified by itself while still on the CD.
+Answer: Yes. Any segment of an evidence file can be verified through re-computing and comparing the CRCs, even if it is on a CD
+
+You are a computer forensic examiner tasked with determining what evidence is on a seized computer. On what part of the computer system will you find data of evidentiary value.
+Answer: Hard drive
+
+You are a computer forensic examiner explaining how computers store and access the data you recovered as evidence during your examination. The evidence was a log file and was recovered as an artifact of user activity on the ____________, which was stored on the _____________, contained within a ____________ on the media.
+Answer: operating system, file system, partition
+
+You are a computer forensic examiner investigating a seized computer. You recovered a document containing potential evidence. EnCase reports the file system on the forensic image of the hard drive is FAT (File Allocation Table). What information about the document file can be found in the FAT on the media? (Choose all that apply.).
+Answer: Starting cluster of the file D. Fragmentation of the file
+
+You are a computer forensic examiner investigating media on a seized computer. You recovered a document containing potential evidence. EnCase reports the file system on the forensic image of the hard drive is NTFS (New Technology File System). What information about the document file can be found in the NTFS master file table on the media? (Choose all that apply.).
+Answer: Name of the file, Date and time stamps of the file, Starting cluster of the file, Fragmentation of the file, Ownership of the file
+
+You are preparing to lead a team to serve a search warrant on a business suspected of committing large-scale consumer fraud. Ideally, you would you assign which tasks to search team members? (Choose all that apply.).
+Answer: Photographer, Search and seizure specialists, Recorder, Digital evidence search and seizure specialists
+
+You are a computer forensic examiner at a scene and have determined you will seize a Linux server, which according to your source of information contains the database records for the company under investigation for fraud. What is the best practice for "taking down" the server for collection.
+Answer: Photograph the screen and note any running programs or messages, and so on, and use the normal shutdown procedure.
+
+You are a computer forensic examiner at a scene and are authorized to seize only media that can be determined to have evidence related to the investigation. What options do you have to determine whether evidence is present before seizure and a full forensic examination? (Choose all that apply.).
+Answer: Use an EnCase boot floppy or CD to boot the machine into Linux, and use LinEn to preview the hard drive through a crossover cable with EnCase for Windows & Remove the subject hard drive from the machine, and preview the hard drive in EnCase for Windows with a hardware write blocker such as FastBloc & Use an EnCase boot floppy or CD to boot the machine into DOS, use EnCase for DOS to preview the hard drive through a crossover cable with EnCase for Windows
+
+You are a computer forensic examiner at a scene and have determined you will need to image a hard drive in a workstation while on-site. What are your options for creating a forensically sound image of the hard drive? (Choose all that apply.).
+Answer: Use a forensically sound Linux boot CD to boot the machine into Linux, and use LinEn to image the subject hard drive to a second hard drive attached to the machine & Remove the subject hard drive from the machine, and image the hard drive in EnCase for Windows with a hardware write blocker such as FastBloc & Use an EnCase boot floppy or CD to boot the machine into DOS, and use EnCase for DOS to image the hard drive through a crossover cable with EnCase for Windows.
+
+You are a computer forensic examiner and have imaged a hard drive on site. Before you leave the scene, you want to ensure the image completely verifies as an exact forensic duplicate of the original. To verify the EnCase evidence file containing the image, you should do which of the following.
+Answer: Load the EnCase evidence files into EnCase for Windows, allow the verification process to finish, and then check the results for complete verification.
+
+You are a computer forensic examiner and need to verify the integrity of an EnCase evidence file. To completely verify the file's integrity, which of the following must be true.
+Answer: The CRC values and the MD5 hash value both must verify.
+
+You are a computer forensic examiner and need to determine what files are contained within a folder called Business documents. What EnCase pane will you use to view the names of the files in the folder.
+Answer: Table pane
+
+You are a computer forensic examiner and need to view the contents of a file contained within a folder called Business documents. What EnCase pane will you use to view the contents of the file.
+Answer: View pane
+
+You are a computer forensic examiner and are viewing a file in an EnCase evidence file. With your cursor, you have selected one character in the file. What binary term is used for the amount of data that represents a single character.
+Answer: A byte
+
+You are a computer forensic examiner and need to search for the name of a suspect in an EnCase evidence file. You enter the name of the suspect into the EnCase keyword interface as John Doe. What search hits will be found with this search term with the default settings? (Choose all that apply.).
+Answer: John Doe, john doe
+
+You are a computer forensic examiner and need to determine whether any Microsoft Office documents have been renamed with image extensions to obscure their presence. What EnCase process would you use to find such files.
+Answer: File signature analysis
+
+You are a computer forensic examiner and want to reduce the number of files required for examination by identifying and filtering out known good or system files. What EnCase process would you use to identify such files.
+Answer: File hash analysis
+
+You are a computer forensic examiner and want to determine whether a user has opened or double-clicked a file. What folder would you look in for an operating system artifact for this user activity.
+Answer: Recent
+
+You are a computer forensic examiner and want to determine when a user deleted a file contained in a Windows XP Recycle Bin. In what file is the date and time information about the file deletion contained.
+Answer: INFO2
+
+You are a computer forensic examiner and want to determine how many times a program was executed. Where would you find information.
+Answer: Registry
+
+You are a computer forensic examiner and want to examine any email sent and received by the user of the computer system under investigation. What email formats are supported by EnCase.
+Answer: Outlook, Outlook Express, America Online, Hotmail, Yahoo!, Mozilla Thunderbird
+
+What is the definition of a CPU.
+Answer: A part of the computer whose function is to perform data processing
+
+What is the BIOS.
+Answer: BIOS stands for Basic Input Output System and is a combination of low-level software and drivers that function as the interface, intermediary, or layer between a computer's hardware and its operating system
+
+Is the information stored on a computer's ROM chip lost during a proper shutdown.
+Answer: No
+
+Is the information contained on a computer's RAM chip accessible after a proper shutdown.
+Answer: No
+
+Can information stored in the BIOS ever change.
+Answer: Yes
+
+What is the purpose or function of a computer's ROM chip.
+Answer: Long-term or permanent storage of information and instructions
+
+Information contained in RAM memory (system's main memory), which is located on the
+Answer: 
+
+motherboard, is _________.
+Answer: volatile
+
+What is the maximum number of drive letters assigned to hard drive(s) partitions on a system.
+Answer: 24
+
+The smallest area on a drive that data can be written to is a _______, while the smallest area on a drive that a file can be written to is a ________.
+Answer: sector and cluster
+
+The size of a physical hard drive can be determined by which of the following.
+Answer: Both (The cylinder × head × sector × 512 bytes) and (The total LBA sectors ×512 bytes)
+
+The electrical pathway used to transport data from one computer component to another is called what.
+Answer: Bus
+
+What is the main component of a computer to which essential internal devices such as CPU, memory chips, and other chipsets are attached.
+Answer: Motherboard
+
+IDE, SCSI, and SATA are different types of interfaces describing what device.
+Answer: Hard drives
+
+What do the terms master, slave, and Cable Select refer to.
+Answer: Jumper settings for internal hardware such as IDE hard drives and CD drives
+
+What can you assume about a hard drive that is pinned as CS.
+Answer: It's an IDE drive.
+
+What is found at Cylinder 0, Head 0, Sector 1 on a hard drive.
+Answer: Master boot record
+
+What is the first sector on a volume called.
+Answer: Volume boot record or sector
+
+Which of the following is incorrect.
+Answer: The partition table is contained within the MBR and consists of a total of 16 bytes, which describes up to four partitions using 4 bytes each to do so
+
+FAT is defined as which of the following.
+Answer: A table created during the format that the operating system reads to locate data on a drive
+
+How does a corrupted sector located in the data area of a hard drive affect the corresponding cluster number on a FAT table.
+Answer: It does affect the FAT table. The corresponding cluster number is marked as bad, and the entire cluster is prevented from being written to
+
+Which of the following describes a partition table.
+Answer: All of the above.
+
+Which selection keeps track of a fragmented file in a FAT file system.
+Answer: File allocation table
+
+If the FAT table lists cluster number 2749 with a value of 0, what does this mean about this specific cluster.
+Answer: It is unallocated and is available to store data.
+
+Which of the following is true about a volume boot record.
+Answer: It is always located at the first sector of its logical partition & It contains BIOS parameter block and volume boot code
+
+The NTFS file system does which of the following.
+Answer: All of the above
+
+How many clusters can a FAT32 file system manage.
+Answer: 228 = 268,435,456 clusters
+
+The FAT tracks the ________ while the directory entry tracks the ________.
+Answer: file's last cluster (EOF) and file's starting cluster
+
+How many copies of the FAT does each FAT32 volume maintain in its default configuration.
+Answer: Two
+
+A file's logical size is displayed as.
+Answer: The number of bytes that the logical file contains
+
+A file's physical size is.
+Answer: The number of bytes in the logical file plus all slack space from the end of the logical file to the end of the last cluster
+
+A directory entry in a FAT file system has a logical size of which of the following.
+Answer: 0 bytes
+
+Each directory entry in a FAT file system is ____ bytes in length.
+Answer: 32
+
+By default, what color does EnCase use to display directory entries within a directory structure.
+Answer: RED
+
+What is the area between the end of a file's logical size and the file's physical size called.
+Answer: Slack space
+
+What three things occur when a file is created in a FAT32 file system.
+Answer: Directory entry for the file is created, the FAT assigns the necessary clusters to the file, and the file's data is filled in to the assigned clusters
+
+How does EnCase recover a deleted file.
+Answer: It obtains the deleted file's starting cluster number and size from the directory entry to obtain the data's starting location and number of clusters required
+
+What does EnCase do when a deleted file's starting cluster number is assigned to another file.
+Answer: EnCase marks the deleted file as being overwritten
+
+What information does a file's directory entry in a FAT file system store about itself.
+Answer: All of the above
+
+What is the first consideration when responding to a scene.
+Answer: Your safety
+
+What are some variables regarding a facility that you should consider prior to responding to a scene.
+Answer: All of the above.
+
+What are some variables regarding items to be seized that you should consider prior to
+Answer: 
+
+responding to a scene.
+Answer: All of the above
+
+Generally speaking, if you encounter a desktop computer running Windows XP, how should you take down the machine.
+Answer: Shut down by pulling the plug from the computer box
+
+Generally speaking, if you encounter a computer running Windows 2000 Server, how should you take down the machine.
+Answer: Shut down using its operating system
+
+Generally speaking, if you encounter a Unix/Linux machine, how should you take down the machine.
+Answer: Shut down using its operating system
+
+When unplugging a desktop computer, from where is it best to pull the plug.
+Answer: The back of the computer
+
+What is the best method to shut down a notebook computer.
+Answer: Both A(Unplug from the back of the computer) and C(Remove the battery).
+
+Generally speaking, if you encounter a Macintosh computer, how should you take down the machine.
+Answer: Shut down by pulling the plug from the computer box
+
+Which selection displays the incorrect method for shutting down a computer.
+Answer: Linux: Pull the plug
+
+When shutting down a computer, what information is typically lost.
+Answer: All of the above
+
+Which of the following is not acceptable for "bagging" a computer workstation.
+Answer: Plastic garbage bag
+
+EnCE.
+Answer: Encase Certified Examiner
+
+SCSI.
+Answer: Small Computer Systems Interface
+
+IDE.
+Answer: Integrated Drive Electronics
+
+SATA.
+Answer: Serial Advanced Technology Attachment
+
+RAID.
+Answer: Redundant Array of Inexpensive Disks
+
+DVD.
+Answer: Digital Versatile Disc
+
+USB.
+Answer: Universal serial bus
+
+IEEE.
+Answer: Institute of Electrical and Electronics Engineers
+
+IEEE 1394.
+Answer: Firewire
+
+ISA.
+Answer: Industry Standard Architecture
+
+MCA.
+Answer: IBM Micro Channel Architecture
+
+EISA.
+Answer: Extended Industry Standard Architecture
+
+PCI.
+Answer: Peripheral Component Interconnect
+
+AGP.
+Answer: Accelerated Graphics Port
+
+PCMCIA.
+Answer: Personal Computer Memory Card International Association\
+
+PCI.
+Answer: Peripheral Component Interconnect
+
+CMOS.
+Answer: Complementary Metal-Oxide Semiconductor
+
+EFI.
+Answer: Extensible Firmware Interface
+
+POST.
+Answer: Power On Self-Test
+
+MBR.
+Answer: Master Boot Record
+
+VBR.
+Answer: Volume Boot Record
+
+FAT.
+Answer: File Allocation Table (12, 16 or 32)
+
+MFT.
+Answer: Master File Table
+
+POST.
+Answer: Power On Self-Test
+
+0000 0001.
+Answer: Read only && Bit Flag Values for Attribute Field at Byte Offset 11
+
+0000 0010.
+Answer: Hidden File
+
+0000 0100.
+Answer: System File
+
+0000 1000.
+Answer: Volume label
+
+0000 1111.
+Answer: Long File Name
+
+0001 0000.
+Answer: Directory
+
+0010 0000.
+Answer: Archive
+
+In which circumstance is pulling the plug to shut down a computer system considered the best practice.
+Answer: None of the above
+
+How is the chain of custody maintained.
+Answer: All of the above
+
+It is always safe to pull the plug on a Windows 2000 Professional operating system.
+Answer: False
+
+On a production Linux/Unix server, you must generally be which user to shut down the system.
+Answer: root
+
+When would it be acceptable to navigate through a live system.
+Answer: All of the above
+
+A console prompt that displayed backslashes (\) as part of its display would most likely be which of the following.
+Answer: MS-DOS
+
+When called to a large office complex with numerous networked machines, is it always a good idea to request the assistance of the network administrator.
+Answer: False
+
+Subsequent to a search warrant where evidence is seized, what items should be left behind.
+Answer: B(Copy of the search warrant) and C(List of items seized)
+
+SAFE.
+Answer: Secure Authentication for EnCase
+
+HPA.
+Answer: Host Protected Area
+
+DCO.
+Answer: Device Configuration Overlay
+
+MD5.
+Answer: Message-Digest algorithm 5. or The odds of any two files having the same MD5 are 1 in 2128, which is, more graphically, 1 in 340,282,366,920,938,000,000,000,000,000,000,000,000.
+
+CRC.
+Answer: cyclic redundancy check (CRC) or polynomial code checksum
+
+When acquiring a hard drive in the DOS mode, what would be the cause of EnCase not detecting partition information.
+Answer: Both A(The drive has been FDisked and the partition(s) removed.) and B(The partition(s) are not recognized by DOS)
+
+A standard DOS 6.22 boot disk does not make calls to the C: volume of a hard drive when the diskette is booted.
+Answer: False
+
+As a good forensic practice, why would it be a good idea to wipe a forensic drive before reusing it.
+Answer: Cross-contamination
+
+If the number of sectors reported by EnCase does not match the number reported by the manufacturer for the drive, what should you do.
+Answer: All of the above
+
+What system files are changed or in any way modified by EnCase when creating an EnCase boot disk.
+Answer: All of the above
+
+Reacquiring an image and adding compression will change the MD5 value of the acquisition hash.
+Answer: False
+
+When reacquiring an image, you can change the name of the evidence.
+Answer: False
+
+Which of the following should you do when creating a storage volume to hold an EnCase evidence file that will be created with EnCase for DOS or LinEn? (Choose all that apply.).
+Answer: Format the volume with the FAT file system && Give the volume a unique label to identify it. && Wipe the volume before formatting to conform to best practices, and avoid claims of crosscontamination. && Create a directory to contain the evidence file.
+
+In Linux, what describes hdb2? (Choose all that apply.).
+Answer: Refers to the primary slave && Refers to the second partition
+
+When acquiring USB flash memory, you should write-protect it by doing what.
+Answer: All of the above
+
+Which type or types of cables can be used in a network cable acquisition.
+Answer: Network crossover cable && Standard network patch cable used with a crossover adaptor
+
+Should Zip/Jaz disks be acquired with EnCase in DOS or Windows.
+Answer: DOS
+
+When using LinEn, the level of support for USB, FireWire, and SCSI devices is determined by what.
+Answer: The distribution of Linux being used
+
+How should CDs be acquired using EnCase.
+Answer: Windows
+
+Select all that are true about EE and FIM.
+Answer: They can acquire or preview a system live without shutting it down && They can capture live system-state volatile data using the Snapshot feature && With EE, the SAFE is on a separate PC, administered by the keymaster && With FIM, the SAFE is on the examiner's PC and the keymaster and the examiner are the same person
+
+How does an EnCase boot disk differ from a DOS 6.22 disk.
+Answer: Both A(EnCase boot disk adds the EnCase executable, EN.EXE) and B(EnCase boot disk switches all calls from C: to A:.)
+
+The EnCase evidence file is best described as follows.
+Answer: A bitstream image of a source device written to a file or several file segments
+
+How does EnCase verify the contents of an evidence file.
+Answer: EnCase writes a CRC value for every 64 sectors copied
+
+What is the smallest file size that an EnCase evidence file can be saved as.
+Answer: 1 MB
+
+What is the largest file segment size that an EnCase evidence file can be saved as.
+Answer: 2 GB
+
+How does EnCase verify that the evidence file contains an exact copy of the source device.
+Answer: By comparing the MD5 hash value of the source device to the MD5 hash value of the data stored in the evidence file
+
+How does EnCase verify that the case information—such as case number, evidence number, notes, and so on—in an evidence file has not been damaged or altered after the evidence file has been written.
+Answer: EnCase writes a CRC value for the case information and verifies the CRC value when the evidence is added to a case.
+
+For an EnCase evidence file to successfully pass the file verification process, which of the following must be true.
+Answer: The CRC values and the MD5 hash value both must verify
+
+The MD5 hash algorithm produces a _____ value.
+Answer: 128-bit
+
+The MD5 hash algorithm is ___ hexadecimal characters in length.
+Answer: 32
+
+If an evidence file has been added to a case and completely verified, what happens if the data area within the evidence file is later altered.
+Answer: All of the above.
+
+Which of the following aspects of the EnCase evidence file can be changed during a reacquire of the evidence file.
+Answer: Evidence file size
+
+An evidence file was archived onto five CD-ROMs with the third file segment on disc 3. Can the contents of the third file segment be verified by itself while still on the CD-ROM.
+Answer: Yes. Any evidence file segment can be verified independently by comparing the CRC values
+
+Will EnCase allow a user to write data into an acquired evidence file.
+Answer: No, data cannot be added to the evidence file after the acquisition is made
+
+All investigators using EnCase should run tests on the evidence file acquisition and verification process to do which of the following.
+Answer: All of the above
+
+When a noncompressed evidence file is reacquired with compression, the acquisition and verification hash values for the evidence file will remain the same for both files.
+Answer: True
+
+Search hit results and bookmarks are stored in the evidence file.
+Answer: False
+
+The EnCase evidence file's logical file name can be changed without affecting the verification of the acquired evidence.
+Answer: True
+
+An evidence file can be moved to another directory without changing the file verification.
+Answer: False
+
+What happens when EnCase attempts to reopen a case once the evidence file has been moved.
+Answer: EnCase prompts for the location of the evidence file
+
+During reacquisition, you can change which of the following? (Choose all that apply.).
+Answer: Block size and error granularity && Add or remove a password && Compression && File segment size
+
+In the EnCase Windows environment, must an examiner first create a new case before adding a device to examine.
+Answer: Yes
+
+Proper file management and organization require that which of the following should be created prior to acquiring evidence.
+Answer: All of the above
+
+The EnCase methodology dictates that the lab drive used to store EnCase evidence files must have which of the following prior to acquiring an image.
+Answer: Previously wiped and sterile partition
+
+When creating a new case, the Case Options dialog box prompts for which of the following.
+Answer: All of the above
+
+What determines the action that will result when a user double-clicks a file within EnCase.
+Answer: The settings in the FILETYPES.INI file
+
+In the EnCase environment, the term external viewers is best described as which of the following.
+Answer: External programs that are associated with EnCase to open specific file types
+
+Where is the list of external viewers kept within EnCase.
+Answer: The settings in the VIEWERS.INI file
+
+When the copy/unerase feature is used, EnCase saves the selected file(s) to which folder.
+Answer: Export
+
+Can the Export folder be moved once it is saved within a case.
+Answer: Yes
+
+Files that have been sent to external viewers are copied to which folder.
+Answer: Temp
+
+The Temp folder of a case cannot be changed once the case has been saved.
+Answer: False
+
+Files stored in the Temp folder are removed once EnCase is properly closed.
+Answer: True
+
+How do you access the setting to adjust how often a backup file (.cbak) is saved.
+Answer: Select Tools _ Options _ Global
+
+What is the maximum number of columns that can be sorted simultaneously in the Table view tab.
+Answer: Five
+
+How would a user reverse-sort on a column in the Table view.
+Answer: Both A(Hold down the Ctrl key, and double-click the selected column header) and B(Right-click the selected column, select Sort, and select either Sort Ascending or Sort Descending)
+
+How can you hide a column in the Table view.
+Answer: All of the above.
+
+What does the Gallery view tab use to determine graphics files.
+Answer: File extension
+
+Will the EnCase Gallery view display a .jpeg file if its file extension was renamed to .txt.
+Answer: Yes, but only if a signature analysis is performed to correct the "File Category" to "Picture" based on its file header information.
+
+How would a user change the default colors and text fonts within EnCase.
+Answer: The user can change default colors and fonts settings by clicking the Tools tab on the menu bar, selecting Options, and selecting the Colors tab or Fonts tab
+
+An EnCase user will always know the exact location of the selected data in the evidence file by looking at which of the following.
+Answer: Data bar
+
+Computers use a numbering system with only two digits, 0 and 1. This system is referred to as which of the following.
+Answer: Binary
+
+A bit can have a binary value of which of the following.
+Answer: 0 or 1
+
+A byte consists of ___ bits.
+Answer: 8
+
+If 1 bit can have two unique possibilities, 2 bits can have four unique possibilities, and 3 bits can have eight unique possibilities. This is known as the power of 2. How many unique possibilities are there in 8 bits (28).
+Answer: 256
+
+When the letter A is represented as 41h, it is displayed in which of the following.
+Answer: Hexadecimal
+
+What is the decimal integer value for the binary code 0000-1001.
+Answer: 9
+
+Select all of the following that depict a Dword value.
+Answer: FF 00 10 AF && 0000 0000 0000 0000 0000 0000 0000 0001
+
+How many characters can be addressed by the 7-bit ASCII character table? 16-bit Unicode.
+Answer: 128 and 65,536
+
+Where does EnCase (Version 5 or 6) store keywords.
+Answer: Both A( Within each specific case file (.case and .cbak)) and B(In the KEYWORDS.INI file)
+
+When performing a keyword search in Windows, EnCase searches which of the following.
+Answer: Both (The logical files) and (The physical disk in unallocated clusters and other unused disk areas)
+
+By default, search terms are case sensitive.
+Answer: False
+
+By selecting the Unicode box, EnCase searches for both ASCII and Unicode formats.
+Answer: true
+
+With regard to a search using EnCase in the Windows environment, can EnCase find a word or phrase that is fragmented or spans in noncontiguous clusters.
+Answer: Yes, EnCase performs both physical and logical searches.
+
+Which of the following would be a search hit for the His keyword.
+Answer: All of the above
+
+Which of the following would be a search hit for the following GREP expression? [^a-z]Liz[^a-z].
+Answer: Liz1
+
+Which of the following would be a search hit for the following GREP expression ? [\x00-\x07]\x00\x00\x00... .
+Answer: 06 00 00 00 A0 EE F1
+
+Which of the following would be a search hit for the following GREP expression.
+Answer: Both (Jan 1st, 2006) and (Jan 1st, 06)
+
+Which of the following will not be a search hit for the following GREP expression [^#]123[ \-]45[ \-]6789[^#].
+Answer: A1234567890
+
+A sweep or highlight of a specific range of text is referred to as which of the following.
+Answer: Highlighted data bookmark
+
+Which of the following is not correct regarding building and querying indexes.
+Answer: To search an index, click the Search button on the toolbar.
+
+A file header is which of the following.
+Answer: A unique set of characters at the beginning of a file that identifies the file type
+
+The Windows operating system uses a file name's _______ to associate files with the proper applications.
+Answer: extension
+
+Unix (including Linux) operating systems use a file's _______ to associate file types to specific applications.
+Answer: header
+
+The Mac OS X operating system uses which of the following file information to associate a file to a specific application.
+Answer: All of the above
+
+Information regarding a file's header information and extension is saved by EnCase in the _________ file.
+Answer: FileSignatures.ini
+
+When a file's signature is unknown and a valid file extension exists, EnCase will display the following result after a signature analysis is performed.
+Answer: !Bad Signature
+
+When a file's signature is known and the file extension does not match, EnCase will display the following result after a signature analysis is performed.
+Answer: Alias (Signature Mismatch)
+
+When a file's signature is known and the file extension matches, EnCase will display the following result after a signature analysis is performed.
+Answer: Match
+
+When a file's signature and extension are not recognized, EnCase will display the following result after a signature analysis is performed.
+Answer: Unknown
+
+Can a file with a unique header share multiple file extensions.
+Answer: Yes
+
+A user can manually add new file headers and extensions by doing which of the following.
+Answer: Choosing File Signatures view, right-clicking, and selecting New in the appropriate folder
+
+Select the correct answer that completes the following statement: An MD5 hash ___________.
+Answer: All of the above
+
+EnCase can create a hash value for the following.
+Answer: All of the above
+
+What portion of an evidence file does EnCase analyze during the verification process to yield an MD5 hash value.
+Answer: Data area
+
+Will changing a file's name affect the file's MD5 hash value.
+Answer: No
+
+Usually a hash value found in a hash set named Windows XP Home Edition would be reported in the Hash Category column as which of the following.
+Answer: Known
+
+With regard to hash categories, evidentiary files or files of interest are categorized as which of the following.
+Answer: Notable
+
+An MD5 hash of a specific media generated by EnCase will yield the same hash value as an independent third-party MD5 hashing utility.
+Answer: True
+
+A hash _______ is comprised of hash _______, which is comprised of hash _______.
+Answer: library(ies), set(s), value(s)
+
+An operating system artifact can be defined as which of the following.
+Answer: All of the above
+
+A FAT file system stores date and time stamps in _______, whereas the NTFS file system stores date and time stamps in _______.
+Answer: Local time and GMT
+
+Where does Windows store the time zone offset.
+Answer: Registry
+
+The date and time of when a file was sent to the Recycle Bin can be found where.
+Answer: $I index file
+
+When a text file is sent a pre-Windows Vista Recycle Bin, Windows changes the short file name of the deleted file to DC0.txt in the Recycle Bin. Select the best choice that explains the deleted file name.
+Answer: D=deleted, C=drive letter, 0=index number, file extension remains the same
+
+When a document is opened, a link file bearing the document's file name is created in the ____folder.
+Answer: Recent
+
+Link files are shortcuts or pointers to actual items. These actual items can be what.
+Answer: All of the above
+
+In NTFS, information unique to a specific user is stored in the ______ file.
+Answer: NTUSER.DAT
+
+In Windows XP or Windows Vista, by default, how many recently opened documents are displayed in the My Recent Documents or Recent Items folder.
+Answer: 15
+
+Most of a user's desktop items on a Windows XP operating system would be located in the _________ directory.
+Answer: C:\Documents and Settings\%User%\Desktop
+
+Because this file will hold the contents of RAM when the machine is powered off, the ______ file will be the size of the system RAM and will be in the root directory.
+Answer: hiberfil.sys
+
+Where can you find evidence of web-based email such as from MSN Hotmail or Google Gmail on a Windows XP system.
+Answer: All of the above
+
+File names with the .url extension that direct web browsers to a specific website are located in which folder.
+Answer: Favorites folder
+
+Data about Internet cookies such as URL names, date and time stamps, and pointers to the actual location of the cookie is stored in.
+Answer: index.dat file
+
+On a Windows 98 machine, which folder is the swap or page file contained in.
+Answer: WIN386.SWP
+
+When you are examining evidence that has been sent to a printer, which file contains an image of the actual print job.
+Answer: The spool file
+
+The two modes for printing in Windows are ______ and _______.
+Answer: EMF and RAW
+
+Although the Windows operating system removed the EMF file upon a successful print job, the examiner may still recover the file as a result of a search on its unique header information in areas such as Unallocated Clusters or swap file.
+Answer: True
+
+The index.dat files are system files that store information about other files. They track date and time stamps, file locations, and name changes. Select the folder that does not contain an index.dat file.
+Answer: Recycle Bin
+
+The Temporary Internet Files directory contains which of the following.
+Answer: All of the above
+
+How many sector(s) on a hard drive are reserved for the master boot record (MBR).
+Answer: 63
+
+The very first sector of a formatted hard drive that contains an operating system is referred to as which of the following.
+Answer: All of the above
+
+How many logical partitions does the partition table in the master boot record allow for a physical drive.
+Answer: 4
+
+The very first sector of a partition is referred to as which of the following.
+Answer: Volume boot record
+
+If a hard drive has been fdisked, EnCase can still recover the deleted partition(s), if you point to the _________, right-click, and select Add Partition.
+Answer: volume boot record
+
+In an NTFS partition, where is the backup copy of the volume boot record (VBR) stored.
+Answer: The last sector of the partition
+
+EnCase can mount a compound file, which can then be viewed in a hierarchical format. Select an example of a compound file.
+Answer: All of the above
+
+Windows XP contains two master keys in its registry. They are KEY_LOCAL_MACHINE and which of the following.
+Answer: HKEY_USERS
+
+In Windows 2000/XP, information about a specific user's preference is stored in the NTUSER.DAT file. This compound file can be found where.
+Answer: C:\Documents and Settings\username
+
+In an NTFS file system, the date and time stamps recorded in the registry are stored where.
+Answer: GMT and converted based on the system's time zone settings
+
+EnScript is a proprietary programming language and application programming interface (API) developed by Guidance Software, designed to function properly only within the EnCase environment.
+Answer: True
+
+Since EnScript is a proprietary programming language developed by Guidance Software, EnScripts can be created by and obtained only from Guidance Software.
+Answer: False
+
+Filters are a type of EnScript that "filters" a case for certain file properties such as file types, dates, and hash categories. Like EnScripts, filters can also be changed or created by a user.
+Answer: True
+
+Select the type of email that EnCase 6 is not capable of recovering.
+Answer: None of the above
+
+Which method is used to view the contents of a compound file that contains emails such as a PST file in EnCase 6.
+Answer: Both (Right-click, and select View File Structure) and (Run search, and in the Search menu select the types of email to recover).
+
+EnCase 6 cannot process web-based email such as MSN Hotmail or Yahoo! Mail because the information can be found only on the mail servers.
+Answer: False
+
+The EnCase Decryption Suite (EDS) will not decrypt Microsoft's Encrypting File System (EFS) on the ___________ operating system.
+Answer: Windows XP Home Edition
+
+At which levels can the VFS module mount objects in the Windows environment.
+Answer: All of the above
+
+The Physical Disk Emulator (PDE) module is similar to the Virtual File System (VFS); the module can mount a piece of media that is accessible in the Windows environment. Select the type(s) of media that the Physical Disk Emulator cannot mount.
+Answer: Both (Cases) and (Folders)
+
+The Virtual File System (VFS) module mounts data as _______, while the Physical Disk Emulator (PDE) module mounts data as _______.
+Answer: network share, emulated disk
+
+The end of a logical file to the end of the cluster that the file ends is called.
+Answer: Slack
+
+The boot partitioin table found at the beginning of a hard drive is located in what sector.
+Answer: Master boot record
+
+What information in a FAT file system directory entry refers to the location of a file on a hard drive.
+Answer: The starting cluster
+
+A logical file would be best described as.
+Answer: The data from the beginning of the starting cluster to the length of the file.
+
+A case file can contain __ hard drive images.
+Answer: Any number of
+
+Calls to the C:\ volume of the hard drive are not made by DOS when a computer is booted with standard DOS 6.22 boot disk.
+Answer: False
+
+Select the appropriate name for the hightlighted area of the binary numbers.
+Answer: Byte
+
+If an evidence file has been added to a case and completely verified, what happens if the data area within the evidence file is later changed.
+Answer: All of the above.
+
+The BIOS chip on an IBM clone computer is most commonly located on.
+Answer: The motherboard
+
+Consider the following path in the FAT file system: C:\My Documents\My Pictures\Bikes. Where does the directory bikes receive its name.
+Answer: From the My Pictures directory
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. 800[) \-]+555-1212.
+Answer: (800) 555-1212
+
+How does EnCase verify that the case information (Case Number, Evidence Number, Investigator Name, etc) in an evidence file has not been damaged or changed, after the evidence file has been written.
+Answer: Encase writes a CRC value of the case information and verifies the CRC value when the evidenece is.
+
+Which of the following statements is more accurate.
+Answer: The Recycle Bin increases the chance of locating the existence of a file on a computer.
+
+The first sector on a volume is called the.
+Answer: Volume boot sector or record
+
+When an EnCase user double-clicks on a file within EnCase what determines the action that will result.
+Answer: The settings in the FileTypes.ini file.
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. Bob@[a-z]+.com.
+Answer: Bob@America.com
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. [^a-z]Tom[a-z].
+Answer: Tom
+
+The following GREP expressioin was typed in exactly as shown. Choose the answer(s) that would result. [\x00-\x05]\x00\x00\x00?[\x00-\x05]\x00\x00\x00.
+Answer: 04 00 00 FF FF BA
+
+This question addresses the EnCase for Windows search process. If a target word is within a logical file, and it begins in cluster 10 and ends in cluster 15 (the word is fragmented), the search.
+Answer: Will find it because EnCase performs a logical search.
+
+When a file is deleted in the FAT file system, what happens to the FAT.
+Answer: The FAT entries for that file are marked as available
+
+In DOS and Windows, how many bytes are in one FAT directory entry.
+Answer: 32
+
+When a non-compressed evidence file is reacquired with compression, the aquistion and verification hash value for the evidence will remain the same for both files.
+Answer: True
+
+An EnCase evidence file of a hard drive _____ be restored to another hard drive of equal or greater size.
+Answer: Can
+
+Upon starting a new case, what two directories should be defined.
+Answer: Default EXPORT and TEMP directories
+
+All lab media should be forensically sterile. What does this mean.
+Answer: The media should be: WIPED of all data AND VERIFIED to be absent of all data AND Freshly partitioned and formatted
+
+All lab media should maintain a unique __________, and a unique __________ to receive evidence files.
+Answer: VOLUME LABEL and DIRECTORY
+
+What happens when an examiner double-clicks on a file of a file type known by EnCase.
+Answer: The data is copied to the case defined TEMP directory, and the associated viewer is then called to display the file data
+
+What happens to the data files that are copied by EnCase to the case defined TEMP directory.
+Answer: When Encase is PROPERLY shut down, EnCase will DELETE the files from the temp folder.
+
+What is the evidence file.
+Answer: It is a BIT STREAM image of the source media written to a file(s).
+
+Evidence files can be segmented between a range of _____ and _____.
+Answer: Min 1 Mb - Max 2000 Mb.
+
+You can add data to an existing evidence file.
+Answer: FALSE
+
+You can add data to an existing evidence file.
+Answer: The contents of an evidence file CANNOT be changed, altered, or modified.
+
+What does the FIRST block of the evidence file contain.
+Answer: It contains the CASE INFORMATION, which is validated by an attached CRC.
+
+How is the evidence file verified.
+Answer: CRC (32bit) every 64 Sectors && MD5 (128bit) computed during the source media acquisition and placed at the end of the evidence file. && ALL CRC's and the MD5 MUST validate and verify.
+
+If any changes occur to the evidence file (file corruption, etc...), what happens.
+Answer: The CRC for the affected block(s) will NO LONGER VERIFY, and EnCase will display an ERROR when any data in that block(s) are accessed.
+
+an individual segments of an evidence file be verified.
+Answer: YES
+
+What three (3) aspects of an evidence file can be changed without impacting the evidence file verification.
+Answer: Add / Remove PASSWORD protection && Change file COMPRESSION && Change the file SEGMENT SIZE
+
+What is the CASE file.
+Answer: It is a TEXT file containing: Pointers to evidence file(s) && Results of searches and analysis (File Signature / Hashes) && Bookmarks && Investigator's Notes.
+
+What is the MAXIMUM number of evidence files that can be added to a single case file.
+Answer: There is NO limit. (ie. 8 HDDs, 200 FDDs, and 24 CDRs)
+
+What is the file extension for a Encase version 4.x case file? ...for the back-up case file.
+Answer: CASE for Encase v4.x && A backup file is created every 10 minutes by default with an extension of .CBK.
+
+Evidence files can be RENAMED and MOVED without changing their Verification and Validity.
+Answer: True
+
+In the EnCase Environment, what are configuration files and how are they used.
+Answer: .INI files that store global changes and settings to the Encase Environment. The global environment dictates information/tools available for ALL cases.
+
+Searches within the EnCase Windows environment are both __________ and __________.
+Answer: PHYSICAL && LOGICAL
+
+What is UNICODE.
+Answer: Unicode uses TWO (2) bytes for each character, allowing the representation of 65,536 characters.
+
+During a search for a keyword, selecting the UNICODE option will cause Encase to search for the keyword in both ASCII and UNICODE.
+Answer: True
+
+How is the GREP symbol " ? " used during a search.
+Answer: ? Means "or not" - joh?n will yield both JON and JOHN.
+
+How is the GREP symbol " \x " used during a search.
+Answer: \x Indicates that the following value is to be treated as a hexadecimal value. (\xFF\xD8\xFF...)
+
+How is the GREP symbol " * " used during a search.
+Answer: * States to repeat the preceding character or set any number of times, including zero times.
+
+How is the GREP symbol " + " used during a search.
+Answer: + States to repeat the preceding chracter or set any number of times, but at least once.
+
+How is the GREP symbol " ^ " used during a search.
+Answer: ^ States "not" - [^a-z] = NO alpha characters from a to z.
+
+How is the GREP symbol " - " used during a search.
+Answer: Denotes a range or characters, as in [1-9] or [a-z].
+
+How is the GREP symbols " [ ] " used during a search.
+Answer: [ ] Square brackets form a set. The included values within the set have to match a single character. [1-9] will match any single numeric value from 1 to 9.
+
+Default settings for the EnCase BOOT DISK search do NOT include case sensitivity, GREP or UNICODE.
+Answer: True
+
+Searches in unallocated space are (Physical / Logical) only. (Choose one).
+Answer: Searches in unallocated space are PHYSICAL only, as no logical definitions exist in this area.
+
+In the EnCase Windows environment, searches will find keywords in non-contiguous clusters in unallocated space.
+Answer: False
+
+Within the EnCase Environment, what does the File Signatures function do.
+Answer: It simply compares the displayed file extension with the file's header/signature.
+
+The File Signature table in EnCase CANNOT be changed.
+Answer: FALSE.
+
+After adding a device to your case, you immediately go to the Gallery View tab, as this will display all supported image files, even if they maintain extensions inconsisent with image files.
+Answer: FALSE
+
+After running the File Signature Analysis function, a file shows " !Bad Signature " as the result. What does this mean.
+Answer: !Bad Signature - The extension is in the File Signature table, but the header is incorrect and the header is not in the File Signatures table. BAD -> [header].[ext] <-GOOD
+
+After running the File Signature Analysis function, a file shows " *[Alias] " as the result. What does this mean.
+Answer: *[Alias] - The header is in the table and the extension is incorrect. this indicates a file with a renamed extension. GOOD -> [header].[ext] <- BAD
+
+After running the File Signature Analysis function, a file shows " MATCH " as the result. What does this mean.
+Answer: MATCH - The header matches the extension. If the extension has no header in the File Signatures table then EnCase will return a MATCH as long as the header of the file does not match any header in the File Signatures table. GOOD -> [header].[ext] <- GOOD
+
+Before running the File Signature Analysis function, the Gallery View will display all supported image files, even if they maintain extensions inconsisent with image files.
+Answer: False
+
+After running the File Signature Analysis function, a file shows " UNKNOWN " as the result. What does this mean.
+Answer: UNKNOWN - Indicates that neither the header/signature nor the extension is listed in the table. If either the header/signature or the extension is listed in the table, you will NOT obtain a value of UNKNOWN. UNKNOWN -> [header].[ext] <- UNKNOWN
+
+The hash value computed for a given file is based upon the physical file, including the files slack area.
+Answer: FALSE
+
+The hash value for a file will change if it is moved to another Folder/Directory.
+Answer: FALSE
+
+What purpose does a Hash Analysis serve for the Examiner.
+Answer: Hash Analysis allows the examiner to identify files that are known - either as innocuous files that can be ignord, or as files that are evidentiary in content.
+
+A files content can be recreated based on the computed hash value of that file.
+Answer: False
+
+What does ASCII stand for.
+Answer: American Standard Code for Information Exchange
+
+The ASCII Table is a _____ - Bit table.
+Answer: The ASCII table is a 7-bit table. The resultant 128 values represent alpha/numeric values, common punctuation, etc.
+
+What does the "LE" indicator within EnCase indicate.
+Answer: It indicates the number of BYTES that been selected / swept / highlighted.
+
+Nibble = 4 bits (16 possible values)
+Answer: 
+
+Byte = 8 bits (256 possible values)
+Answer: 
+
+Word = 2 bytes (16 bits)
+Answer: 
+
+DWord = 4 bytes (32 bits)
+Answer: 
+
+Only one file can occupy a CLUSTER at one time.
+Answer: True
+
+___________ file size is the amount of actual media space allocated to the file.
+Answer: PHYSICAL
+
+___________ file size is the actual number of bytes that the file contains.
+Answer: LOGICAL
+
+By default, each sector contains ____ data bytes.
+Answer: 512 data bytes. This size is consistant across different media types. (ZIP Disks, Floppies, HDD, etc...)
+
+Each FAT volume maintains how many copies of the FAT.
+Answer: It maintains two (2) copies of the FAT - FAT1 and FAT2.
+
+he number of clusters that a file system can manage is determined by the available number of _____ employed by the FAT.
+Answer: BITS
+
+The FAT file systems (FAT12, FAT16, FAT32) group one or more sectors, in powers of 2, into _________.
+Answer: Clusters
+
+The FAT maintains information regarding the status of all the clusters on the volume. What are some of these settings.
+Answer: Available, End of File, BAD, in use
+
+What is Slack Space.
+Answer: It is the data from the end of the logical file to end of the physical file. EnCase displays this data in RED text.
+
+EnCase displays Slack Space in red text. By default, what other entry is also displayed in red and why.
+Answer: Directory entries are also displayed in red. Neither slack nor directories have any logical size.
+
+How does EnCase determine if a deleted file has been overwritten.
+Answer: If the starting extent (cluster) is in use by another file.
+
+Deleting a file has NO effect on the actual data in FAT or NTFS.
+Answer: TRUE
+
+What two (2) actions occur when a file is deleted from a FAT system.
+Answer: The first character of the directory entry pertianing to the file is changed to E5h. && The values within the FAT that pertain to this file is reset to zero (available).
+
+What does BIOS stand for.
+Answer: BIOS = Basic Input Output System
+
+What does the BIOS do.
+Answer: It is responsible for the initial checking of the system components and initial configuration of the system once power is turned on.
+
+What does the Examiner access to determine the target system boot sequence and system date/time.
+Answer: The systems BIOS (Basic Input/Output System).
+
+What is RAM.
+Answer: Random Access Memory - stores data temorarily and is accessible immediately to the Operating System
+
+What is ROM.
+Answer: Read Only Memory
+
+What is the first activity taken by a computer system after power is applied.
+Answer: POST - Power On Self Test. This includes the testing of identified attached devices on the system bus
+
+When are drive letters assigned by the operating system.
+Answer: During the boot process. Note these letters are NOT written to the media.
+
+In order for media to be bootable it must maintain a _________________.
+Answer: Bootable partition / volume and in the case of HDD's it must also be set to Active.
+
+What are some examples of Add-In Cards.
+Answer: SCSI Host Card, Video Card, Network Interface Card (NIC), etc...
+
+How are most standard IDE Drives configured for the roles of MASTER/SLAVE/CABLE.
+Answer: Through the use of Jumper PINs on the physical drive
+
+SCSI drives follow the same methodology as IDE drives of MASTER/SLAVE.
+Answer: FALSE.
+
+What is the formula for determing hard drive capacity (CHS geometry).
+Answer: Clusters x Heads x Sectors x 512
+
+What is contained in the first sector of a standard hard drive.
+Answer: The MASTER BOOT RECORD. In the Windows and Linux operating system environment, the partition table is also located here
+
+What is contained in the first sector of each defined partition on a physical hard drive.
+Answer: VOLUME BOOT RECORD.
+
+The partition Master Boot Record (MBR) can maintian how many entries? What is each records length.
+Answer: The MBR can maintian four (4) records, each 16 Bytes in length
+
+Using EnCase while doing an on-site triage, what are the four (4) options for previewing a drive.
+Answer: FastBloc, Parallel Cable, Network Cable, Boot Disk Text Search
+
+Why is it important to boot a target system with a Forensic Boot Disk.
+Answer: To prevent writes to the target hard drive and the default mounting of a compressed volume
+
+What two files need to be modified on a standard DOS boot disk to make it forensically sound.
+Answer: IO.SYS, COMMAND.COM, Also, the drvspace.bin command must be removed
+
+Run through the basic procedure for a forensic system takedown.
+Answer: Photograph environment, external inspection, lable connections, internal inspection, disconnnect power/data cables from HDD, boot with EnCase boot disk, access BIOS - note date/time and boot sequence
+
+Using the EnCase Boot Disk, you will be able to see ALL file systems, including NT logical partitions, Linux, Unix, and MAC HFS.
+Answer: False
+
+Evidence files can be restored to media of equal OR greater size.
+Answer: True
+
+How can you verify that the restore completed properly and that it is an exact match to the original media.
+Answer: The MD5 hash value of a properly restored evidence file will match the value maintained within the evidence file
+
+When restoring evidence files of a logical partition, the file system it is being restored to must match the original.
+Answer: True
+
+Where do you commonly see BASE64 encoded files.
+Answer: Email Attachments.
+
+Where does Windows 2000 and XP store users personal folders.
+Answer: "C:\Documents and Settings"
+
+What are .LNK files.
+Answer: .lnk are "shortcut" files created by the windows operating system to files manipulated by the logged in user. They can show dates, times, and full path to the target file.
+
+Name some of the more common artifact locations in the Windows 9X operating environment.
+Answer: C:\Windows\Recent, C:\Windows\Desktop, C:\Windows\Send To, C:\Windows\Temp
+
+In DOS/Windows environments, what is the length of FAT Directory entries.
+Answer: 32 Bytes in Length.
+
+Every printed document from a computer is considered an "Original".
+Answer: True
+
+Compression of evidence files has no bearing on the validity or admissibility fo the data.
+Answer: True
+
+What is meant by the legal term "Daubert".
+Answer: It is a legal test employed by US courts to determine if a scientific or technical process is acceptable.
+
+What are the three basic questions asked to determine if a process is acceptable under Daubert.
+Answer: Has the process been tested and subjected to peer review && Does the process/application maintain general acceptance within the related community && Can the findings be duplicated/repeated
+
+If the original evidence must be returned to the owner, can the EnCase Evidence files be considered "Best Evidence".
+Answer: Yes
+
+What type of files are commonly associated with printing in the Windows operating system.
+Answer: .emf / .spl / .shd
+
+If the file system is not support by EnCase, the Examiner cannot use EnCase to do the examination.
+Answer: False
+
+You need to do an onsite acquisition of a Windows NT Server, should you Shut Down the system or pull the power plug.
+Answer: Gracefully shut down the system. Generally, servers need to be shut down gracefully. Workstations or personal computers should have the power plug pulled
+
+What does IDE stand for.
+Answer: Integrated Drive Electronics.
+
+FAT is defined as which of the following.
+Answer: The FAT (File Allocation Table) is created by the file system during formats and contains pointers to clusters located on a drive.
+
+How does a corrupted sector located in the data area of a hard drive affect the corresponding cluster number on a FAT table.
+Answer: When the FAT table marks a cluster as being bad, the entire cluster is prevented from being written to
+
+Which of the following describes a partition table.
+Answer: A partition table is located in the master boot record and is always located in the very first sector of a physical drive. The partition table keeps track of the partitions located on the physical drive.
+
+Which selection keeps track of a fragmented file in a FAT file system.
+Answer: The FAT table assigns numbers to each cluster entry pointing to the next cluster in the cluster run until the last cluster is reached, which is marked as EOF.
+
+If the FAT table lists cluster number 2749 with a value of 0, what does this mean about this specific cluster.
+Answer: When the FAT table marks as 0, it is in unallocated blusters (sic?), which means it is freely available to store data
+
+Which of the following is true about a volume boot record.
+Answer: The Volume Boot Record is always located at the first sector of its logical partition and contains the BIOS parameter block and volume boot code.
+
+The NTFS file system does which of the following.
+Answer: The NTFS file system supports long file names, compresses files and directories, and contains the BIOS parameter block and volume boot code.
+
+How many clusters can a FAT32 file system manage.
+Answer: A FAT32 file system theoretically allows up to 228 = 268,435,456 clusters. The extra 4 bits are reserved by the file system, however, and there is an MBR-imposed limit of 67,092,481 clusters, which means FAT32 is capable of supporting a file size of 2 terabytes
+
+The FAT tracks the___while the directory entry tracks the___.
+Answer: The FAT tracks the location of the last cluster for a file (EOF), while the directory entry maintains the file's starting cluster number
+
+How many copies of the FAT does each FAT32 volume maintain in its default configuration.
+Answer: Each volume maintains two copies (one for backup): FAT1 and FAT2.
+
+A file's logical size is displayed as.
+Answer: A file's logical size is displayed as the actual number of bytes that the file contains
+
+A file's physical size is.
+Answer: A file's physical size is the number of bytes to the end of the last cluster, and a file's logical size is the amount of bytes that the actual file contains. A file's physical size can be the same as its logical
+
+A directory entry in a FAT file system has a logical size of which of the following.
+Answer: A directory entry in a FAT file system has no logical size.
+
+Each directory entry in a FAT file system is___bytes in length.
+Answer: In a FAT file system each directory entry is 32 bytes in length.
+
+By default, what color does EnCase use to display directory entries within a directory structure.
+Answer: Because directory entries are just names with no logical size and because they do not contain any actual data, EnCase displays the information in red.
+
+What is the area called between the end of a file's logical size and the file's physical size called.
+Answer: The area between a file's logical size and its physical size is commonly referred to as slack space
+
+What three things occur when a file is created in a FAT32 file system.
+Answer: The directory structure records the file's information, the FAT tracks the number of clusters allocated to the file, and the file's data is filled in to the assigned clusters.
+
+How does EnCase recover a deleted file.
+Answer: EnCase recovers deleted files by first obtaining the file's starting cluster number and its size from the directory entry. Encase determines the number of clusters needed based on the file's size and then attempts to recover the data from the starting extent through the amount of clusters needed
+
+What does EnCase do when a deleted file's starting cluster number is assigned to another file.
+Answer: When EnCase determines that the starting cluster in the FAT has been reassigned to an existing file, it reports the previously deleted file as being overwritten.
+
+What information does a file's directory entry in a FAT file system store about itself.
+Answer: A file's directory entry stores almost everything about the file with the exception of the actual data itself. (File name, date/time, file extension, starting cluster(extent))
+
+What is the most significant legal issue in computer forensics.
+Answer: Admissibility of Evidence
+
+When a file is deleted.
+Answer: All of the above
+
+Which of the following is not a property of computer evidence.
+Answer: Conform and Human Readable
+
+You can use ________, a powerful search tool, to perform keyword searches in Linux and in EnCase software.
+Answer: grep
+
+When a forensic copy is made, in what format are the contents of the hard
+Answer: 
+
+drive stored.
+Answer: As compressed images
+
+Which of the following is not a type of volatile evidence.
+Answer: Log files
+
+In establishing what evidence is admissible, many rules of evidence
+Answer: 
+
+concentrate first on the _____________ of the offered evidence.
+Answer: Search and Seizure
+
+Which of the following is a proper acquisition technique.
+Answer: Disk to Image
+
+Traditional crimes that became easier or more widespread because of telecommunication networks and powerful PCs include all of the following except.
+Answer: Money laundering
+
+_____________ devices prevent altering data on drives attached to the suspect computer and also offer very fast acquisition speeds.
+Answer: Write Blocking
+
+Which duplication method produces an exact replica of the original drive.
+Answer: Bit-Stream Copy
+
+To verify the original drive with the forensic copy, you use __________.
+Answer: a hash analysis
+
+As a good forensic practice, why would it be a good idea to wipe a forensic drive before using it.
+Answer: Cross-contamination
+
+The ability to hide data in another file is called.
+Answer: Steganography
+
+When two hard drives are on the same data cable, both drives must have
+Answer: 
+
+USB drives use ______________. Flash memory
+Answer: 
+
+Which of the following is not a true operating system.
+Answer: Windows 3.1
+
+When shutting down a computer, what information is typically lost.
+Answer: All of the above
+
+If the Internet History file has been deleted, ____________ may still provide information about what Web sites the user has visited.
+Answer: Cookies
+
+You are a computer forensic examiner tasked with determining what evidence is on a seized computer. On what part of the computer system will you find data of evidentiary value.
+Answer: Hard drive
+
+You are a computer forensic examiner and want to determine whether a user has opened or double-clicked a file. What folder would you look in for an operating system artefact for this user activity.
+Answer: Recent
+
+You are a computer forensic examiner explaining how computers store and access the data you recovered as evidence during your examination. The evidence was a log file and was recovered as an artefact of user activity on the _____, which was stored on the _____, contained within a _____ on the media.
+Answer: operating system, file system, partition
+
+The smallest area on a drive that data can be written to is a _____, while the smallest area on a drive that a file can be written to is a _____.
+Answer: sector and cluster
+
+File Allocation Table (FAT) is defined as which of the following.
+Answer: It is unallocated and is available to store data
+
+How many clusters can a FAT32 file system manage.
+Answer: 228 = 268,435,456 clusters
+
+The FAT tracks the _____ while the directory entry tracks the _____.
+Answer: file's last cluster (EOF) and file's starting cluster
+
+What is the first consideration when responding to a scene of crime.
+Answer: Your safety
+
+When shutting down a computer, what information is typically lost.
+Answer: All of the above
+
+The Windows operating system uses a file name's _____ to associate files with the proper applications.
+Answer: extension
+
+A console prompt that displayed backslashes (\) as part of its display would most likely be which of the following.
+Answer: MS-DOS
+
+How is the chain of custody maintained.
+Answer: All of the above
+
+What is the area between the end of a file's logical size and the file's physical size called.
+Answer: Slack space
+
+Which of the following is not acceptable for "bagging" a computer workstation.
+Answer: Plastic garbage bag
+
+In NTFS, information unique to a specific user is stored in the ____ file.
+Answer: NTUSER.DAT
+
+As a good forensic practice, why would it be a good idea to wipe a forensic drive before reusing it.
+Answer: Cross-contamination
+
+A file header is which of the following.
+Answer: A unique set of characters at the beginning of a file that identifies the file type
+
+Most of a user's desktop items on a Windows XP operating system would be located in the _________ directory.
+Answer: C:\Documents and Settings\%User%\Desktop
+
+Because this file will hold the contents of RAM when the machine is powered off, the ______ file will be the size of the system RAM and will be in the root directory.
+Answer: hiberfil.sys
+
+Where can you find evidence of web-based email such as from MSN Hotmail or Google Gmail on a Windows XP system.
+Answer: All of the above
+
+Data about Internet cookies such as URL names, date and timestamps, and pointers to the actual location of the cookie is stored in.
+Answer: index.dat file
+
+Windows XP contains two master keys in its registry. They are HKEY_LOCAL_MACHINE and which of the following.
+Answer: HKEY_USERS
+
+1.What is the most significant legal issue in computer forensics ?
+Answer: Admissibility of Evidence
+
+2.When a file is deleted
+Answer: All of the above
+
+3.Which of the following is not a property of computer evidence?
+Answer: Conform and Human Readable
+
+4.You can use_______, a powerful search tool, to perform keyword searches in Linux and in EnCase software.
+Answer: grep
+
+5.You are a computer forensics examiner at a scene and have determined you will seize a Linux server, which according to your source of information contains the database records for the company under investigation for fraud. The best practice for "taking down" the server for collection is to photograph the screen, note any running programs or messages and so on, and________
+Answer: use the normal shutdown procedure.
+
+6.When a forensic copy is made, in what format are the contents of the hard drive stored?
+Answer: As compressed images.
+
+7.Which of the following is not a type of volatile evidence?
+Answer: Main Memory
+
+8.In establishing what evidence is admissible, many rules of evidence concentrate first on the_______
+Answer: 
+
+Of the offered evidence.
+Answer: Relevancy
+
+9.Which of the following is a proper acquisition technique?
+Answer: All of the above
+
+10.Traditional crimes that became easier or more widespread because of telecommunication networks and powerful PCs include all of the following except
+Answer: Child pornography
+
+11.___________ devices prevent altering data on drives attached to the suspect computer and also offer very fast acquisition speeds
+Answer: Write blocking
+
+12.Which duplication method produces an exact replica of the original drive ?
+Answer: Bit-Stream Copy
+
+13.To verify the original drive with the forensic copy, you use___________
+Answer: a hash analysis
+
+14.The Windows operating system uses a file name's__________to associate files with the proper applications.
+Answer: Extension
+
+15.As a good forensic practice, why would it be a good idea to wipe a forensic drive before using it?
+Answer: Cross-contamination
+
+16.The ability to hide data in another file is called
+Answer: Steganography.
+
+17.When two hard drives are on the same data cable, both drives must have which to settings for them to work ?
+Answer: Master and Slave.
+
+18.USB drives use________
+Answer: Flash memory.
+
+19.Which of the following is a proper search technique?
+Answer: All of the above.
+
+20.A file header is which of the following?
+Answer: A unique set of characters at the beginning of a file that identifies the file type.
+
+21.Which of the following is not a true operating system?
+Answer: UNIX
+
+22. Computer memory files written to the hard drive are called______
+Answer: Swap files.
+
+23.When shutting down a computer, what information is typically lost?
+Answer: All of the above
+
+24._______is the science of hiding messages in messages.
+Answer: Steganography.
+
+25.If the internet history file has been deleted,_______may still provide information about what Web sites the user has visited.
+Answer: Cookies
+
+26.You are computer forensic examiner tasked with determining that evidence is on a seized computer. On what part of the computer system will you find data of evidentiary value?
+Answer: Hard drive
+
+27.The smallest area on a drive that data can be written to is a _______, while the smallest area on a drive that a file can be written to is a ________.
+Answer: Sector and cluster
+
+28.How many clusters can a FAT32 file system manage?
+Answer: 2^28=268,435,456 clusters
+
+29.The FAT tracks the ________ while the directory entry tracks the ________.
+Answer: file's last cluster (EOF) and file's starting cluster
+
+30.What is the first consideration when responding to a scene?
+Answer: Your safety
+
+31.When shutting down a computer, what information is typically lost?
+Answer: All of the above
+
+32.The Windows operating system uses a file name's _______ to associate files with the proper applications.
+Answer: extension
+
+33. A console prompt that displayed backslashes (\) as part of its display would most likely be which of the following?
+Answer: MS-DOS
+
+34. How is the chain of custody maintained?
+Answer: All of the above
+
+35. What is the area between the end of a file's logical size and the file's physical size called?
+Answer: Slack space
+
+36. Which of the following is not acceptable for "bagging" a computer workstation?
+Answer: Plastic garbage bag.
+
+37. In NTFS, information unique to a specific user is stored in the ______ file.
+Answer: NTUSER.DAT
+
+38. As a good forensic practice, why would it be a good idea to wipe a forensic drive before reusing it?
+Answer: Cross-contamination
+
+39. A file header is which of the following?
+Answer: A unique set of characters at the beginning of a file that identifies the file type
+
+40. Most of a user's desktop items on a Windows XP operating system would be located in the _________ directory.
+Answer: C:\Documents and Settings\%User%\Desktop
+
+41. Because this file will hold the contents of RAM when the machine is powered off, the ______ file will be the size of the system RAM and will be in the root directory.
+Answer: hiberfil.sys
+
+42. Data about Internet cookies such as URL names, date and time stamps, and pointers to the actual location of the cookie is stored in:
+Answer: index.dat file
+
+43. Windows XP contains two master keys in its registry. They are KEY_LOCAL_MACHINE and which of the following?
+Answer: HKEY_USERS
+
+44. What type of attack could be prevented by egress filtering?
+Answer: DDOS
+
+45.If a suspect is using encryption, which data below is likely to be lost if the devices is powered off?
+Answer: Laptop hard drive
+
+46.You have been given the task to investigate web attacks on a Windows-based server.
+Answer: 
+
+47.Which of the following commands will you use to look at which sessions the machine has opened with other systems?
+Answer: Net use
+
+48.Joe is making a clone of the evidence drive onto a target drive. Which of these is not a good practice?
+Answer: Use a hardware write-blocker
+
+49.When the letter"A" is represented as 4th, it is displayed in
+Answer: 
+
+50.In which step of the computer forensics investigation methodology would you run MD5 checksum on the evidence
+Answer: Acquire the data
+
+51.TCP/IP is a communication protocol used to connect different host in the internet. It contains four layer namely the network interface layer, internet layer........ Which of the following protocols works under the transport layer of TCP/IP
+Answer: UDP
+
+52.Network forensics allows Investigators 10 inspect network traffic and logs to identify and locate the attack system.Network forensics can reveal.
+Answer: 
+
+53.Which of the following Steganography techniques allows you to encode information that ensures creation of cover for secret communication?
+Answer: Cover generation techniques
+
+54.Which of the following commands shows you the names of all open shared files on a server and number of file locks on each file?
+Answer: netfile
+
+55.A swap file is a space on a hard disk used as the virtual memory extension of a computer's RAM.Where is the hidden swap file in Windows located?
+Answer: C:\pagefile.sys
+
+56.FAT32 is a 32-bit version of FAT file system using smaller clusters and results in efficient storage capacity. What is the maximum drive size supported?
+Answer: 2terabytes
+
+57.You can interact with the Registy through intermediate programs. Graphical user interface (GUI) Registry editors such as Regedit.exe or Regedit32.exe are.......
+Answer: HKEY_USERS
+
+58.What is the purpose of function of a computer's ROM chip
+Answer: Long-term or permanent storage
+
+59.All the information about the user activity on the network, like details about login and logoff ............
+Answer: 528
+
+60.On a production Linux/UNIX server, you must generally be which user to shut down the system?
+Answer: 
+
+61.Which of these items must be written in clear, non-technical English ?
+Answer: Examiner's final report
+
+62.We execute this command ./vol.py...................
+Answer: Display a list in tree form of all processes
+
+63.What is the goal of forensics science?
+Answer: To determine the evidential value of the crime scene and relate devidence
+
+64.Digital evidence validation involves using a hashing algorithm ............ Which of the following hash algorithms produces a message digest that is 128 bits long?
+Answer: md5
+
+65.Task list command displays a list of applications and services with their ProcessID for all tasks running on either a local or a remote computer.
+Answer: 
+
+Which of the following task list commands provides information about the listed processes, including the image name, PID, name, and number of the session for the process?
+Answer: tasklist/v
+
+66.Which of the following commands shows you all of the network services running in Windows-based servers?
+Answer: netstart
+
+67.Which is a linux journaling file system?
+Answer: 
+
+68.A file header is
+Answer: A unique set of characters at the beginning.......
+
+69.Computer security logs contain information about the events occurring within an organization's.................
+Answer: Analyzing log files
+
+70.Computer use a numbering system with only two digits, 0 and 1. This system is referred to as
+Answer: 
+
+71.Which term describes long-term off-site storage of old data?
+Answer: Cloud persistence
+
+72.Which of the following commands shows you the TCP and UDP network connections, listening ports, and the identifiers
+Answer: netstat /ano
+
+73.Where is the Modified timestamp for a file stored?
+Answer: Registry
+
+74.MAC filtering is a security access control methodology, where a__________ is assigned to each network card to determine access to the network
+Answer: 48bit
+
+75.The status of the network interface cards (NICs) connected to a system gives information about whether the system is connected to a wireless access point and whatIP address is being used.
+Answer: 
+
+Which command displays the network configuration of the NICs on the system?
+Answer: ipconfig/all
+
+76.The Volatility Framework currently provides the following extraction capabilities for memory samples
+Answer: 
+
+77.How many characters can be addressed by the 7-bit ASCII character table? 16-bit Unicode?
+Answer: 128 - 65.536
+
+78.What is the first step required in preparing a computer for forensics investigation ?
+Answer: Do not turn the computer off or on,...............
+
+79.Which is protocol is used to send email?
+Answer: SMTP
+
+80.How do you define forensics computing?
+Answer: It is the science of capturing..............
+
+81.What activity of an SSD controller causes write operations to one block to actually store data on some other block?
+Answer: File translation layer
+
+82.A bit can have a binary value of ?
+Answer: 
+
+83.What term best describes BAGE64 enconding
+Answer: Encryption
+
+84.Tyler uses DISKPART and CLEAN ALL to write zeroes to his whole hard drive, including the Word document. What type of data is the Word document now?
+Answer: Archival data
+
+85.Windows Security Accounts Manager (SAM) is a registry file which stores passwords in a hashed format, SAM file in Windows is located at
+Answer: 
+
+86.When collectiong evidence from the RAM, where do you look for data?
+Answer: Swap file
+
+87.The NTFS file system does which of the following?
+Answer: All of the others
+
+88.What is the technical term for the last part of a Web address such as .com or .net ?
+Answer: 
+
+89.Which item must be placed in a Faraday bad immediately after seizure? Cell phone
+Answer: 
+
+90.POP3 is a standard protocol for receiving email ...............
+Answer: PORT110
+
+91.A company moves to the cloud, talking imagesoof their servers, routers, and switches, and deploying them to Amazon's serveres as virtual machines and software-defined networks.....
+Answer: IaaS
+
+92.Windows Security Event Log contains records of login/logout activity or other security-related events specified by the system's audit policy. What does event ID 531 in Windows Security Event Log indicates?
+Answer: A logon attempt was made using a disabled account
+
+93.The recycle bin is located on the windows desktop. When you .............
+Answer: 
+
+What is the size limit for Recycle bin in BIsta and later version of the Windows ?
+Answer: 
+
+94.Boston police searched houses for the bomber without warrants. What justification did they have for that ?
+Answer: Probable cause
+
+95.Tyler deletes the document, so it goes into the Recycle Bin. What type of data is it ?
+Answer: 
+
+96.Jason, a renowned forensics investigator, is investigating a network attack that ............
+Answer: DNS Poisoning
+
+97.Which of the following statements is incorrect when preserving digital evidence ?
+Answer: Turn on the computer and extract Windows event viewer log files
+
+98.Which is the most reliable forensics software?
+Answer: Never trust any of them
+
+99.What is a chain of custody
+Answer: A legal document that demonstrates the progression of evidence a sit travels from the original evidence location to the forensic laboratory
+
+100.How do you define Technical Steganography?
+Answer: Steganography that uses physical or chemical means to hide the existence of a message
+
+101.If you see a repeated patten of DEADBEEF for a large portion of a hard drive, what does this indicate?
+Answer: Drive wiping
+
+1. What is the most significant legal issue in computer forensics?
+Answer: C. Admissibility of Evidence.
+
+2. When a file is deleted
+Answer: D. All of the above.
+
+3. Which of the following is not a property of computer evidence?
+Answer: 
+
+A. Authentic and Accurate.
+Answer: D. Conform and Human Readable.
+
+4. You can use ________, a powerful search tool, to perform keyword searches
+Answer: 
+
+in Linux and in EnCase software.
+Answer: A. grep.
+
+5. You are a computer forensic examiner at a scene and have determined you will seize a Linux server, which according to your source of information contains the database records for the company under investigation for fraud. The best practice for "taking down" the server for collection is to photograph the screen, note any running programs or messages and so on, and __________.
+Answer: A. Use the normal shutdown procedure
+
+6. When a forensic copy is made, in what format are the contents of the hard
+Answer: 
+
+drive stored?
+Answer: A. As compressed images.
+
+7. Which of the following is not a type of volatile evidence?
+Answer: C. Log files
+
+8. In establishing what evidence is admissible, many rules of evidence concentrate first on the _____________ of the offered evidence.
+Answer: B. Search and Seizure
+
+9. Which of the following is a proper acquisition technique?
+Answer: A. Disk to Image
+
+10. Traditional crimes that became easier or more widespread because of telecommunication networks and powerful PCs include all of the following except
+Answer: A. Money laundering
+
+11. _____________ devices prevent altering data on drives attached to the suspect computer and also offer very fast acquisition speeds.
+Answer: C. Write Blocking
+
+12. Which duplication method produces an exact replica of the original drive?
+Answer: A. Bit-Stream Copy
+
+13. To verify the original drive with the forensic copy, you use __________.
+Answer: B. a hash analysis
+
+14. The Windows operating system uses a file name's ___________ to associate files with the proper applications.
+Answer: B. Extension
+
+15. As a good forensic practice, why would it be a good idea to wipe a forensic drive before using it?
+Answer: D. Cross-contamination
+
+16. The ability to hide data in another file is called
+Answer: B. Steganography.
+
+17. When two hard drives are on the same data cable, both drives must have which two settings for them to work?
+Answer: C. Master and Slave
+
+18. USB drives use ______________.
+Answer: C. Flash memory
+
+19. Which of the following is a proper search technique?
+Answer: D. All of the above
+
+20. A file header is which of the following?
+Answer: A. A unique set of characters at the beginning of a file that identifies the file type
+
+21. Which of the following is not a true operating system?
+Answer: D. UNIX
+
+22. Computer memory files written to the hard drive are called ____________.
+Answer: A. Metadata
+
+23. When shutting down a computer, what information is typically lost?
+Answer: D. All of the above
+
+24. ________________ is the science of hiding messages in messages.
+Answer: C. Steganography
+
+25. If the Internet History file has been deleted, ____________ may still provide information about what Web sites the user has visited.
+Answer: A. Cookies
+
+When an EnCase user double-clicks on a file within EnCase what determines the action that will result?
+Answer: B. The settings in the FileTypes.ini file.
+
+Search results are found in which of the following files?
+Answer: C. The case file
+
+If cluster #3552 entry in the FAT table contains a value of ?? this would mean:
+Answer: A. The cluster is unallocated
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. Bob@[a-z]+.com
+Answer: C. Bob@America.com
+
+You are an investigator and have encountered a computer that is running at the home of a suspect. The computer does not appear to be a part of a network. The operating system is Windows XP Home. No programs are visibly running. You should:
+Answer: A. Pull the plug from the back of the computer.
+
+A physical file size is:
+Answer: B. The total size of all the clusters used by the file measured in bytes.
+
+In Unicode, one printed character is composed of ____ bytes of data.
+Answer: C. 2
+
+If cluster number 10 in the FAT contains the number 55, this means:
+Answer: A. That cluster 10 is used and the file continues in cluster number 55.
+
+How are the results of a signature analysis examined?
+Answer: B. By sorting on the signature column in the Table view.
+
+The acronym ASCII stands for:
+Answer: B. American Standard Code for Information Interchange
+
+The default export folder remains the same for all cases.
+Answer: B. False
+
+The EnCase default export folder is:
+Answer: B. A case-specific setting that can be changed.
+
+Hash libraries are commonly used to:
+Answer: B. Identify files that are already known to the user.
+
+Which is the proper formula for determining the size in bytes of a hard drive that uses cylinders (C), heads (H), and sectors (S) geometry?
+Answer: B. C X H X S x 512
+
+Within EnCase, clicking on Save on the toolbar affects what file(s)?
+Answer: C. The open case file
+
+EnCase uses the _________________ to conduct a signature analysis.
+Answer: B. file signature table
+
+EnCase is able to read and examine which of the following file systems?
+Answer: A. NTFS EXT3 FAT HFS
+
+ROM is an acronym for:
+Answer: C. Read Only Memory
+
+If a floppy diskette is in the ?drive, the computer will always boot to that drive before any other device.
+Answer: B. True
+
+A standard Windows 98 boot disk is acceptable for booting a suspect drive.
+Answer: A. True
+
+Search terms are case sensitive by default.
+Answer: B. True
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. Jan 1st , 2?0?00
+Answer: D. Jan 1st , 2000
+
+An evidence file can be moved to another directory without changing the file verification.
+Answer: B. True
+
+Pressing the power button on a computer that is running could have which of the following results?
+Answer: D. All of the above could happen.
+
+How does EnCase verify that the evidence file contains an exact copy of the suspect hard drive?
+Answer: B. By means of an MD5 hash of the suspect hard drive compared to an MD5 hash of the data stored in the evidence file.
+
+By default, EnCase will display the data from the end of a logical file, to the end of the cluster, in what color:
+Answer: A. Red
+
+A SCSI drive is pinned as a master when it is:
+Answer: D. A SCSI drive is not pinned as a master.
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. [^a-z]Tom[^a-z]
+Answer: B. om? ? RP
+
+This question addresses the EnCase for Windows search process. If a target word is within a logical file, and it begins in cluster 10 and ends in cluster 15 (the word is fragmented), the search:
+Answer: B. Will find it because EnCase performs a logical search.
+
+An evidence file was archived onto five CD-Rom disks with the third file segment on disk number three. Can the contents of the third file segment be verified by itself while still on the CD?
+Answer: C. Yes. Any segment of an evidence file can be verified through re-computing and comparing the CRCs, even if it is on a CD.
+
+You are a computer forensic examiner tasked with determining what evidence is on a seized computer. On what part of the computer system will you find data of evidentiary value?
+Answer: C. Hard drive
+
+You are a computer forensic examiner explaining how computers store and access the data you recovered as evidence during your examination. The evidence was a log file and was recovered as an artifact of user activity on the ____________, which was stored on the _____________, contained within a ____________ on the media.
+Answer: B. operating system, file system, partition
+
+You are a computer forensic examiner investigating a seized computer. You recovered a document containing potential evidence. EnCase reports the file system on the forensic image of the hard drive is FAT (File Allocation Table). What information about the document file can be found in the FAT on the media? (Choose all that apply.)
+Answer: C. Starting cluster of the file
+
+You are a computer forensic examiner investigating media on a seized computer. You recovered a document containing potential evidence. EnCase reports the file system on the forensic image of the hard drive is NTFS (New Technology File System). What information about the document file can be found in the NTFS master file table on the media? (Choose all that apply.)
+Answer: A. Name of the file | all
+
+You are a computer forensic examiner at a scene and have determined you will seize a Linux server, which according to your source of information contains the database records for the company under investigation for fraud. What is the best practice for "taking down" the server for collection?
+Answer: A. use
+
+You are a computer forensic examiner and have imaged a hard drive on site. Before you leave the scene, you want to ensure the image completely verifies as an exact forensic duplicate of the original. To verify the EnCase evidence file containing the image, you should do which of the following?
+Answer: D. Load the EnCase evidence files into EnCase for Windows, allow the verification process to finish, and then check the results for complete verification.
+
+ou are a computer forensic examiner and need to verify the integrity of an EnCase evidence file. To completely verify the file's integrity, which of the following must be true?
+Answer: 
+
+A. The MD5 hash value must verify. B. The CRC values and the MD5 hash value both must verify.
+Answer: 
+
+You are a computer forensic examiner and need to determine what files are contained within a folder called Business documents. What EnCase pane will you use to view the names of the files in the folder?
+Answer: B. Table pane
+
+You are a computer forensic examiner and need to view the contents of a file contained within a folder called Business documents. What EnCase pane will you use to view the contents of the file?
+Answer: C. View pane
+
+You are a computer forensic examiner and are viewing a file in an EnCase evidence file. With your cursor, you have selected one character in the file. What binary term is used for the amount of data that represents a single character?
+Answer: A. A byte
+
+You are a computer forensic examiner and need to search for the name of a suspect in an EnCase evidence file. You enter the name of the suspect into the EnCase keyword interface as John Doe. What search hits will be found with this search term with the default settings? (Choose all that apply.)
+Answer: A. john doe C. John Doe
+
+You are a computer forensic examiner and need to determine whether any Microsoft Office documents have been renamed with image extensions to obscure their presence. What EnCase process would you use to find such files?
+Answer: A. File signature analysis
+
+You are a computer forensic examiner and want to reduce the number of files required for examination by identifying and filtering out known good or system files. What EnCase process would you use to identify such files?
+Answer: D. File hash analysis
+
+You are a computer forensic examiner and want to determine whether a user has opened or double-clicked a file. What folder would you look in for an operating system artifact for this user activity?
+Answer: B. Recent
+
+You are a computer forensic examiner and want to determine when a user deleted a file contained in a Windows XP Recycle Bin. In what file is the date and time information about the file deletion contained?
+Answer: C. INFO2
+
+You are a computer forensic examiner and want to determine how many times a program was executed. Where would you find information?
+Answer: B. Registry
+
+You are a computer forensic examiner and want to examine any email sent and received by the user of the computer system under investigation. What email formats are supported by EnCase?
+Answer: all
+
+What is the BIOS?
+Answer: A. BIOS stands for Basic Input Output System and is a combination of low-level software and drivers that function as the interface, intermediary, or layer between a computer's hardware and its operating system.
+
+Is the information stored on a computer's ROM chip lost during a proper shutdown?
+Answer: B. No
+
+Is the information contained on a computer's RAM chip accessible after a proper shutdown?
+Answer: B. No
+
+Can information stored in the BIOS ever change?
+Answer: A. Yes
+
+What is the purpose or function of a computer's ROM chip?
+Answer: A. Long-term or permanent storage of information and instructions
+
+Information contained in RAM memory (system's main memory), which is located on the
+Answer: 
+
+motherboard, is _________.
+Answer: A. volatile
+
+What is the maximum number of drive letters assigned to hard drive(s) partitions on a system?
+Answer: C. 24
+
+The smallest area on a drive that data can be written to is a _______, while the smallest area on a drive that a file can be written to is a ________.
+Answer: B. sector and cluster
+
+The size of a physical hard drive can be determined by which of the following?
+Answer: E. Both B and C
+
+The electrical pathway used to transport data from one computer component to another is called what?
+Answer: A. Bus
+
+What is the main component of a computer to which essential internal devices such as CPU, memory chips, and other chipsets are attached?
+Answer: B. Motherboard
+
+IDE, SCSI, and SATA are different types of interfaces describing what device?
+Answer: D. Hard drives
+
+What do the terms master, slave, and Cable Select refer to?
+Answer: C. Jumper settings for internal hardware such as IDE hard drives and CD drives
+
+What can you assume about a hard drive that is pinned as CS?
+Answer: A. It's an IDE drive.
+
+What is found at Cylinder 0, Head 0, Sector 1 on a hard drive?
+Answer: A. Master boot record
+
+What is the first sector on a volume called?
+Answer: B. Volume boot record or sector
+
+Which of the following is incorrect?
+Answer: D. The partition table is contained within the MBR and consists of a total of 16 bytes, which describes up to four partitions using 4
+
+FAT is defined as which of the following?
+Answer: B. A table created during the format that the operating system reads to locate data on a drive
+
+How does a corrupted sector located in the data area of a hard drive affect the corresponding cluster number on a FAT table?
+Answer: D. It does affect the FAT table. The corresponding cluster number is marked as bad, and the entire cluster is prevented from being written to.
+
+Which of the following describes a partition table?
+Answer: D. All of the above.
+
+Which selection keeps track of a fragmented file in a FAT file system?=
+Answer: A. File allocation table
+
+If the FAT table lists cluster number 2749 with a value of 0, what does this mean about this specific cluster?=
+Answer: D. It is unallocated and is available to store data.
+
+Which of the following is true about a volume boot record?=
+Answer: D. A and C.
+
+The NTFS file system does which of the following?=
+Answer: D. All of the above
+
+How many clusters can a FAT32 file system manage?=
+Answer: D. 228 = 268,435,456 clusters
+
+The FAT tracks the ________ while the directory entry tracks the ________.
+Answer: C. file's last cluster (EOF) and file's starting cluster
+
+How many copies of the FAT does each FAT32 volume maintain in its default configuration?=
+Answer: B. Two
+
+A file's logical size is displayed as?=
+Answer: C. The number of bytes that the logical file contains
+
+A file's physical size is?
+Answer: B. The number of bytes in the logical file plus all slack space from the end of the logical file to the end of the last cluster
+
+A directory entry in a FAT file system has a logical size of which of the following?
+Answer: A. 0 bytes
+
+Each directory entry in a FAT file system is ____ bytes in length.
+Answer: D. 32
+
+By default, what color does EnCase use to display directory entries within a directory structure?
+Answer: B. Red
+
+What is the area between the end of a file's logical size and the file's physical size called?
+Answer: D. Slack space
+
+What three things occur when a file is created in a FAT32 file system?
+Answer: A. Directory entry for the file is created, the FAT assigns the necessary clusters to the file, and the file's data is filled in to the assigned clusters.
+
+How does EnCase recover a deleted file?
+Answer: C. It obtains the deleted file's starting cluster number and size from the directory entry to obtain the data's starting location and number of clusters required.
+
+What does EnCase do when a deleted file's starting cluster number is assigned to another file?
+Answer: C. EnCase marks the deleted file as being overwritten.
+
+What information does a file's directory entry in a FAT file system store about itself?
+Answer: E. All of the above
+
+What is the first consideration when responding to a scene?
+Answer: A. Your safety
+
+What are some variables regarding a facility that you should consider prior to responding to a scene?
+Answer: E. All of the above.
+
+What are some variables regarding items to be seized that you should consider prior to
+Answer: 
+
+responding to a scene?
+Answer: E. All of the above
+
+Generally speaking, if you encounter a desktop computer running Windows XP, how should you take down the machine?
+Answer: C. Shut down by pulling the plug from the computer box.
+
+Generally speaking, if you encounter a computer running Windows 2000 Server, how should you take down the machine?
+Answer: A. Shut down using its operating system.
+
+Generally speaking, if you encounter a Unix/Linux machine, how should you take down the machine?
+Answer: A. Shut down using its operating system.
+
+When unplugging a desktop computer, from where is it best to pull the plug?
+Answer: A. The back of the computer
+
+What is the best method to shut down a notebook computer?
+Answer: D. Both A and C.
+
+Generally speaking, if you encounter a Macintosh computer, how should you take down the machine?
+Answer: C. Shut down by pulling the plug from the computer box.
+
+Which selection displays the incorrect method for shutting down a computer?
+Answer: D. Linux: Pull the plug.
+
+When shutting down a computer, what information is typically lost?
+Answer: E. All of the above
+
+Which of the following is not acceptable for "bagging" a computer workstation?
+Answer: C. Plastic garbage bag.
+
+File Allocation Table (FAT) is defined as which of the following?
+Answer: B. A table created during the format that the operating system reads to locate data on a drive
+
+The NT File System (NTFS) file system does which of the following?
+Answer: D. All of the above
+
+A console prompt that displayed backslashes (\) as part of its display would most likely be which of the following?
+Answer: D. MS-DOS
+
+How is the chain of custody maintained?
+Answer: E. All of the above
+
+In NTFS, information unique to a specific user is stored in the ______ file.
+Answer: B. NTUSER.DAT
+
+As a good forensic practice, why would it be a good idea to wipe a forensic drive before reusing it?
+Answer: B. Cross-contamination
+
+If the number of sectors reported by EnCase does not match the number reported by the manufacturer for the drive, what should you do?
+Answer: E. All of the above
+
+Most of a user's desktop items on a Windows XP operating system would be located in the _________ directory.
+Answer: D. C:\Documents and Settings\%User%\Desktop
+
+Because this file will hold the contents of RAM when the machine is powered off, the ______ file will be the size of the system RAM and will be in the root directory.
+Answer: A. hiberfil.sys
+
+Where can you find evidence of web-based email such as from MSN Hotmail or Google Gmail on a Windows XP system?
+Answer: 
+
+A. In Temporary Internet Files under Local Settings in the user's profile
+Answer: E. All of the above
+
+File names with the .url extension that direct web browsers to a specific website are located in which folder?
+Answer: A. Favorites folder
+
+Data about Internet cookies such as URL names, date and time stamps, and pointers to the actual location of the cookie is stored in:
+Answer: B. index.dat file
+
+On a Windows 98 machine, which folder is the swap or page file contained in?
+Answer: A. WIN386.SWP
+
+When you are examining evidence that has been sent to a printer, which file contains an image of the actual print job?
+Answer: C. The spool file
+
+The two modes for printing in Windows are ______ and _______.
+Answer: D. EMF and RAW
+
+Although the Windows operating system removed the EMF file upon a successful print job, the examiner may still recover the file as a result of a search on its unique header information in areas such as Unallocated Clusters or swap file.
+Answer: A. True
+
+The index.dat files are system files that store information about other files. They track date and time stamps, file locations, and name changes. Select the folder that does not contain an index.dat file.
+Answer: C. Recycle Bin
+
+The Temporary Internet Files directory contains which of the following?
+Answer: D. All of the above
+
+How many sector(s) on a hard drive are reserved for the master boot record (MBR)?
+Answer: E. 63
+
+The very first sector of a formatted hard drive that contains an operating system is referred to as which of the following?
+Answer: D. All of the above
+
+How many logical partitions does the partition table in the master boot record allow for a physical drive?
+Answer: C. 4
+
+The very first sector of a partition is referred to as which of the following?
+Answer: D. Volume boot record
+
+If a hard drive has been fdisked, EnCase can still recover the deleted partition(s), if you point to the _________, right-click, and select Add Partition.
+Answer: B. volume boot record
+
+In an NTFS partition, where is the backup copy of the volume boot record (VBR) stored?
+Answer: C. The last sector of the partition
+
+EnCase can mount a compound file, which can then be viewed in a hierarchical format. Select an example of a compound file.
+Answer: E. All of the above
+
+Windows XP contains two master keys in its registry. They are KEY_LOCAL_MACHINE and which of the following?
+Answer: A. HKEY_USERS
+
+In Windows 2000/XP, information about a specific user's preference is stored in the NTUSER.DAT file. This compound file can be found where?
+Answer: C. C:\Documents and Settings\username
+
+In an NTFS file system, the date and time stamps recorded in the registry are stored where?
+Answer: B. GMT and converted based on the system's time zone settings
+
+EnScript is a proprietary programming language and application programming interface (API) developed by Guidance Software, designed to function properly only within the EnCase environment.
+Answer: A. True
+
+Since EnScript is a proprietary programming language developed by Guidance Software, EnScripts can be created by and obtained only from Guidance Software.
+Answer: B. False
+
+Filters are a type of EnScript that "filters" a case for certain file properties such as file types, dates, and hash categories. Like EnScripts, filters can also be changed or created by a user.
+Answer: A. True
+
+Select the type of email that EnCase 6 is not capable of recovering.
+Answer: E. None of the above
+
+Which method is used to view the contents of a compound file that contains emails such as a PST file in EnCase 6?
+Answer: C. Both A and B.
+
+EnCase 6 cannot process web-based email such as MSN Hotmail or Yahoo! Mail because the information can be found only on the mail servers.
+Answer: B. False
+
+The EnCase Decryption Suite (EDS) will not decrypt Microsoft's Encrypting File System (EFS) on the ___________ operating system.
+Answer: 
+
+A. Windows 2000 Professional and Server
+Answer: D. Windows XP Home Edition
+
+At which levels can the VFS module mount objects in the Windows environment?
+Answer: E. All of the above
+
+The Physical Disk Emulator (PDE) module is similar to the Virtual File System (VFS); the module can mount a piece of media that is accessible in the Windows environment. Select the type(s) of media that the Physical Disk Emulator cannot mount.
+Answer: E. Both A and B
+
+The Physical Disk Emulator (PDE) module is similar to the Virtual File System (VFS); the module can mount a piece of media that is accessible in the Windows environment. Select the type(s) of media that the Physical Disk Emulator cannot mount.
+Answer: E. Both A and B
+
+The Virtual File System (VFS) module mounts data as _______, while the Physical Disk Emulator (PDE) module mounts data as _______.
+Answer: A. network share, emulated disk
+
+The end of a logical file to the end of the cluster that the file ends is called:
+Answer: D. Slack
+
+The boot partitioin table found at the beginning of a hard drive is located in what sector?
+Answer: B. Master boot record
+
+What information in a FAT file system directory entry refers to the location of a file on a hard drive?
+Answer: C. The starting cluster
+
+A logical file would be best described as:
+Answer: A. The data from the beginning of the starting cluster to the length of the file.
+
+A case file can contain __ hard drive images?
+Answer: D. Any number of
+
+Calls to the C:\ volume of the hard drive are not made by DOS when a computer is booted with standard DOS 6.22 boot disk.
+Answer: B. False
+
+Select the appropriate name for the hightlighted area of the binary numbers.
+Answer: E. Byte
+
+If an evidence file has been added to a case and completely verified, what happens if the data area within the evidence file is later changed?
+Answer: D. All of the above.
+
+The BIOS chip on an IBM clone computer is most commonly located on:
+Answer: A. The motherboard
+
+Consider the following path in the FAT file system: C:\My Documents\My Pictures\Bikes. Where does the directory bikes receive its name?
+Answer: A. From the My Pictures directory
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. 800[) \-]+555-1212.
+Answer: D. (800) 555-1212
+
+How does EnCase verify that the case information (Case Number, Evidence Number, Investigator Name, etc) in an evidence file has not been damaged or changed, after the evidence file has been written?
+Answer: A. The Recycle Bin increases the chance of locating the existence of a file on a computer.
+
+The first sector on a volume is called the:
+Answer: D. Volume boot sector or record
+
+When an EnCase user double-clicks on a file within EnCase what determines the action that will result?
+Answer: C. The settings in the FileTypes.ini file.
+
+The following GREP expression was typed in exactly as shown. Choose the answer(s) that would result. [^a-z]Tom[a-z]
+Answer: C. Tom
+
+The following GREP expressioin was typed in exactly as shown. Choose the answer(s) that would result. [\x00-\x05]\x00\x00\x00?[\x00-\x05]\x00\x00\x00
+Answer: C. 04 00 00 FF FF BA
+
+This question addresses the EnCase for Windows search process. If a target word is within a logical file, and it begins in cluster 10 and ends in cluster 15 (the word is fragmented), the search:
+Answer: C. Will find it because EnCase performs a logical search.
+
+When a file is deleted in the FAT file system, what happens to the FAT?
+Answer: D. The FAT entries for that file are marked as available.
+
+In DOS and Windows, how many bytes are in one FAT directory entry?
+Answer: C. 32
+
+When a non-compressed evidence file is reacquired with compression, the aquistion and verification hash value for the evidence will remain the same for both files.
+Answer: A. True
+
+An EnCase evidence file of a hard drive _____ be restored to another hard drive of equal or greater size.
+Answer: A. Can
+
+Upon starting a new case, what two directories should be defined?
+Answer: Default EXPORT and TEMP directories.
+
+What happens when an examiner double-clicks on a file of a file type known by EnCase?
+Answer: The data is copied to the case defined TEMP directory, and the associated viewer is then called to display the file data.
+
+What happens to the data files that are copied by EnCase to the case defined TEMP directory?
+Answer: When Encase is PROPERLY shut down, EnCase will DELETE the files from the temp folder.
+
+What is the evidence file?
+Answer: It is a BIT STREAM image of the source media written to a file(s).
+
+Evidence files can be segmented between a range of _____ and _____.
+Answer: FALSE
+
+It contains the CASE INFORMATION, which is validated by an attached CRC.
+Answer: It contains the CASE INFORMATION, which is validated by an attached CRC.
+
+It indicates the number of BYTES that been selected / swept / highlighted.
+Answer: It indicates the number of BYTES that been selected / swept / highlighted.
+
+Which of the following are required by forensic investigators?
+Answer: D. All are required
+
+Which of the following is NOT one of the skills you need as a forensic investigator?
+Answer: D. Knowledge of the person's intent
+
+Which of the following is NOT considered one of the five stage of a computer investigation?
+Answer: C. Conviction
+
+The chain of custody must include which of the following items?
+Answer: A. Where the evidence was stored
