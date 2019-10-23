@@ -1,0 +1,3020 @@
+1. What is the focus of a security audit or vulnerability assessment?
+A. Locating vulnerabilities
+B. Locating threats
+C. Enacting threats
+D. Exploiting vulnerabilities
+Answer: A
+
+2. What kind of physical access device restricts access to a single individual at any one
+time?
+A. Checkpoint
+B. Perimeter security
+C. Security zones
+D. Mantrap
+Answer: D
+
+3. Which of the following is a mechanism for managing digital certificates through a
+system of trust?
+A. PKI
+B. PKCS
+C. ISA
+D. SSL
+Answer: A
+
+4. Which protocol is used to create a secure environment in a wireless network?
+A. WAP
+B. WPA
+C. WTLS
+D. WML
+Answer: B
+
+5. What type of exercise is conducted with full knowledge of the target environment?
+A. White box
+B. Gray box
+C. Black box
+D. Glass box
+Answer: A
+
+6. You want to establish a network connection between two LANs using the Internet.
+Which technology would best accomplish that for you?
+A. IPSec
+B. L2TP
+C. PPP
+D. SLIP
+Answer: B
+
+7. Which design concept limits access to systems from outside users while protecting
+users and systems inside the LAN?
+A. DMZ
+B. VLAN
+C. I&A
+D. Router
+Answer: A
+
+8. In the key recovery process, which key must be recoverable?
+A. Rollover key
+B. Secret key
+C. Previous key
+D. Escrow key
+Answer: D
+
+9. Which kind of attack is designed to overload a system or resource, taking it
+temporarily or permanently offline?
+A. Spoofing
+B. Trojan
+C. Man in the middle
+D. SYN flood
+Answer: D
+
+10. Which component of an NIDS collects data?
+A. Data source
+B. Sensor
+C. Event
+D. Analyzer
+Answer: B
+
+11. What is the process of making an operating system secure from attack called?
+A. Hardening
+B. Tuning
+C. Sealing
+D. Locking down
+Answer: A
+
+12. The integrity component provides which feature of the CIA triad?
+A. Verification that information is accurate
+B. Verification that ethics are properly maintained
+C. Establishment of clear access control of data
+D. Verification that data is kept private and secure
+Answer: A
+
+13. Which mechanism is used by PKI to allow immediate verification of a certificate's
+validity?
+A. CRL
+B. MD5
+C. SSHA
+D. OCSP
+Answer: D
+
+14. Which of the following is used to create a VLAN from a physical security perspective?
+A. Hub
+B. Switch
+C. Router
+D. Firewall
+Answer: B
+
+15. A user has just reported that he downloaded a file from a prospective client using IM.
+The user indicates that the file was called account.doc. The system has been behaving
+unusually since he downloaded the file. What is the most likely event that occurred?
+A. Your user inadvertently downloaded a macro virus using IM.
+B. Your user may have downloaded a rootkit.
+C. Your user may have accidently changed a setting on the system.
+D. The system is unstable due to the use of IM.
+Answer: A
+
+16. Which mechanism or process is used to enable or disable access to a network resource
+based on attacks that have been detected?
+A. NIDS
+B. NIPS
+C. NITS
+D. NADS
+Answer: B
+
+17. Which of the following would provide additional security to an Internet web server?
+A. Changing the default port for traffic to 80
+B. Changing the default port for traffic to 1019
+C. Changing the default port for traffic to 443
+D. Changing the default port for traffic to 161
+Answer: C
+
+18. What type of program exists primarily to propagate and spread itself to other systems
+and can do so without interaction from users?
+A. Virus
+B. Trojan horse
+C. Logic bomb
+D. Worm
+Answer: D
+
+19. An individual presents herself at your office claiming to be a service technician. She is
+attempting to discuss technical details of your environment such as applications,
+hardware, and personnel used to manage it. This may be an example of what type of
+attack?
+A. Social engineering
+B. Access control
+C. Perimeter screening
+D. Behavioral engineering
+Answer: A
+
+20. Which of the following is a major security problem with FTP?
+A. Password files are stored in an unsecure area on disk.
+B. Memory traces can corrupt file access.
+C. User IDs and passwords are unencrypted.
+D. FTP sites are unregistered.
+Answer: C
+
+21. Which system would you install to provide detective capabilities within a network?
+A. NIDS
+B. HIDS
+C. NIPS
+D. HIPS
+Answer: A
+
+22. The process of maintaining the integrity of evidence and ensuring no gaps in
+possession occur is known as what?
+A. Security investigation
+B. Chain of custody
+C. Three As of investigation
+D. Security policy
+Answer: B
+
+23. What encryption process uses one piece of information as a carrier for another?
+A. Steganography
+B. Hashing
+C. MDA
+D. Cryptointelligence
+Answer: A
+
+24. Which policy dictates how assets can be used by employees of a company?
+A. Security policy
+B. User policy
+C. Use policy
+D. Enforcement policy
+E. Acceptable use policy
+Answer: E
+
+25. Which algorithm is an asymmetric encryption protocol?
+A. RSA
+B. AES
+C. DES
+D. 3DES
+Answer: A
+
+26. Which of the following is an example of a hashing algorithm?
+A. ECC
+B. PKI
+C. SHA
+D. MD
+Answer: C
+
+27. Which of the following creates a fixed-length output from a variable-length input?
+A. MD5
+B. MD7
+C. SHA12
+D. SHA8
+Answer: A
+
+28. Granting access to a system based on a factor such as an individual's retina during a
+scan is an example of what type of authentication method?
+A. Smart card
+B. I&A
+C. Biometrics
+D. CHAP
+Answer: C
+
+29. What item is also referred to as a physical address to a computer system?
+A. MAC
+B. DAC
+C. RBAC
+D. STAC
+Answer: A
+
+30. What is the process of investigating a computer system for information relating to a
+security incident?
+A. Computer forensics
+B. Virus scanning
+C. Security policy
+D. Evidence gathering
+Answer: A
+
+31. Which of the following is seen as a replacement for protocols such as Telnet and FTP?
+A. SSL
+B. SCP
+C. Telnet2
+D. SSH
+Answer: D
+
+32. Which of the following is commonly used to create thumbprints for digital
+certificates?
+A. MD5
+B. MD7
+C. SHA12
+D. SHA8
+Answer: A
+
+33. Granting access to a system based on a factor such as a password is an example of
+what?
+A. Something you have
+B. Something you know
+C. Something you are
+D. Something you smell
+Answer: B
+
+34. What item is also referred to as a logical address to a computer system?
+A. IP address
+B. IPX address
+C. MAC address
+D. SMAC address
+Answer: A
+
+35. How many bits are in an IPv6 address?
+A. 32
+B. 64
+C. 128
+D. 256
+Answer: C
+
+1. If you have been contracted to perform an attack against a target system, you are what
+type of hacker?
+A. White hat
+B. Gray hat
+C. Black hat
+D. Red hat
+Answer: A
+
+2. Which of the following describes an attacker who goes after a target to draw attention
+to a cause?
+A. Terrorist
+B. Criminal
+C. Hacktivist
+D. Script kiddie
+Answer: C
+
+3. What level of knowledge about hacking does a script kiddie have?
+A. Low
+B. Average
+C. High
+D. Advanced
+Answer: A
+
+4. Which of the following does an ethical hacker require to start evaluating a system?
+A. Training
+B. Permission
+C. Planning
+D. Nothing
+Answer: B
+
+5. A white-box test means the tester has which of the following?
+A. No knowledge
+B. Some knowledge
+C. Complete knowledge
+D. Permission
+Answer: C
+
+6. Which of the following describes a hacker who attacks without regard for being caught
+or punished?
+A. Hacktivist
+B. Terrorist
+C. Criminal
+D. Suicide hacker
+Answer: D
+
+7. What is a code of ethics?
+A. A law for expected behavior
+B. A description of expected behavior
+C. A corporate policy
+D. A standard for civil conduct
+Answer: B
+
+8. The group Anonymous is an example of what?
+A. Terrorists
+B. Script kiddies
+C. Hacktivists
+D. Grayware
+Answer: C
+
+9. Companies may require a penetration test for which of the following reasons?
+A. Legal reasons
+B. Regulatory reasons
+C. To perform an audit
+D. To monitor network performance
+Answer: A
+
+10. What should a pentester do prior to initiating a new penetration test?
+A. Plan
+B. Study the environment
+C. Get permission
+D. Study the code of ethics
+Answer: C
+
+11. Which of the following best describes what a hacktivist does?
+A. Defaces websites
+B. Performs social engineering
+C. Hacks for political reasons
+D. Hacks with basic skills
+Answer: C
+
+12. Which of the following best describes what a suicide hacker does?
+A. Hacks with permission
+B. Hacks without stealth
+C. Hacks without permission
+D. Hacks with stealth
+Answer: B
+
+13. Which type of hacker may use their skills for both benign and malicious goals at
+different times?
+A. White hat
+B. Gray hat
+C. Black hat
+D. Suicide hacker
+Answer: B
+
+14. What separates a suicide hacker from other attackers?
+A. A disregard for the law
+B. A desire to be helpful
+C. The intent to reform
+D. A lack of fear of being caught
+Answer: D
+
+15. Which of the following would most likely engage in the pursuit of vulnerability
+research?
+A. White hat
+B. Gray hat
+C. Black hat
+D. Suicide hacker
+Answer: A
+
+16. Vulnerability research deals with which of the following?
+A. Actively uncovering vulnerabilities
+B. Passively uncovering vulnerabilities
+C. Testing theories
+D. Applying security guidance
+Answer: B
+
+17. How is black-box testing performed?
+A. With no knowledge
+B. With full knowledge
+C. With partial knowledge
+D. By a black hat
+Answer: A
+
+18. A contract is important because it does what?
+A. Gives permission
+B. Gives test parameters
+C. Gives proof
+D. Gives a mission
+Answer: C
+
+19. What does TOE stand for?
+A. Target of evaluation
+B. Time of evaluation
+C. Type of evaluation
+D. Term of evaluation
+Answer: A
+
+20. Which of the following best describes a vulnerability?
+A. A worm
+B. A virus
+C. A weakness
+D. A rootkit
+Answer: C
+
+1. At which layer of the OSI model does a proxy operate?
+A. Physical
+B. Network
+C. Data Link
+D. Application
+Answer: D
+
+2. If a device is using node MAC addresses to funnel traffic, what layer of the OSI model
+is this device working in?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+Answer: B
+
+3. Which OS holds 90 percent of the desktop market and is one of our largest attack
+surfaces?
+A. Windows
+B. Linux
+C. Mac OS
+D. iOS
+Answer: A
+
+4. Which port uses SSL to secure web traffic?
+A. 443
+B. 25
+C. 23
+D. 80
+Answer: A
+
+5. What kind of domain resides on a single switchport?
+A. Windows domain
+B. Broadcast domain
+C. Secure domain
+D. Collision domain
+Answer: D
+
+6. Which network topology uses a token-based access methodology?
+A. Ethernet
+B. Star
+C. Bus
+D. Ring
+Answer: D
+
+7. Hubs operate at what layer of the OSI model?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+Answer: A
+
+8. What is the proper sequence of the TCP three-way-handshake?
+A. SYN-ACK, ACK, ACK
+B. SYN, SYN-ACK, ACK
+C. SYN-SYN, SYN-ACK, SYN
+D. ACK, SYN-ACK, SYN
+Answer: B
+
+9. Which of these protocols is a connection-oriented protocol?
+A. FTP
+B. UDP
+C. POP3
+D. TCP
+Answer: D
+
+10. A scan of a network client shows that port 23 is open; what protocol is this aligned with?
+A. Telnet
+B. NetBIOS
+C. DNS
+D. SMTP
+Answer: A
+
+11. What port range is an obscure third-party application most likely to use?
+A. 1 to 1024
+B. 1025 to 32767
+C. 32768 to 49151
+D. 49152 to 65535
+Answer: D
+
+12. Which category of firewall filters is based on packet header data only?
+A. Stateful
+B. Application
+C. Packet
+D. Proxy
+Answer: C
+
+13. An administrator has just been notified of irregular network activity; what appliance functions in this manner?
+A. IPS
+B. Stateful packet filtering
+C. IDS
+D. Firewall
+Answer: C
+
+14. Which topology has built-in redundancy because of its many client connections?
+A. Token ring
+B. Bus
+C. Hybrid
+D. Mesh
+Answer: D
+
+15. When scanning a network via a hardline connection to a wired-switch NIC in
+promiscuous mode, what would be the extent of network traffic you would expect to
+see?
+A. Entire network
+B. VLAN you are attached to
+C. All nodes attached to the same port
+D. None
+Answer: C
+
+16. What device acts as an intermediary between an internal client and a web resource?
+A. Router
+B. PBX
+C. VTC
+D. Proxy
+Answer: D
+
+17. Which technology allows the use of a single public address to support many internal
+clients while also preventing exposure of internal IP addresses to the outside world?
+A. VPN
+B. Tunneling
+C. NTP
+D. NAT
+Answer: D
+
+18. What network appliance senses irregularities and plays an active role in stopping that
+irregular activity from continuing?
+A. System administrator
+B. Firewall
+C. IPS
+D. IDP
+Answer: C
+
+19. You have selected the option in your IDS to notify you via email if it senses any
+network irregularities. Checking the logs, you notice a few incidents but you didn't
+receive any alerts. What protocol needs to be configured on the IDS?
+A. NTP
+B. SNMP
+C. POP3
+D. SMTP
+Answer: D
+
+20. Choosing a protective network appliance, you want a device that will inspect packets at
+the most granular level possible while providing improved traffic efficiency. What
+appliance would satisfy these requirements?
+A. Layer 3 switch
+B. NAT-enabled router
+C. Proxy firewall
+D. Application firewall
+Answer: D
+
+1. Symmetric cryptography is also known as __________.
+A. Shared key cryptography
+B. Public key cryptography
+C. Hashing
+D. Steganography
+Answer: A
+
+2. Which of the following manages digital certificates?
+A. Hub
+B. Key
+C. Public key
+D. Certificate authority
+Answer: D
+
+3. Asymmetric encryption is also referred to as which of the following?
+A. Shared key
+B. Public key
+C. Hashing
+D. Block
+Answer: B
+
+4. Which of the following best describes hashing?
+A. An algorithm
+B. A cipher
+C. Nonreversible
+D. A cryptosystem
+Answer: C
+
+5. A message digest is a product of which kind of algorithm?
+A. Symmetric
+B. Asymmetric
+C. Hashing
+D. Steganography
+Answer: C
+
+6. A public and private key system differs from symmetric because it uses which of the
+following?
+A. One key
+B. One algorithm
+C. Two keys
+D. Two algorithms
+Answer: C
+
+7. A public key is stored on the local computer by its owner in a __________.
+A. Hash
+B. PKI system
+C. Smart card
+D. Private key
+Answer: B
+
+8. Symmetric key systems have key distribution problems due to __________.
+A. Number of keys
+B. Generation of key pairs
+C. Amount of data
+D. Type of data
+Answer: A
+
+9. What does hashing preserve in relation to data?
+A. Integrity
+B. Confidentiality
+C. Availability
+D. Repudiation
+Answer: A
+
+10. Which of the following is a common hashing protocol?
+A. MD5
+B. AES
+C. DES
+D. RSA
+Answer: A
+
+11. Which of the following best describes PGP?
+A. A symmetric algorithm
+B. A type of key
+C. A way of encrypting data in a reversible method
+D. A key escrow system
+Answer: C
+
+12. SSL is a mechanism for which of the following?
+A. Securing stored data
+B. Securing transmitted data
+C. Verifying data
+D. Authenticating data
+Answer: B
+
+13. Which system does SSL use to function?
+A. AES
+B. DES
+C. 3DES
+D. PKI
+Answer: D
+
+14. In IPsec, encryption and other processes happen at which layer of the OSI model?
+A. Level 1
+B. Level 2
+C. Level 3
+D. Level 4
+Answer: C
+
+15. In IPsec, what does Authentication Header (AH) provide?
+A. Data security
+B. Header security
+C. Authentication services
+D. Encryption
+Answer: C
+
+16. In IPsec, what does Encapsulating Security Payload (ESP) provide?
+A. Data security
+B. Header security
+C. Authentication services
+D. Integrity
+Answer: A
+
+17. At what point can SSL be used to protect data?
+A. On a hard drive
+B. On a flash drive
+C. On Bluetooth
+D. During transmission
+Answer: D
+
+18. Which of the following does IPsec use?
+A. SSL
+B. AES
+C. DES
+D. PKI
+Answer: D
+
+19. Who first developed SSL?
+A. Netscape
+B. Microsoft
+C. Sun
+D. Oracle
+Answer: A
+
+20. IPsec uses which two modes?
+A. AH/ESP
+B. AES/DES
+C. EH/ASP
+D. AES/ESP
+Answer: A
+
+1. Which of the following best describes footprinting?
+A. Enumeration of services
+B. Discovery of services
+C. Discussion with people
+D. Investigation of a target
+Answer: D
+
+2. Which of the following is not typically used during footprinting?
+A. Search engines
+B. Email
+C. Port scanning
+D. Google hacking
+Answer: C
+
+3. Why use Google hacking?
+A. To fine-tune search results
+B. To speed up searches
+C. To target a domain
+D. To look for information about Google
+Answer: A
+
+4. What is the role of social engineering?
+A. To gain information about computers
+B. To gain information about social media
+C. To gain information from human beings
+D. To gain information about posts and cameras
+Answer: C
+
+5. What is EDGAR used to do?
+A. Validate personnel
+B. Check financial filings
+C. Verify a website
+D. Gain technical details
+Answer: B
+
+6. Which of the following can be used to tweak or fine-tune search results?
+A. Archiving
+B. Operators
+C. Hacking
+D. Refining
+Answer: B
+
+7. Which of the following can an attacker use to determine the technology and structure
+within an organization?
+A. Job boards
+B. Archives
+C. Google hacking
+D. Social engineering
+Answer: A
+
+8. Which of the following can be used to assess physical security?
+A. Web cams
+B. Satellite photos
+C. Street views
+D. Interviews
+Answer: C
+
+9. Which of the following can help you determine business processes of your target
+through human interaction?
+A. Social engineering
+B. Email
+C. Website
+D. Job boards
+Answer: A
+
+10. The Wayback Machine is used to do which of the following?
+A. Get job postings
+B. View websites
+C. View archived versions of websites
+D. Back up copies of websites
+Answer: C
+
+11. Which record will reveal information about a mail server for a domain?
+A. A
+B. Q
+C. MS
+D. MX
+Answer: D
+
+12. Which tool can be used to view web server information?
+A. Netstat
+B. Netcraft
+C. Warcraft
+D. Packetcraft
+Answer: B
+
+13. What can be configured in most search engines to monitor and alert you of changes to
+content?
+A. Notifications
+B. Schedules
+C. Alerts
+D. HTTP
+Answer: C
+
+14. What phase comes after footprinting?
+A. System hacking
+B. Enumeration
+C. Scanning
+D. Transfer files
+Answer: C
+
+15. If you can't gain enough information directly from a target, what is another option?
+A. EDGAR
+B. Social engineering
+C. Scanning
+D. Competitive analysis
+Answer: D
+
+16. What is the purpose of social engineering?
+A. Gain information from a computer through networking and other tools
+B. Gain information from the web looking for employee names
+C. Gain information from a job site using a careful eye
+D. Gain information from a human being through face-to-face or electronic means
+Answer: D
+
+17. Which of the following would be a very effective source of information as it relates to
+social engineering?
+A. Social networking
+B. Port scanning
+C. Websites
+D. Job boards
+Answer: A
+
+18. Footprinting can determine all of the following except __________?
+A. Hardware types
+B. Software types
+C. Business processes
+D. Distribution and number of personnel
+Answer: D
+
+19. Footprinting has two phases. What are they?
+A. Active and pseudonymous
+B. Active and passive
+C. Social and anonymous
+D. Scanning and enumerating
+Answer: B
+
+20. Which tool can trace the path of a packet?
+A. Ping
+B. Tracert
+C. Whois
+D. DNS
+Answer: B
+
+1. Which of the following is used for banner grabbing?
+A. Telnet
+B. FTP
+C. SSH
+D. Wireshark
+Answer: a
+
+2. Which of the following is used for identifying a web server OS?
+A. Telnet
+B. Netcraft
+C. Fragroute
+D. Wireshark
+Answer: b
+
+3. Which of the following is used to perform customized network scans?
+A. Nessus
+B. Wireshark
+C. AirPcap
+D. nmap
+Answer: d
+
+4. Which of the following is not a flag on a packet?
+A. URG
+B. PSH
+C. RST
+D. END
+Answer: d
+
+5. An SYN attack uses which protocol?
+A. TCP
+B. UDP
+C. HTTP
+D. Telnet
+Answer: a
+
+6. Which of the following types of attack has no flags set?
+A. SYN
+B. NULL
+C. Xmas tree
+D. FIN
+Answer: b
+
+7. What is missing from a half-open scan?
+A. SYN
+B. ACK
+C. SYN-ACK
+D. FIN
+Answer: b
+
+8. During an FIN scan, what indicates that a port is closed?
+A. No return response
+B. RST
+C. ACK
+D. SYN
+Answer: b
+
+9. During a Xmas tree scan what indicates a port is closed?
+A. No return response
+B. RST
+C. ACK
+D. SYN
+Answer: b
+
+10. What is the three-way handshake?
+A. The opening sequence of a TCP connection
+B. A type of half-open scan
+C. A Xmas tree scan
+D. Part of a UDP scan
+Answer: a
+
+11. A full-open scan means that the three-way handshake has been completed. What is
+the difference between this and a half-open scan?
+A. A half-open uses TCP.
+B. A half-open uses UDP.
+C. A half-open does not include the final ACK.
+D. A half-open includes the final ACK.
+Answer: c
+
+12. What is the sequence of the three-way handshake?
+A. SYN, SYN-ACK, ACK
+B. SYN, SYN-ACK
+C. SYN, ACK, SYN-ACK
+D. SYN, ACK, ACK
+Answer: a
+
+13. What is an ICMP echo scan?
+A. A ping sweep
+B. A SYN scan
+C. A Xmas tree scan
+D. Part of a UDP scan
+Answer: a
+
+14. Which best describes a vulnerability scan?
+A. A way to find open ports
+B. A way to diagram a network
+C. A proxy attack
+D. A way to automate the discovery of vulnerabilities
+Answer: d
+
+15. What is the purpose of a proxy?
+A. To assist in scanning
+B. To perform a scan
+C. To keep a scan hidden
+D. To automate the discovery of vulnerabilities
+Answer: c
+
+16. What is Tor used for?
+A. To hide web browsing
+B. To hide the process of scanning
+C. To automate scanning
+D. To hide the banner on a system
+Answer: b
+
+17. Why would you need to use a proxy to perform scanning?
+A. To enhance anonymity
+B. To fool firewalls
+C. Perform half-open scans
+D. To perform full-open scans
+Answer: a
+
+18. A vulnerability scan is a good way to do what?
+A. Find open ports
+B. Find weaknesses
+C. Find operating systems
+D. Identify hardware
+Answer: a
+
+19. A banner can do what?
+A. Identify an OS
+B. Help during scanning
+C. Identify weaknesses
+D. Identify a service
+Answer: d
+
+20. nmap is required to perform what type of scan?
+A. Port scan
+B. Vulnerability scan
+C. Service scan
+D. Threat scan
+Answer: a
+
+1. Enumeration is useful to system hacking because it provides which of the following?
+A. Passwords
+B. IP ranges
+C. Configurations
+D. Usernames
+Answer: D
+
+2. Enumeration does not uncover which of the following pieces of information?
+A. Services
+B. User accounts
+C. Ports
+D. Shares
+Answer: C
+
+3. __________ involves grabbing a copy of a zone file.
+A. Zone transfer
+B. nslookup transfers
+C. DNS transfer
+D. Zone update
+Answer: A
+
+4. Which of the following would confirm a user named chell in SMTP?
+A. vrfy chell
+B. vrfy -u chell
+C. expn chell
+D. expn -u chell
+Answer: A
+
+5. VRFY is used to do which of the following?
+A. Validate an email address
+B. Expand a mailing list
+C. Validate an email server
+D. Test a connection
+Answer: A
+
+6. __________ is a method for expanding an email list.
+A. VRFY
+B. EXPN
+C. RCPT TO
+D. SMTP
+Answer: B
+
+7. An attacker can use __________ to enumerate users on a system.
+A. NetBIOS
+B. TCP/IP
+C. NetBEUI
+D. NNTP
+Answer: A
+
+8. A __________ is used to connect to a remote system using NetBIOS.
+A. NULL session
+B. Hash
+C. Rainbow table
+D. Rootkit
+Answer: A
+
+9. __________ is used to synchronize clocks on a network.
+A. SAM
+B. NTP
+C. NetBIOS
+D. FTP
+Answer: B
+
+10. Port number __________ is used for SMTP.
+A. 25
+B. 110
+C. 389
+D. 52
+Answer: A
+
+11. Port number __________ is used by DNS for zone transfers.
+A. 53 TCP
+B. 53 UDP
+C. 25 TCP
+D. 25 UDP
+Answer: A
+
+12. Which command can be used to view NetBIOS information?
+A. netstat
+B. nmap
+C. nbtstat
+D. telnet
+Answer: C
+
+13. SNScan is used to access information for which protocol?
+A. SMTP
+B. FTP
+C. SMNP
+D. HTTP
+Answer: C
+
+14. SMTP is used to perform which function?
+A. Monitor network equipment
+B. Transmit status information
+C. Send email messages
+D. Transfer files
+Answer: C
+
+15. Which ports does SNMP use to function?
+A. 160 and 161
+B. 160 and 162
+C. 389 and 160
+D. 161 and 162
+Answer: D
+
+16. LDAP is used to perform which function?
+A. Query a network
+B. Query a database
+C. Query a directory
+D. Query a file system
+Answer: B
+
+17. SNMP is used to do which of the following?
+A. Transfer files
+B. Synchronize clocks
+C. Monitor network devices
+D. Retrieve mail from a server
+Answer: C
+
+18. SNMP is used to perform which function in relation to hardware?
+A. Trap messages
+B. Monitor and manage traffic
+C. Manage users and groups
+D. Monitor security and violations
+Answer: A
+
+19. What is an SID used to do?
+A. Identify permissions
+B. Identify a domain controller
+C. Identify a user
+D. Identify a mail account
+Answer: C
+
+20. A DNS zone transfer is used to do which of the following?
+A. Copy files
+B. Perform searches
+C. Synchronize server information
+D. Decommission servers
+Answer: C
+
+1. Enumeration is useful to system hacking because it provides __________.
+A. Passwords
+B. IP ranges
+C. Configuration
+D. Usernames
+Answer: AD
+
+2. What does the enumeration phase not discover?
+A. Services
+B. User accounts
+C. Ports
+D. Shares
+Answer: C
+
+3. How would you use Netcat to set up a server on a system?
+A. nc -l -p 192.168.1.1
+B. nc -l -p 1000
+C. nc -p -u 1000
+D. nc -l -p -t 192.168.1.1
+Answer: A
+
+4. __________ is the process of exploiting services on a system.
+A. System hacking
+B. Privilege escalation
+C. Enumeration
+D. Backdoor
+Answer: A
+
+5. How is a brute-force attack performed?
+A. By trying all possible combinations of characters
+B. By trying dictionary words
+C. By capturing hashes
+D. By comparing hashes
+Answer: A
+
+6. A __________ is a type of offline attack.
+A. Cracking attack
+B. Rainbow attack
+C. Birthday attack
+D. Hashing attack
+Answer: B
+
+7. An attacker can use a(n) __________ to return to a system.
+A. Backdoor
+B. Cracker
+C. Account
+D. Service
+Answer: A
+
+8. A __________ is used to represent a password.
+A. NULL session
+B. Hash
+C. Rainbow table
+D. Rootkit
+Answer: B
+
+9. A __________ is a file used to store passwords.
+A. Network
+B. SAM
+C. Database
+D. NetBIOS
+Answer: B
+
+10. __________ is a hash used to store passwords in older Windows systems.
+A. LM
+B. SSL
+C. SAM
+D. LMv2
+Answer: A
+
+11. __________ is used to partially encrypt the SAM.
+A. SYSKEY
+B. SAM
+C. NTLM
+D. LM
+Answer: A
+
+12. Which system should be used instead of LM or NTLM?
+A. NTLMv2
+B. SSL
+C. Kerberos
+D. LM
+Answer: C
+
+13. NTLM provides what benefit versus LM?
+A. Performance
+B. Security
+C. Mutual authentication
+D. SSL
+Answer: B
+
+14. ADS requires what to be present?
+A. SAM
+B. Domain
+C. NTFS
+D. FAT
+Answer: C
+
+15. What utility may be used to stop auditing or logging of events?
+A. ADS
+B. LM
+C. NTFS
+D. Auditpol
+Answer: D
+
+16. On newer Windows systems, what hashing mechanism is disabled?
+A. Kerberos
+B. LM
+C. NTLM
+D. NTLMv2
+Answer: B
+
+17. Which of the following is a utility used to reset passwords?
+A. TRK
+B. ERC
+C. WinRT
+D. IRD
+Answer: A
+
+18. A good defense against password guessing is __________.
+A. Complex passwords
+B. Password policy
+C. Fingerprints
+D. Use of NTLM
+Answer: A
+
+19. If a domain controller is not present, what can be used instead?
+A. Kerberos
+B. LM
+C. NTLMv1
+D. NTLMv2
+Answer: D
+
+20. Alternate Data Streams are supported in which file systems?
+A. FAT16
+B. FAT32
+C. NTFS
+D. CDFS
+Answer: C
+
+1. Which statement(s) defines malware most accurately?
+A. Malware is a form of virus.
+B. Trojans are malware.
+C. Malware covers all malicious software.
+D. Malware only covers spyware.
+Answer: BC
+
+2. Which is/are a characteristic of a virus?
+A. A virus is malware.
+B. A virus replicates on its own.
+C. A virus replicates with user interaction.
+D. A virus is an item that runs silently.
+Answer: AC
+
+3. A virus does not do which of the following?
+A. Replicate with user interaction
+B. Change configuration settings
+C. Exploit vulnerabilities
+D. Display pop-ups
+Answer: D
+
+4. Which of the following is/are true of a worm?
+A. A worm is malware.
+B. A worm replicates on its own.
+C. A worm replicates with user interaction.
+D. A worm is an item that runs silently.
+Answer: AB
+
+5. What are worms typically known for?
+A. Rapid replication
+B. Configuration changes
+C. Identity theft
+D. DDoS
+Answer: A
+
+6. What command is used to listen to open ports with netstat?
+A. netstat -an
+B. netstat -ports
+C. netstat -n
+D. netstat -s
+Answer: A
+
+7. Which utility will tell you in real time which ports are listening or in another state?
+A. Netstat
+B. TCPView
+C. Nmap
+D. Loki
+Answer: B
+
+8. Which of the following is not a Trojan?
+A. BO2K
+B. LOKI
+C. Subseven
+D. TCPTROJAN
+Answer: D
+
+9. What is not a benefit of hardware keyloggers?
+A. Easy to hide
+B. Difficult to install
+C. Difficult to detect
+D. Difficult to log
+Answer: B
+
+10. Which of the following is capable of port redirection?
+A. Netstat
+B. TCPView
+C. Netcat
+D. Loki
+Answer: C
+
+11. A Trojan relies on __________ to be activated.
+A. Vulnerabilities
+B. Trickery and deception
+C. Social engineering
+D. Port redirection
+Answer: C
+
+12. A Trojan can include which of the following?
+A. RAT
+B. TCP
+C. Nmap
+D. Loki
+Answer: A
+
+13. What is a covert channel?
+A. An obvious method of using a system
+B. A defined process in a system
+C. A backdoor
+D. A Trojan on a system
+Answer: C
+
+14. An overt channel is __________.
+A. An obvious method of using a system
+B. A defined backdoor process in a system
+C. A backdoor
+D. A Trojan on a system
+Answer: A
+
+15. A covert channel or backdoor may be detected using all of the following except
+__________.
+A. Nmap
+B. Sniffers
+C. An SDK
+D. Netcat
+Answer: C
+
+16. A remote access Trojan would be used to do all of the following except __________.
+A. Steal information
+B. Remotely control a system
+C. Sniff traffic
+D. Attack another system
+Answer: C
+
+17. A logic bomb has how many parts, typically?
+A. One
+B. Two
+C. Three
+D. Four
+Answer: B
+
+18. A logic bomb is activated by which of the following?
+A. Time and date
+B. Vulnerability
+C. Actions
+D. Events
+Answer: A C D
+
+19. A polymorphic virus __________.
+A. Evades detection through backdoors
+B. Evades detection through heuristics
+C. Evades detection through rewriting itself
+D. Evades detection through luck
+Answer: C
+
+20. A sparse infector virus __________.
+A. Creates backdoors
+B. Infects data and executables
+C. Infects files selectively
+D. Rewrites itself
+Answer: C
+
+1. On a switch, each switchport represents a ____________.
+A. VLAN
+B. Broadcast domain
+C. Host
+D. Collision domain
+Answer: D
+
+2. Wireless access points function as a ____________.
+A. Hub
+B. Bridge
+C. Router
+D. Repeater
+Answer: A
+
+3. What mode must be configured to allow an NIC to capture all traffic on the wire?
+A. Extended mode
+B. 10/100
+C. Monitor mode
+D. Promiscuous mode
+Answer: D
+
+4. Which of the following prevents ARP poisoning?
+A. ARP Ghost
+B. IP DHCP Snooping
+C. IP Snoop
+D. DNSverf
+Answer: B
+
+5. Jennifer is a system administrator who is researching a technology that will secure
+network traffic from potential sniffing by unauthorized machines. Jennifer is not
+concerned with the future impact on legitimate troubleshooting. What technology can
+Jennifer implement?
+A. SNMP
+B. LDAP
+C. SSH
+D. FTP
+Answer: C
+
+6. MAC spoofing applies a legitimate MAC address to an unauthenticated host, which
+allows the attacker to pose as a valid user. Based on your understanding of ARP, what
+would indicate a bogus client?
+A. The MAC address doesn't map to a manufacturer.
+B. The MAC address is two digits too long.
+C. A reverse ARP request maps to two hosts.
+D. The host is receiving its own traffic.
+Answer: C
+
+7. Bob is attempting to sniff a wired network in his first pen test contract. He sees only
+traffic from the segment he is connected to. What can Bob do to gather all switch
+traffic?
+A. MAC flooding
+B. MAC spoofing
+C. IP spoofing
+D. DOS attack
+Answer: A
+
+8. What technique funnels all traffic back to a single client, allowing sniffing from all
+connected hosts?
+A. ARP redirection
+B. ARP poisoning
+C. ARP flooding
+D. ARP partitioning
+Answer: B
+
+10. What common tool can be used for launching an ARP poisoning attack?
+A. Cain & Abel
+B. Nmap
+C. Scooter
+D. Tcpdump
+Answer: A
+
+11. Which command launches a CLI version of Wireshark?
+A. Wireshk
+B. dumpcap
+C. tshark
+D. editcap
+Answer: C
+
+12. Jennifer is using tcpdump to capture traffic on her network. She would like to save the
+capture for later review. What command can Jennifer use?
+A. tcpdump -r capture.log
+B. tcpdump - l capture.log
+C. tcpdump -t capture.log
+D. tcpdump -w capture.log
+Answer: D
+
+13. What is the generic syntax of a Wireshark filter?
+A. protocol.field operator value
+B. field.protocol operator value
+C. operator.protocol value field
+D. protocol.operator value field
+Answer: A
+
+14. Tiffany is analyzing a capture from a client's network. She is particularly interested in
+NetBIOS traffic. What port does Tiffany filter for?
+A. 123
+B. 139
+C. 161
+D. 110
+Answer: B
+
+16. Jennifer is using tcpdump to capture traffic on her network. She would like to review a
+capture log gathered previously. What command can Jennifer use?
+A. tcpdump -r capture.log
+B. tcpdump - l capture.log
+C. tcpdump -t capture.log
+D. tcpdump -w capture.log
+Answer: A
+
+17. Wireshark requires a network card to be able to enter which mode to sniff all network
+traffic?
+A. Capture mode
+B. Promiscuous mode
+C. Pcap mode
+D. Gather mode
+Answer: B
+
+18. Which network device can block sniffing to a single network collision domain, create
+VLANs, and make use of SPAN ports and port mirroring?
+A. Hub
+B. Switch
+C. Router
+D. Bridge
+Answer: B
+
+19. What device will neither limit the flow of traffic nor have an impact on the
+effectiveness of sniffing?
+A. Hub
+B. Router
+C. Switch
+D. Gateway
+Answer: A
+
+20. The command-line equivalent of WinDump is known as what?
+A. Wireshark
+B. Tcpdump
+C. WinDump
+D. Netstat
+Answer: B
+
+9. Which Wireshark filter displays only traffic from 192.168.1.1?
+A. ip.addr =! 192.168.1.1
+B. ip.addr ne 192.168.1.1
+C. ip.addr == 192.168.1.1
+D. ip.addr - 192.168.1.1
+Answer: C
+
+15. Based on the packet capture shown in the graphic, what is contained in the highlighted section of the packet?
+A) The frame value of the packet
+B) The MAC address of the sending host
+C) Source and destination IP addresses
+D) The routed protocol value
+Answer: C
+
+1. Phishing takes place using __________.
+A. Instant messaging
+B. Email
+C. Websites
+D. Piggybacking
+Answer: a
+
+2. Training and education of end users can be used to prevent __________.
+A. Phishing
+B. Tailgating/piggybacking
+C. Session hijacking
+D. Wireshark
+Answer: ab
+
+3. Social engineering can be thwarted using what kinds of controls?
+A. Technical
+B. Administrative
+C. Physical
+D. Proactive controls
+Answer: a,b,c
+
+4. Social engineering preys on many weaknesses, including __________.
+A. Technology
+B. People
+C. Human nature
+D. Physical
+E. All of them
+Answer: e
+
+5. Social engineering can use all the following except __________.
+A. Mobile phones
+B. Instant messaging
+C. Trojan horses
+D. Viruses
+Answer: d
+
+6. Social engineering is designed to __________.
+A. Manipulate human behavior
+B. Make people distrustful
+C. Infect a system
+D. Gain a physical advantage
+Answer: a
+
+7. Phishing can be mitigated through the use of __________.
+A. Spam filtering
+B. Education
+C. Antivirus
+D. Anti-malware
+Answer: ab
+
+8. Which mechanism can be used to influence a targeted individual?
+A. Means of dress or appearance
+B. Technological controls
+C. Physical controls
+D. Training
+Answer: a
+
+9. Jennifer receives an email claiming that her bank account information has been lost
+and that she needs to click a link to update the bank's database. However, she doesn't
+recognize the bank, because it is not one she does business with. What type of attack
+is she being presented with?
+A. Phishing
+B. Spam
+C. Whaling
+D. Vishing
+Answer: a
+
+10. What is the best option for thwarting social-engineering attacks?
+A. Technology
+B. Training
+C. Policies
+D. Physical controls
+Answer: b
+
+11. Janet receives an email enticing her to click a link. But when she clicks this link she is
+taken to a website for her bank, asking her to reset her account info. However, Janet
+noticed that the bank is not hers and the website is not for her bank. What type of
+attack is this?
+A. Whaling
+B. Vishing
+C. Phishing
+D. Piggybacking
+Answer: c
+
+12. Jason receives notices that he has unauthorized charges on his credit card account.
+What type of attack is Jason a victim of?
+A. Social engineering
+B. Phishing
+C. Identity theft
+D. Bad luck
+Answer: c
+
+13. A security camera picks up someone who doesn't work at the company following
+closely behind an employee while they enter the building. What type of attack is
+taking place?
+A. Phishing
+B. Walking
+C. Gate running
+D. Tailgating
+Answer: d
+
+14. What is a vulnerability scan designed to provide to those executing it?
+A. A way to find open ports
+B. A way to diagram a network
+C. A proxy attack
+D. A way to reveal vulnerabilities
+Answer: d
+
+15. In social engineering a proxy is used to __________.
+A. Assist in scanning
+B. Perform a scan
+C. Keep an attacker's origin hidden
+D. Automate the discovery of vulnerabilities
+Answer: c
+
+16. Social engineering can be used to carry out email campaigns known as __________.
+A. Spamming
+B. Phishing
+C. Vishing
+D. Splashing
+Answer: b
+
+17. Human beings tend to follow set patterns and behaviors known as __________.
+A. Repetition
+B. Habits
+C. Primacy
+D. Piggybacking
+Answer: b
+
+18. When talking to a victim, using __________ can make an attack easier.
+A. Eye contact
+B. Keywords
+C. Jargon
+D. Threats
+Answer: b
+
+19. An attacker can use which technique to influence a victim?
+A. Tailgating
+B. Piggybacking
+C. Name-dropping
+D. Acting like tech support
+Answer: c
+
+20. Jason notices that he is receiving mail, phone calls, and other requests for
+information. He has also noticed some problems with his credit checks such as bad
+debts and loans he did not participate in. What type of attack did Jason become a
+victim of?
+A. Social engineering
+B. Phishing
+C. Identity theft
+D. Bad luck
+Answer: c
+
+1. What is the hexadecimal value of a NOP instruction in an Intel system?
+A. 0x99
+B. 0x90
+C. 0x80
+D. 99x0
+Answer: B
+
+2. Which pointer in a program stack gets shifted or overwritten during a successful
+overflow attack?
+A. ESP
+B. ECP
+C. EIP
+D. EBP
+Answer: C
+
+3. Groups and individuals who hack systems based on principle or personal beliefs are
+known as ___________.
+A. White hats
+B. Black hats
+C. Script kiddies
+D. Hacktivists
+Answer: D
+
+4. Jason is the local network administrator who has been tasked with securing the
+network from possible DoS attacks. Within the last few weeks, some traffic logs
+appear to have internal clients making requests from outside the internal LAN. Based
+on the traffic Jason has been seeing, what action should he take?
+A. Throttle network traffic.
+B. Update antivirus definitions.
+C. Implement egress filtering.
+D. Implement ingress filtering.
+Answer: D
+
+5. Which DoS attack sends traffic to the target with a spoofed IP of the target itself?
+A. Land
+B. Smurf
+C. Teardrop
+D. SYN flood
+Answer: A
+
+6. Adding to and removing from a program stack are known as what?
+A. Pop and lock
+B. Push and pop
+C. Stack and pull
+D. Plus and minus
+Answer: B
+
+7. Zombies Inc. is looking for ways to better protect their web servers from potential DoS
+attacks. Their web admin proposes the use of a network appliance that receives all
+incoming web requests and forwards them to the web server. He says it will prevent
+direct customer contact with the server and reduce the risk of DoS attacks. What
+appliance is he proposing?
+A. Web proxy
+B. IDS
+C. Reverse proxy
+D. Firewall
+Answer: C
+
+8. In a DDoS attack, what communications channel is commonly used to orchestrate the
+attack?
+A. Internet Relay Chat (IRC)
+B. MSN Messenger
+C. ICMP
+D. Google Talk
+Answer: A
+
+9. What is the name for the dynamic memory space that, unlike the stack, doesn't rely on
+sequential ordering or organization?
+A. Pointer
+B. Heap
+C. Pile
+D. Load
+Answer: B
+
+10. Which function(s) are considered dangerous because they don't check memory
+bounds? (Choose all that apply.)
+A. gets()
+B. strcpy()
+C. scanf()
+D. strcat()
+E. All of them
+Answer: E
+
+11. The stack operates on _______ a basis.
+A. FIFO
+B. LIFO
+C. FILO
+D. LILO
+Answer: B
+
+12. While monitoring traffic on the network, Jason captures the following traffic. What is
+he seeing occur?
+A. ICMP flood
+B. SYN flood
+C. Teardrop
+D. Land
+Answer: B
+
+13. What is a single-button DDoS tool suspected to be used by groups such as
+Anonymous?
+A. Trinoo
+B. Crazy Pinger
+C. LOIC
+D. DoSHTTP
+Answer: C
+
+14. What is an eight-in-one DoS tool that can launch such attacks as land and teardrop?
+A. Jolt
+B. Targa
+C. TFN2K
+D. Trinoo
+Answer: B
+
+15. What command-line utility can you use to craft custom packets with specific flags set?
+A. Nmap
+B. Zenmap
+C. Ping
+D. hping3
+Answer: D
+
+16. What protocol is used to carry out a fraggle attack?
+A. IPX
+B. TCP
+C. UDP
+D. ICMP
+Answer: C
+
+17. What is the key difference between a smurf and a fraggle attack?
+A. TCP vs. UDP
+B. TCP vs. ICP
+C. UDP vs. ICMP
+D. TCP vs. ICMP
+Answer: A
+
+18. What is the main difference between DoS and DDoS?
+A. Scale of attack
+B. Number of attackers
+C. Goal of the attack
+D. Protocols in use
+Answer: B
+
+19. What is the most common sign of a DoS attack?
+A. Weird messages
+B. Rebooting of a system
+C. Slow performance
+D. Stolen credentials
+Answer: C
+
+20. What response is missing in a SYN flood attack?
+A. ACK
+B. SYN
+C. SYN-ACK
+D. URG
+Answer: A
+
+1. Which statement defines session hijacking most accurately?
+A. Session hijacking involves stealing a user's login information and using that
+information to pose as the user later.
+B. Session hijacking involves assuming the role of a user through the compromise of
+physical tokens such as common access cards.
+C. Session hijacking is an attack that aims at stealing a legitimate session and posing
+as that user while communicating with the web resource or host machine.
+D. Session hijacking involves only web applications and is specific to stealing session
+IDs from compromised cookies.
+Answer: C
+
+2. Jennifer has been working with sniffing and session-hijacking tools on her company
+network. Since she wants to stay white hat—that is, ethical—she has gotten permission
+to undertake these activities. What would Jennifer's activities be categorized as?
+A. Passive
+B. Monitoring
+C. Active
+D. Sniffing
+Answer: A
+
+3. Based on the diagram, what attack is occurring?
+A. Session splicing
+B. Denial-of-service
+C. Source routing
+D. MITM
+Answer: D
+
+4. Jennifer is a junior system administrator for a small firm of 50 employees. For the last
+week a few users have been complaining of losing connectivity intermittently with no
+suspect behavior on their part such as large downloads or intensive processes.
+Jennifer runs Wireshark on Monday morning to investigate. She sees a large amount
+of ARP broadcasts being sent at a fairly constant rate. What is Jennifer most likely
+seeing?
+A. ARP poisoning
+B. ARP caching
+C. ARP spoofing
+D. DNS spoofing
+Answer: A
+
+5. Which of the following is not a source of session IDs?
+A. URL
+B. Cookie
+C. Anonymous login
+D. Hidden login
+Answer: C
+
+6. Which kind of values is injected into a connection to the host machine in an effort to
+increment the sequence number in a predictable fashion?
+A. Counted
+B. Bit
+C. Null
+D. IP
+Answer: C
+
+7. An ethical hacker sends a packet with a deliberate and specific path to its destination.
+What technique is the hacker using?
+A. IP spoofing
+B. Source routing
+C. ARP poisoning
+D. Host routing
+Answer: B
+
+8. Network-level hijacking focuses on the mechanics of a connection such as the
+manipulation of packet sequencing. What is the main focus of web app session
+hijacking?
+A. Breaking user logins
+B. Stealing session IDs
+C. Traffic redirection
+D. Resource DoS
+Answer: B
+
+9. A public use workstation contains the browsing history of multiple users who logged
+in during the last seven days. While digging through the history, a user runs across the
+following web address: www.snaz22enu.com/&w25/session=22525. What kind of
+embedding are you seeing?
+A. URL embedding
+B. Session embedding
+C. Hidden form embedding
+D. Tracking cookie
+Answer: A
+
+10. Julie has sniffed an ample amount of traffic between the targeted victim and an
+authenticated resource. She has been able to correctly guess the packet sequence
+numbers and inject packets, but she is unable to receive any of the responses. What
+does this scenario define?
+A. Switched network
+B. SSL encryption
+C. TCP hijacking
+D. Blind hijacking
+Answer: D
+
+11. Session hijacking can be performed on all of the following protocols except which
+one?
+A. FTP
+B. SMTP
+C. HTTP
+D. IPsec
+Answer: D
+
+12. Which technology can provide protection against session hijacking?
+A. IPsec
+B. UDP
+C. TCP
+D. IDS
+Answer: A
+
+13. Session fixation is a vulnerability in which of the following?
+A. Web applications
+B. Networks
+C. Software applications
+D. Protocols
+Answer: A
+
+14. Session hijacking can be thwarted with which of the following?
+A. SSH
+B. FTP
+C. Authentication
+D. Sniffing
+Answer: C
+
+15. XSS is typically targeted toward which of the following?
+A. Web applications
+B. Email clients
+C. Web browsers
+D. Users
+Answer: C
+
+16. A man-in-the-browser attack is typically enabled by using which mechanism?
+A. Virus
+B. Worms
+C. Logic bombs
+D. Trojans
+Answer: D
+
+17. A man-in-the-middle attack is an attack where the attacking party does which of the
+following?
+A. Infect the client system
+B. Infect the server system
+C. Insert themselves into an active session
+D. Insert themselves into a web application
+Answer: C
+
+18. A session hijack can happen with which of the following?
+A. Networks and applications
+B. Networks and physical devices
+C. Browsers and applications
+D. Cookies and devices
+Answer: A
+
+19. A session hijack can be initiated from all of the following except which one?
+A. Emails
+B. Browsers
+C. Web applications
+D. Cookies and devices
+Answer: D
+
+20. Session hijacking can do all of the following except which one?
+A. Take over an authenticated session
+B. Be used to steal cookies
+C. Take over a session
+D. Place a cookie on a server
+Answer: D
+
+1. Which of the following best describes a web application?
+A. Code designed to be run on the client
+B. Code designed to be run on the server
+C. SQL code for databases
+D. Targeting of web services
+Answer: B
+
+2. __________ is a client-side scripting language.
+A. JavaScript
+B. ASP
+C. ASP.NET
+D. PHP
+Answer: A
+
+3. Which of the following is an example of a server-side scripting language?
+A. JavaScript
+B. PHP
+C. SQL
+D. HTML
+Answer: B
+
+4. Which of the following is used to access content outside the root of a website?
+A. Brute force
+B. Port scanning
+C. SQL injection
+D. Directory traversal
+Answer: D
+
+5. Which of the following can prevent bad input from being presented to an application
+through a form?
+A. Request filtering
+B. Input validation
+C. Input scanning
+D. Directory traversing
+Answer: B
+
+6. __________ can be used to identify a web server.
+A. Session hijacking
+B. Banner grab
+C. Traversal
+D. Header analysis
+Answer: B
+
+7. In the field of IT security, the concept of defense in depth is layering more than one
+control on another. Why would this be helpful in the defense of a system of sessionhijacking?
+A. To provide better protection
+B. To build dependency among layers
+C. To increase logging ability
+D. To satisfy auditors
+Answer: A
+
+8. Which of the following is used to set permissions on content in a website?
+A. HIDS
+B. ACE
+C. ACL
+D. ALS
+Answer: C
+
+9. What could be used to monitor application errors and violations on a web server or
+application?
+A. HIDS
+B. HIPS
+C. NIDS
+D. Logs
+Answer: D
+
+10. Which of the following is an attribute used to secure a cookie?
+A. Encrypt
+B. Secure
+C. HttpOnly
+D. Domain
+Answer: BCD
+
+11. A POODLE attack targets what exactly?
+A. SSL
+B. TLS
+C. VPN
+D. AES
+Answer: A
+
+12. What is used to store session information?
+A. Cookie
+B. Snoop
+C. Directory
+D. File
+Answer: A
+
+13. Which attack can be used to take over a previous session?
+A. Cookie snooping
+B. Session hijacking
+C. Cookie hijacking
+D. Session sniffing
+Answer: B
+
+14. Which command would retrieve banner information from a website at port 80?
+A. nc 192.168.10.27 80
+B. nc 192.168.19.27 443
+C. nc 192.168.10.27 -p 80
+D. nc 192.168.10.27 -p -l 80
+Answer: A
+
+15. How is a brute-force attack performed?
+A. By trying all possible combinations of characters
+B. By trying dictionary words
+C. By capturing hashes
+D. By comparing hashes
+Answer: A
+
+16. What is the command to retrieve header information from a web server using Telnet?
+A. telnet <website name> 80
+B. telnet <website name> 443
+C. telnet <website name> -port:80
+D. telnet <website name> -port:443
+Answer: A
+
+17. Groups and individuals who may hack a web server or web application based on
+principle or personal beliefs are known as __________.
+A. White hats
+B. Black hats
+C. Script kiddies
+D. Hacktivists
+Answer: D
+
+18. The Wayback Machine would be useful in viewing what type of information relating to
+a web application?
+A. Get Job postings
+B. Websites
+C. Archived versions of websites
+D. Backup copies of websites
+Answer: C
+
+19. What may be helpful in protecting the content on a web server from being viewed by
+unauthorized personnel?
+A. Encryption
+B. Permissions
+C. Redirection
+D. Firewalls
+Answer: A
+
+20. A common attack against web servers and web applications is __________.
+A. Banner grab
+B. Input validation
+C. Buffer validations
+D. Buffer overflow
+Answer: D
+
+1. Input validation is used to prevent which of the following?
+A. Bad input
+B. Formatting issues
+C. Language issues
+D. SQL injection
+Answer: A
+
+2. Web applications are used to __________.
+A. Provide dynamic content
+B. Stream video
+C. Apply scripting
+D. Implement security controls
+Answer: A
+
+3. Which of the following challenges can be solved by firewalls?
+A. Protection against buffer overflows
+B. Protection against scanning
+C. Enforcement of privileges
+D. Ability to use nonstandard ports
+Answer: B
+
+4. Databases can be a victim of code exploits depending on which of the following?
+A. Configuration
+B. Vendor
+C. Patches
+D. Client version
+Answer: A
+
+5. In addition to relational databases, there is also what kind of database?
+A. Hierarchical
+B. SQL
+C. ODBC
+D. Structured
+Answer: A
+
+6. Which of the following is a scripting language?
+A. ActiveX
+B. Java
+C. CGI
+D. ASP.NET
+Answer: C
+
+7. __________ is used to audit databases.
+A. Ping
+B. Ipconfig
+C. SQLPing
+D. Traceroute
+Answer: C
+
+8. Browsers do not display __________.
+A. ActiveX
+B. Hidden fields
+C. Java
+D. JavaScript
+Answer: B
+
+9. Proper input validation can prevent what from occurring?
+A. Client-side issues
+B. Operating system exploits
+C. SQL injection attacks
+D. Software failure
+Answer: B
+
+10. __________ can be used to attack databases.
+A. Buffer overflows
+B. SQL injection
+C. Buffer injection
+D. Input validation
+Answer: B
+
+11. Which command can be used to access the command prompt in SQL Server?
+A. WHERE
+B. SELECT
+C. xp_cmdshell
+D. cmdshell
+Answer: C
+
+12. Which command is used to query data in SQL Server?
+A. cmdshell
+B. WHERE
+C. SELECT
+D. from
+Answer: BCD
+
+13. Which statement is used to limit data in SQL Server?
+A. cmdshell
+B. WHERE
+C. SELECT
+D. to
+Answer: B
+
+14. Which command is used to remove a table from a database?
+A. cmdshell -drop table
+B. REMOVE
+C. DROPTABLES
+D. drop table
+Answer: D
+
+15. SQL injection attacks are aimed at which of the following?
+A. Web applications
+B. Web servers
+C. Databases
+D. Database engines
+Answer: C
+
+16. Which of the following is another name for a record in a database?
+A. Row
+B. Column
+C. Cell
+D. Label
+Answer: A
+
+17. What type of database has its information spread across many disparate systems?
+A. Hierarchical
+B. Relational
+C. Distributed
+D. Flat
+Answer: C
+
+18. What type of database uses multiple tables linked together in complex relationships?
+A. Hierarchical
+B. Relational
+C. Distributed
+D. Flat
+Answer: B
+
+19. What can an error message tell an attacker?
+A. Success of an attack
+B. Failure of an attack
+C. Structure of a database
+D. All of the above
+Answer: D
+
+20. A blind SQL injection attack is used when which of the following is true?
+A. Error messages are not available.
+B. The database is not SQL compatible.
+C. The database is relational.
+D. All of the above.
+Answer: A
+
+1. WEP is designed to offer security comparable to which of the following?
+A. Bluetooth
+B. Wired networks
+C. IrDA
+D. IPv6
+Answer: b
+
+2. Which of the following operates at 5 GHz?
+A. 802.11a
+B. 802.11b
+C. 802.11g
+D. 802.11i
+Answer: a
+
+3. Which of the following specifies security standards for wireless?
+A. 802.11a
+B. 802.11b
+C. 802.11g
+D. 802.11i
+Answer: d
+
+4. Which of the following options shows the protocols in order from strongest to
+weakest?
+A. WPA, WEP, WPA2, Open
+B. WEP, WPA2, WPA, Open
+C. Open, WPA, WPA2, WEP
+D. WPA2, WPA, WEP, Open
+Answer: d
+
+5. Which of the following is designed to locate wireless access points?
+A. Site survey
+B. Traffic analysis
+C. Pattern recognition
+D. Cracking
+Answer: a
+
+6. What is a client-to-client wireless connection called?
+A. Infrastructure
+B. Client-server
+C. Peer-to-peer
+D. Ad hoc
+Answer: d
+
+7. When a wireless client is attached to an access point, it is known as which of the
+following?
+A. Infrastructure
+B. Client-server
+C. Peer-to-peer
+D. Ad hoc
+Answer: a
+
+8. Bluesnarfing is used to perform what type of attack?
+A. Send spam text messages.
+B. Read information from a device.
+C. Deposit malware on a system.
+D. Distribute files onto a system.
+Answer: b
+
+9. Monitor mode is used by wireless cards to do what?
+A. Capture traffic from an associated wireless access point.
+B. Capture information from ad hoc networks.
+C. Capture information about wireless networks.
+D. Capture traffic from access points.
+Answer: c
+
+10. A honeyspot is designed to do what?
+A. Look for patterns of known attacks.
+B. Look for deviations from known traffic patterns.
+C. Attract victims to connect to it.
+D. Analyze attacks patterns.
+Answer: c
+
+11. An SSID is used to do which of the following?
+A. Identify a network.
+B. Identify clients.
+C. Prioritize traffic.
+D. Mask a network.
+Answer: a
+
+12. AirPcap is used to do which of the following?
+A. Assist in the sniffing of wireless traffic.
+B. Allow network traffic to be analyzed.
+C. Allow the identification of wireless networks.
+D. Attack a victim.
+Answer: a
+
+13. What is a rogue access point?
+A. An access point not managed by a company
+B. An unmanaged access point
+C. A second access point
+D. A honeypot device
+Answer: a
+
+14. Bluejacking is a means of which of the following?
+A. Tracking a device
+B. Breaking into a device
+C. Sending unsolicited messages
+D. Crashing a device
+Answer: c
+
+15. The wardriving process involves which of the following?
+A. Locating wireless networks
+B. Breaking into wireless networks
+C. Sniffing traffic
+D. Performing spectrum analysis
+Answer: a
+
+16. Warchalking is used to do which of the following?
+A. Discover wireless networks.
+B. Hack wireless networks.
+C. Make others aware of a wireless network.
+D. Analyze a wireless network.
+Answer: c
+
+17. A closed network is typically which of the following?
+A. Public network
+B. Private network
+C. Hot spot
+D. Kiosk location
+Answer: b
+
+18. Which feature makes WPA easy to defeat?
+A. AES encryption
+B. WPS support
+C. TKIP support
+D. RC4 support
+Answer: b
+
+19. What is a PSK?
+A. The password for the network
+B. The certificate for the network
+C. A key entered into each client
+D. A distributed password for each user
+Answer: c
+
+20. Which of the following is a device used to perform a DoS on a wireless network?
+A. WPA jammer
+B. WPA2 jammer
+C. WEP jammer
+D. Wi-Fi jammer
+Answer: d
+
+1. What is the benefit of encryption on mobile devices?
+A. Protection against stolen devices
+B. Protection of data on lost or stolen devices
+C. Prevention of malware
+D. Protection of data being sent to websites
+Answer: B
+
+2. Jailbreaking a phone refers to what?
+A. Removing DRM from the system
+B. Removing a device from a network
+C. Acquiring root access on a device
+D. Removing ransomware from a system
+Answer: C
+
+3. What does rooting a device do?
+A. Removes updates from a system
+B. Removes access to a user
+C. Provides root-level access to a user on a system
+D. Increases security on a device
+Answer: C
+
+4. Android is based on which operating system?
+A. Windows
+B. OS X
+C. Unix
+D. Linux
+Answer: D
+
+5. iOS is based on which operating system?
+A. Windows
+B. OS X
+C. Unix
+D. Linux
+Answer: B
+
+6. What could a company do to protect itself from a loss of data when a phone is stolen?
+(Choose all that apply.)
+A. Passwords
+B. Patching
+C. Encryption
+D. Remote wipe
+Answer: ACD
+
+7. A utility for auditing WordPress from Android is __________.
+A. DroidSheep
+B. Firesheep
+C. WPScan
+D. Nmap
+Answer: C
+
+8. What utility could be used to avoid sniffing of traffic?
+A. SandroProxy
+B. Proxify
+C. Psiphon
+D. Shark
+Answer: C
+
+9. Jennifer has captured the following URL: www.snaz22enu.com/&w25/session=22525.
+She realizes that she can perform a session hijack. Which utility would she use?
+A. Shark
+B. DroidSheep
+C. Airmon
+D. Droid
+Answer: B
+
+10. Jennifer is concerned about her scans being tracked back to her tablet. What could she
+use to hide the source of the scans?
+A. Sniffing
+B. SandroProxy
+C. FaceNiff
+D. Blind scanning
+Answer: B
+
+11. What option would you use to install software that's not from the Google Play store?
+A. Install from unknown sources.
+B. Install unsigned sources.
+C. Install from unknown locations.
+D. Install from unsigned services.
+Answer: A
+
+13. When a device is rooted, what is the effect on security?
+A. Improved
+B. Lowered
+C. Stays the same
+D. Hardened
+Answer: B
+
+14. Session hijacking can be thwarted with which of the following?
+A. SandroProxy
+B. DroidSheep
+C. FaceNiff
+D. Psiphon
+Answer: D
+
+15. A denial of service application for Android is __________.
+A. Blaster
+B. LOIC
+C. Evil
+D. Pryfi
+Answer: B
+
+16. A man-in-the-browser attack delivered by a piece of malware can be prevented by
+which of the following?
+A. Anti-virus
+B. Anti-spyware
+C. Using Firefox
+D. Rooting a device
+Answer: A
+
+17. An attack that can be performed using FaceNiff is __________.
+A. Infecting the client system
+B. Infecting the server system
+C. Inserting oneself into an active session
+D. Inserting oneself into a web application
+Answer: C
+
+18. Remote wipes do what? (Choose two.)
+A. Wipe all data off a device.
+B. Remove sensitive information such as contacts from a remote system.
+C. Factory reset a device.
+D. Insert cookies and devices.
+Answer: AB
+
+19. A session hijack can be used against a mobile device using all of the following except?
+A. Emails
+B. Browsers
+C. Worms
+D. Cookies
+Answer: C
+
+20. NetCut is used to do what? (Choose two.)
+A. Test firewalls.
+B. Craft packets.
+C. Take over a session.
+D. Scan a network.
+Answer: AB
+
+1. An HIDS is used to monitor activity on which of the following?
+A. Network
+B. Application
+C. Log file
+D. Host
+Answer: D
+
+2. Which of the following can be used to identify a firewall?
+A. Search engines
+B. Email
+C. Port scanning
+D. Google hacking
+Answer: C
+
+3. An NIDS is based on technology similar to which of the following?
+A. Packet sniffing
+B. Privilege escalation
+C. Enumeration
+D. Backdoor
+Answer: A
+
+4. Which of the following can be used to evade an IDS?
+A. Packet sniffing
+B. Port scanning
+C. Enumeration
+D. Encryption
+Answer: D
+
+5. Altering a checksum of a packet can be used to do what?
+A. Send an RST.
+B. Send a URG.
+C. Reset a connection.
+D. Evade an NIDS.
+Answer: D
+
+6. Firewalking is done to accomplish which of the following?
+A. Find the configuration of an NIDS.
+B. Find the configuration of an HIDS.
+C. Uncover a honeypot.
+D. Analyze a firewall.
+Answer: D
+
+7. A method for overwhelming an IDS using packets with incorrect TTL values or flags is
+known as what?
+A. Session splicing
+B. Insertion
+C. Fragmenting
+D. ACK scanning
+Answer: B
+
+8. How does a fragmentation attack, which takes a packet, breaks it into fragments, and
+sends only some of the fragments to the target, cause a DoS?
+A. By consuming processor power on the IDS
+B. By overwhelming the IDS with too many fragments
+C. By exhausting memory by caching the fragments
+D. By filling virtual memory with too much data
+Answer: C
+
+9. Which of the following uses a database of known attacks?
+A. Signature file
+B. Anomaly
+C. Behavior
+D. Shellcode
+Answer: A
+
+10. An anomaly-based NIDS is designed to look for what?
+A. Patterns of known attacks
+B. Deviations from known traffic patterns
+C. Log alterations
+D. False positives
+Answer: B
+
+11. Multihomed firewall has a minimum of how many network connections?
+A. Two
+B. Three
+C. Four
+D. Five
+Answer: B
+
+12. A DMZ is created with which of the following?
+A. A firewall and a router
+B. A multihomed firewall
+C. Two routers
+D. A multihomed router
+Answer: B
+
+13. A firewall is used to separate which of the following?
+A. Networks
+B. Hosts
+C. Permissions
+D. ACL
+Answer: A
+
+14. In practice a honeypot will be configured how?
+A. As an unpatched system
+B. As a decoy server
+C. As a duplicate of a real system
+D. As an analysis tool
+Answer: C
+
+16. HTTP is typically open on which port in a firewall?
+A. 25
+B. 443
+C. 80
+D. 110
+Answer: C
+
+17. What is a system used as a chokepoint for traffic?
+A. IDS
+B. DMZ
+C. Bastion host
+D. SNMP host
+Answer: C
+
+18. At which layer of the OSI model does a packet-filtering firewall work?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+Answer: C
+
+19. What type of firewall analyzes the status of traffic?
+A. Circuit level
+B. Packet filtering
+C. Stateful inspection
+D. NIDS
+Answer: C
+
+20. What can be used instead of a URL to evade some firewalls?
+A. IP address
+B. Encryption
+C. Stateful inspection
+D. NIDS
+Answer: A
+
+1. SaaS is a cloud hosting environment that offers what?
+A. Development options
+B. Testing options
+C. Software hosting
+D. Improved security
+Answer: C
+
+2. Which of the following can be used to protect data stored in the cloud?
+A. SSL
+B. Drive encryption
+C. Transport encryption
+D. Harvesting
+Answer: B
+
+3. SOAP is used to perform what function?
+A. Transport data
+B. Enable communication between applications
+C. Encrypt information
+D. Wrap data
+Answer: B
+
+4. Which attack alters data in transit within the cloud?
+A. Packet sniffing
+B. Port scanning
+C. MitM
+D. Encryption
+Answer: C
+
+5. Altering a checksum of a packet can be used to do what?
+A. Send an RST
+B. Send a URG
+C. Reset a connection
+D. Evade an NIDS
+Answer: D
+
+6. Cloud technologies are used to accomplish which of the following?
+A. Increase management options
+B. Offload operations onto a third party
+C. Transfer legal responsibility of data to a third party
+D. Cut costs
+Answer: ABD
+
+7. A cloud environment can be in which of the following configurations except?
+A. IaaS
+B. PaaS
+C. SaaS
+D. LaaS
+Answer: D
+
+8. What type of cloud service would provide email hosting and associated security
+services?
+A. PaaS
+B. SaaS
+C. IaaS
+D. SSaS
+Answer: B
+
+9. Who has legal responsibility for data hosted in the cloud?
+A. The Cloud Service Provider
+B. The IT department of the client
+C. The client
+D. The consumer
+Answer: C
+
+10. Why wouldn't someone create a private cloud?
+A. To reduce costs
+B. To offload technical support
+C. To increase availability
+D. To maintain universal access
+Answer: C
+
+11. There are how many different types of cloud hosting environments?
+A. Two
+B. Three
+C. Four
+D. Five
+Answer: B
+
+12. Which of the following would be hosted as SaaS?
+A. Email
+B. Active Directory
+C. Applications
+D. Firewalls
+Answer: A
+
+13. A cloud-based firewall is used to separate which of the following?
+A. Networks
+B. Hosts
+C. Permissions
+D. ACL
+Answer: A
+
+14. An application would be developed on what type of cloud service?
+A. BaaS
+B. SaaS
+C. IaaS
+D. PaaS
+Answer: D
+
+15. Which of the following issues would be a good reason for moving to a cloud based
+environment?
+A. Reduced costs
+B. Improved performance
+C. Easier forensics
+D. Increased redundancy
+Answer: ABD
+
+16. HTTPS is typically open on which port in a cloud based firewall?
+A. 25
+B. 443
+C. 80
+D. 110
+Answer: B
+
+17. What system is used as a choke point for traffic and could be offered through IaaS?
+A. IDS
+B. DMZ
+C. Bastion host
+D. SNMP host
+Answer: C
+
+18. At which layer of the OSI model would you expect a cloud based solution to operate
+at?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+Answer: CD
+
+19. What type of firewall analyzes the status of traffic and would be part of a IaaS
+solution?
+A. Circuit level
+B. Packet filtering
+C. Stateful inspection
+D. NIDS
+Answer: C
+
+20. What can be used instead of a URL to evade some firewalls used to protect a cloud
+based web application?
+A. IP address
+B. Encryption
+C. Stateful inspection
+D. NIDS
+Answer: A
+
+1. Physical security can prevent which of the following?
+A. DDoS
+B. FTP
+C. Tailgating
+D. Cracking
+Answer: C
+
+2. Which of the following is a detective control when not used in real time?
+A. Fences
+B. Alarms
+C. CCTV
+D. Locks
+Answer: B
+
+3. For a fence to deter a determined intruder, it should be at least how many feet tall?
+A. 4
+B. 6
+C. 8
+D. 10
+Answer: C
+
+4. A ____________ is used to prevent cars from ramming a building.
+A. Honeypot
+B. Gates
+C. Bollard
+D. Fences
+Answer: C
+
+5. While guards and dogs are both good for physical security, which of the following is a
+concern with dogs?
+A. Liability
+B. Discernment
+C. Dual role
+D. Multifunction
+Answer: A
+
+6. Which of the following is a good defense against tailgating and piggybacking?
+A. Cameras
+B. Guards
+C. Turnstiles
+D. Mantraps
+Answer: D
+
+7. Which of the following is a wall that is less than full height?
+A. Drop wall
+B. False wall
+C. Short wall
+D. Plenum wall
+Answer: B
+
+8. In the field of IT security, the concept of defense in depth is the layering of more than
+one control on another. Why is this?
+A. To provide better protection
+B. To build dependency among layers
+C. To increase logging ability
+D. To satisfy auditors
+Answer: A
+
+9. Which intrusion prevention system can be used in conjunction with fences?
+A. Infrared wave patter
+B. Bollards
+C. Audio
+D. PIDAS
+Answer: B
+
+10. Frequency of type 2 errors is also known as what?
+A. False rejection rate
+B. Failure rate
+C. Crossover error rate
+D. False acceptance rate
+Answer: A
+
+11. Which type of biometric system is frequently found on laptops but can be used on
+entryways as well?
+A. Retina
+B. Fingerprint
+C. Iris
+D. Voice recognition
+Answer: B
+
+12. Which of the following could be considered required components of an alarm system?
+A. A visual alerting method
+B. An audio alerting method
+C. Automatic dialup
+D. Both A and B
+Answer: D
+
+13. Lock-pick sets typically contain which of the following at a minimum?
+A. Tension wrenches and screwdrivers
+B. A pick
+C. A pick and a driver
+D. A pick and a tension wrench
+Answer: D
+
+14. During an assessment you discovered that the target company was using a fax
+machine. Which of the following is the least important?
+A. The phone number is publicly available.
+B. The fax machine is in an open, unsecured area.
+C. Faxes frequently sit in the printer tray.
+D. The fax machine uses a ribbon.
+Answer: A
+
+15. What is a drop ceiling?
+A. A false ceiling
+B. A tiled ceiling
+C. An insulated ceiling
+D. A weak ceiling
+Answer: A
+
+16. What is another word for portals?
+A. Doors
+B. Mantraps
+C. GlaDOS
+D. Booths
+Answer: B
+
+17. What is a type of combination lock?
+A. Key lock
+B. Card lock
+C. Cipher lock
+D. Trucker lock
+Answer: C
+
+18. What is the first defense that a physical intruder typically encounters?
+A. Fences
+B. Walls
+C. Bollards
+D. Cameras
+Answer: A
+
+19. What mechanism is intended to deter theft of hard drives?
+A. Locks
+B. Backups
+C. Encryption
+D. Size
+Answer: C
+
+20. Which of the following is a characteristic of USB flash drives that makes security a
+problem?
+A. Encrypted
+B. Easily hidden
+C. Portable
+D. Slow
+Answer: B
