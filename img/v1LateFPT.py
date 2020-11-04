@@ -79,7 +79,7 @@ def checkInOut(authorizationToken, appAuthorization_key, checkType):
 droid.notify("Check Bot Started", "Check bot on your service")
 
 dateTime = getCurrentTime()
-droid.notify("File status", "File date:" dateTime.strftime("%c"))
+droid.notify("File status", "File date: 4.11.20")
 
 day = dateTime.strftime("%a")
 if (day != "Sat" and day != "Sun"):
