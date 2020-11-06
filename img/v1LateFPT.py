@@ -3,8 +3,8 @@ import json
 import random
 import time
 from datetime import datetime
-
 import androidhelper
+
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-256-GCM-SHA384:ECDHE:!COMPLEMENTOFDEFAULT"
 
 AUTHORIZATION_KEY = "Basic dGh1eWhrMkBmcHQuY29tLnZuOjEyMzQ1Ng=="
@@ -122,7 +122,8 @@ if (day != "Sat" and day != "Sun"):
         checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 1)
         print("\n[+] Check In Done")
         droid.notify("Check in Status", "Check In Complete")
-        droid.notify("Status", status['date'] + "\n" +
+        droid.notify("Status",
+                    "Date:" + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
     elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
@@ -133,7 +134,8 @@ if (day != "Sat" and day != "Sun"):
         checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 2)
         print("\n[+] Check Out Done")
         droid.notify("Check out Status", "Check Out Complete")
-        droid.notify("Status", status['date'] + "\n" +
+        droid.notify("Status",
+                    "Date:" + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
     else:      
@@ -141,7 +143,8 @@ if (day != "Sat" and day != "Sun"):
         print("Check In: " + status['checkinTime'])
         print("Check Out: " + status['checkoutTime'])
         print("\n[+] Nothing to do now, gotta work :D")
-        droid.notify("Status", status['date'] + "\n" +
+        droid.notify("Status",
+                    "Date:" + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
         droid.notify("Nothing to do", "Nothing to do now, gotta work :D")
