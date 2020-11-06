@@ -4,13 +4,13 @@ import random
 import time
 from datetime import datetime
 
-# import androidhelper
+import androidhelper
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-256-GCM-SHA384:ECDHE:!COMPLEMENTOFDEFAULT"
 
 AUTHORIZATION_KEY = "Basic dGh1eWhrMkBmcHQuY29tLnZuOjEyMzQ1Ng=="
 APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6IjdkZTJkM2U5LWFiYTItNGQxNC04NTgxLWU5YmE1YmViNDEzMiIsImlhdCI6MTYwNDQ2NjY4NCwibmJmIjoxNjA0NDY2Njg0LCJleHAiOjE2MTIyNDI2ODQsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.N8HQCtkSKj6YZWUJxIkvyI6ixn3NcOF99Ei4FC97ByA"
 
-# droid = androidhelper.Android()
+droid = androidhelper.Android()
 
 #Get AuthorizationKey
 def get_AuthorizationToken(authorization_key):
@@ -29,11 +29,11 @@ def get_AuthorizationToken(authorization_key):
     if(raw_token.status_code == 200):
         print("[+] Got the token :)")
         token = "Bearer " + raw_token.text.replace('"','')
-        # droid.notify("Got Authorization Key", token)
+        droid.notify("Got Authorization Key", token)
         print("\t" + token)
         return token
     else:
-        # droid.notify("Error Authorization Key", "Something Shitty Happen... Exit Program")
+        droid.notify("Error Authorization Key", "Something Shitty Happen... Exit Program")
         print("Something Shitty Happened... Exit Program")
         exit()
 
@@ -70,9 +70,9 @@ def checkInOut(authorizationToken, appAuthorization_key, checkType):
         print("[+] Request type "+ str(checkType) + " complete!")
     else:
         print("[X] Error Response:" + req.text)
-        # droid.notify("Error", req.text)
+        droid.notify("Error", req.text)
         print("[+] Request type "+ str(checkType) + " fail!, exit program...")
-        # droid.notify("Error", "Request type "+ str(checkType) + " fail!, exit program...")
+        droid.notify("Error", "Request type "+ str(checkType) + " fail!, exit program...")
         exit()
 
 def getCheckinStatus(authorizationToken, appAuthorization_key):
