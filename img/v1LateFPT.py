@@ -79,15 +79,15 @@ def checkInOut(authorizationToken, appAuthorization_key, checkType):
 droid.notify("Check Bot Started", "Check bot on your service")
 
 dateTime = getCurrentTime()
-droid.notify("File status", "File date: 4.11.20")
+droid.notify("File status", "File date: 6.11.20")
 
 day = dateTime.strftime("%a")
 if (day != "Sat" and day != "Sun"):
-    #Random Delay
-    delay = random.randint(10, 321)
-    print("[+] Delay action in: " + str(delay) + " seconds")
-    droid.notify("Delay Action", "[+] Delay action in: " + str(delay) + " seconds")
     if (dateTime.hour == 7 and dateTime.minute <= 59):
+        #Random Delay
+        delay = random.randint(10, 321)
+        print("[+] Delay action in: " + str(delay) + " seconds")
+        droid.notify("Delay Action", "[+] Delay action in: " + str(delay) + " seconds")
         AuthorizationToken = get_AuthorizationToken(AUTHORIZATION_KEY)
         #Check In
         time.sleep(delay)
@@ -95,6 +95,9 @@ if (day != "Sat" and day != "Sun"):
         print("\n[+] Check In Done")
         droid.notify("Checkin Status", "Check In Complete")
     elif (dateTime.hour >= 17 and dateTime.minute >= 30):
+        delay = random.randint(10, 200)
+        print("[+] Delay action in: " + str(delay) + " seconds")
+        droid.notify("Delay Action", "[+] Delay action in: " + str(delay) + " seconds")
         AuthorizationToken = get_AuthorizationToken(AUTHORIZATION_KEY)
         #Check Out
         time.sleep(delay)
