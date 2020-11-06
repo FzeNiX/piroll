@@ -123,7 +123,7 @@ if (day != "Sat" and day != "Sun"):
         print("\n[+] Check In Done")
         droid.notify("Check in Status", "Check In Complete")
         droid.notify("Status",
-                    "Date:" + status['date'] + "\n" +
+                    "Date: " + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
     elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
@@ -135,7 +135,7 @@ if (day != "Sat" and day != "Sun"):
         print("\n[+] Check Out Done")
         droid.notify("Check out Status", "Check Out Complete")
         droid.notify("Status",
-                    "Date:" + status['date'] + "\n" +
+                    "Date: " + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
     else:      
@@ -144,7 +144,7 @@ if (day != "Sat" and day != "Sun"):
         print("Check Out: " + status['checkoutTime'])
         print("\n[+] Nothing to do now, gotta work :D")
         droid.notify("Status",
-                    "Date:" + status['date'] + "\n" +
+                    "Date: " + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
         droid.notify("Nothing to do", "Nothing to do now, gotta work :D")
