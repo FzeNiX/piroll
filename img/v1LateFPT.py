@@ -113,8 +113,7 @@ def getCheckinStatus(authorizationToken, appAuthorization_key):
                     }
     return checkinStatus
 
-# dateTime = getCurrentTime()
-dateTime = datetime(2020, 9, 9, 7, 45)
+dateTime = getCurrentTime()
 day = dateTime.strftime("%a")
 
 if (day != "Sat" and day != "Sun"):  
@@ -128,7 +127,7 @@ if (day != "Sat" and day != "Sun"):
         pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check In
         time.sleep(delay)
-        # checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 1)
+        checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 1)
         pushInfo("\U0001F44C Check in", "Complete")
         pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
@@ -138,7 +137,7 @@ if (day != "Sat" and day != "Sun"):
         pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check Out
         time.sleep(delay)
-        # checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 2)
+        checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 2)
         pushInfo("\U0001F44C Check out", "Complete!")
         pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
