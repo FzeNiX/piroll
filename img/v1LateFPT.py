@@ -3,14 +3,28 @@ import json
 import random
 import time
 from datetime import datetime
-import androidhelper
 
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-256-GCM-SHA384:ECDHE:!COMPLEMENTOFDEFAULT"
 
 AUTHORIZATION_KEY = "Basic dGh1eWhrMkBmcHQuY29tLnZuOjEyMzQ1Ng=="
 APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6IjdkZTJkM2U5LWFiYTItNGQxNC04NTgxLWU5YmE1YmViNDEzMiIsImlhdCI6MTYwNDQ2NjY4NCwibmJmIjoxNjA0NDY2Njg0LCJleHAiOjE2MTIyNDI2ODQsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.N8HQCtkSKj6YZWUJxIkvyI6ixn3NcOF99Ei4FC97ByA"
 
-droid = androidhelper.Android()
+ALERT = 0
+def pushInfo(title, messages):
+    bot = "bot1263316426"
+    ##REMOVE NOFITY SUPPORT, LESS NOISE, ALL GO TELEGRAM
+    # global ALERT
+    # try:
+    #     import androidhelper
+    #     droid = androidhelper.Android()
+    #     droid.notify(title, messages)
+    # except:
+    #     if(ALERT == 0):
+    #         ALERT+=1
+    #         print("Info: No Android Helper Support")     
+    telegramAPI = "https://api.telegram.org/"+ bot +":AAEsMDr5IUbrwRVV2jGgudIwrAuQNiPpy_Q/sendMessage?chat_id=540921490&text=" + title + ":\n" + messages
+    print(title + ":\n" + messages + "\n")
+    requests.post(telegramAPI)
 
 #Get AuthorizationKey
 def get_AuthorizationToken(authorization_key):
@@ -23,24 +37,20 @@ def get_AuthorizationToken(authorization_key):
                 "Authorization": authorization_key,
                 "Accept-Encoding": "gzip, deflate"
                 }
-    print("[-] Getting Authorization Token from server...")
     raw_token = requests.get(url, headers=headers)
     token = ""
     if(raw_token.status_code == 200):
-        print("[+] Got the token :)")
         token = "Bearer " + raw_token.text.replace('"','')
-        droid.notify("Got Authorization Key", token)
-        print("\t" + token)
+        pushInfo("\U0001F511 Got Authorization Key", token)
         return token
     else:
-        droid.notify("Error Authorization Key", "Something Shitty Happen... Exit Program")
-        print("Something Shitty Happened... Exit Program")
+        pushInfo("\U0001F510 Error Authorization Key", "Something Shitty Happen... Exit Program")
         exit()
 
 # #Get Current Time - by python
 def getCurrentTime():
     dateTime = datetime.now()
-    print("[-] Current Time is: " + dateTime.strftime("%c"))
+    pushInfo("\U0001F55C Current Time", dateTime.strftime("%c"))
     return dateTime
 
 #Do Check in and Check out. 1 = Checkin, 2 = Checkout
@@ -67,12 +77,10 @@ def checkInOut(authorizationToken, appAuthorization_key, checkType):
                 }
     req = requests.post(url, headers=headers, json=json)
     if (req.status_code == 200):
-        print("[+] Request type "+ str(checkType) + " complete!")
+        pushInfo("\U0001F44C Request type "+ str(checkType), "complete!")
     else:
-        print("[X] Error Response:" + req.text)
-        droid.notify("Error", req.text)
-        print("[+] Request type "+ str(checkType) + " fail!, exit program...")
-        droid.notify("Error", "Request type "+ str(checkType) + " fail!, exit program...")
+        pushInfo("\U0000274C Error", req.text)
+        pushInfo("\U0001F629 Request type "+ str(checkType), "fail!, exit program...")
         exit()
 
 def getCheckinStatus(authorizationToken, appAuthorization_key):
@@ -105,7 +113,8 @@ def getCheckinStatus(authorizationToken, appAuthorization_key):
                     }
     return checkinStatus
 
-dateTime = getCurrentTime()
+# dateTime = getCurrentTime()
+dateTime = datetime(2020, 9, 9, 7, 45)
 day = dateTime.strftime("%a")
 
 if (day != "Sat" and day != "Sun"):  
@@ -114,40 +123,32 @@ if (day != "Sat" and day != "Sun"):
     
     #Random Delay
     delay = random.randint(10, 321)
-    if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
-        print("[+] Delay action in: " + str(delay) + " seconds")
-        droid.notify("Delay Action", "[+] Delay action in: " + str(delay) + " seconds")
+    if (dateTime.hour == 7 and dateTime.minute <= 59):
+    # if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
+        pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check In
         time.sleep(delay)
-        checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 1)
-        print("\n[+] Check In Done")
-        droid.notify("Check in Status", "Check In Complete")
-        droid.notify("Status",
+        # checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 1)
+        pushInfo("\U0001F44C Check in", "Complete")
+        pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
     elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
-        print("[+] Delay action in: " + str(delay) + " seconds")
-        droid.notify("Delay Action", "[+] Delay action in: " + str(delay) + " seconds")
+        pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check Out
         time.sleep(delay)
-        checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 2)
-        print("\n[+] Check Out Done")
-        droid.notify("Check out Status", "Check Out Complete")
-        droid.notify("Status",
+        # checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 2)
+        pushInfo("\U0001F44C Check out", "Complete!")
+        pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
     else:      
-        print("Date: " + status['date'])
-        print("Check In: " + status['checkinTime'])
-        print("Check Out: " + status['checkoutTime'])
-        print("\n[+] Nothing to do now, gotta work :D")
-        droid.notify("Status",
+        pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
-        droid.notify("Nothing to do", "Nothing to do now, gotta work :D")
+        pushInfo("\U0001F4A1 Info", "Nothing to do now, gotta work \U0001F4AA")
 else:
-    print("Enjoy the rest day, no check to do :D")
-    droid.notify("Nothing to do", "Enjoy the rest day, no check to do :D")
+    pushInfo("\U0001F4A1 Info", "Enjoy The Weekend! \U0001F604")
