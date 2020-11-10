@@ -11,17 +11,7 @@ APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8
 
 ALERT = 0
 def pushInfo(title, messages):
-    bot = "bot1263316426"
-    ##REMOVE NOFITY SUPPORT, LESS NOISE, ALL GO TELEGRAM
-    # global ALERT
-    # try:
-    #     import androidhelper
-    #     droid = androidhelper.Android()
-    #     droid.notify(title, messages)
-    # except:
-    #     if(ALERT == 0):
-    #         ALERT+=1
-    #         print("Info: No Android Helper Support")     
+    bot = "bot1263316426" 
     telegramAPI = "https://api.telegram.org/"+ bot +":AAEsMDr5IUbrwRVV2jGgudIwrAuQNiPpy_Q/sendMessage?chat_id=540921490&text=" + title + ":\n" + messages
     print(title + ":\n" + messages + "\n")
     requests.post(telegramAPI)
