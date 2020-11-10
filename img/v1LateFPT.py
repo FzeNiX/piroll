@@ -112,8 +112,7 @@ if (day != "Sat" and day != "Sun"):
     
     #Random Delay
     delay = random.randint(10, 360)
-    if (dateTime.hour == 7 and dateTime.minute <= 59):
-    # if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
+    if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
         pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check In
         time.sleep(delay)
