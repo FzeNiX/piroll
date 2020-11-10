@@ -121,13 +121,15 @@ if (day != "Sat" and day != "Sun"):
     status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
     
     #Random Delay
-    delay = random.randint(10, 321)
+    delay = random.randint(10, 360)
     if (dateTime.hour == 7 and dateTime.minute <= 59):
     # if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
         pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check In
         time.sleep(delay)
         checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 1)
+        time.sleep(1)
+        status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
         pushInfo("\U0001F44C Check in", "Complete")
         pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
@@ -138,6 +140,8 @@ if (day != "Sat" and day != "Sun"):
         #Check Out
         time.sleep(delay)
         checkInOut(AuthorizationToken, APP_AUTHORIZATION_KEY, 2)
+        time.sleep(1)
+        status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
         pushInfo("\U0001F44C Check out", "Complete!")
         pushInfo("\U0001F4A1 Status",
                     "Date: " + status['date'] + "\n" +
