@@ -67,7 +67,8 @@ def checkInOut(authorizationToken, appAuthorization_key, checkType):
                 }
     req = requests.post(url, headers=headers, json=json)
     if (req.status_code == 200):
-        pushInfo("\U0001F44C Request type "+ str(checkType), "complete!")
+        #It's OK
+        print("Request OK")
     else:
         pushInfo("\U0000274C Error", req.text)
         pushInfo("\U0001F629 Request type "+ str(checkType), "fail!, exit program...")
