@@ -40,7 +40,7 @@ def get_AuthorizationToken(authorization_key):
 # #Get Current Time - by python
 def getCurrentTime():
     dateTime = datetime.now()
-    pushInfo("\U0001F55C Current Time", dateTime.strftime("%c"))
+    pushInfo("\U0001F55C Current Time (v1211)", dateTime.strftime("%c"))
     return dateTime
 
 #Do Check in and Check out. 1 = Checkin, 2 = Checkout
