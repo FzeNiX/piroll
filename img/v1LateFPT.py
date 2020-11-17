@@ -134,9 +134,9 @@ def vuCheck(checkType):
         time = datetime.now()
         vuTime = time.strftime("%X")
         if (checkType == 1):
-            messages = "Em đang đi WC không bấm checkin được lúc " + str(vuTime) + " \U0001F60C"
+            messages = "Sau này, chỉ có làm thì mới có ăn. Không làm thì chỉ có check in lúc " + str(vuTime) + " \U0001F606"
         else:
-            messages = "Em out lúc " + str(vuTime) + " rồi \U0001F4A6"
+            messages = "Do đề kháng kém nên em không check out lúc " + str(vuTime) + " được \U0001F635"
             
         telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
         requests.post(telegramAPI)       
@@ -148,15 +148,22 @@ def vuCheck(checkType):
         exit()
 
 def getShopeeCoin():
-    url = "https://shopee.vn:443/mkt/coins/api/v1/checkin_v2/"
-    cookies = {"SPC_F": "qWb3oHnlIUuCpoYXqcuQjz3fDxfzKiTn", "REC_T_ID": "40be385a-e218-11ea-9c99-3c15fb7e99d8", "G_ENABLED_IDPS": "google", "SPC_CLIENTID": "qWb3oHnlIUuCpoYXckmidbnfqyrzenfy", "_gcl_au": "1.1.1908891617.1599114002", "_fbp": "fb.1.1599114002859.1144863651", "_ga": "GA1.2.1891969140.1599114004", "_hjid": "7a066d7e-2e09-47bf-a016-a5b6f5cb43fa", "_gcl_aw": "GCL.1603251586.CjwKCAjwlbr8BRA0EiwAnt4MTvSc1bNQJRSB-rTTE499IC-RB86ktKesPBqTMs4L8Fz0GCzyuatAJxoC3cwQAvD_BwE", "_gac_UA-61914164-6": "1.1603251588.CjwKCAjwlbr8BRA0EiwAnt4MTvSc1bNQJRSB-rTTE499IC-RB86ktKesPBqTMs4L8Fz0GCzyuatAJxoC3cwQAvD_BwE", "_med": "affiliates", "_fbc": "fb.1.1604754233867.IwAR05i7DgZKAYoBGaMcZ9lWB2lHZzcqbjJdJdpwuYiec61WMdw_L4cgj9ymQ", "csrftoken": "ZElH45ven16McXZrQsjCneMNVaLxUf6H", "SPC_SI": "bffsg3.2QtX6zBS5S4Wi2bJElKEjRthKZPYkFvV", "welcomePkgShown": "true", "_gid": "GA1.2.1036316801.1604897797", "_hjAbsoluteSessionInProgress": "0", "SPC_U": "18714056", "SPC_EC": "Ogo/LgnNg+wBnyyjpp4YLWCRUiIsXnX7OM395VqivxIDqZVbeQ6tBTzDJl/PSNywPIwazk3lkFk981UJpyS7FQ5ZqPkgTAr8DvH7zqnb4o822ATviea2eM2swsN3UrcERM2NQjGiBQhVMOq288KqWA==", "SPC_IA": "1", "SPC_R_T_ID": "\"VluuRQVnaAZP1oQSIjinYzsfwssPgCadGuQtTvFuUam3Z1qtc1Ms5p24Tu0kAXhU0WAcUPMQzydEUqXgegTkmSErVVxnotlPReQ5+xSMhHQ=\"", "SPC_T_IV": "\"lK/lNCTFIP+B1nVsFe1jhw==\"", "SPC_R_T_IV": "\"lK/lNCTFIP+B1nVsFe1jhw==\"", "SPC_T_ID": "\"VluuRQVnaAZP1oQSIjinYzsfwssPgCadGuQtTvFuUam3Z1qtc1Ms5p24Tu0kAXhU0WAcUPMQzydEUqXgegTkmSErVVxnotlPReQ5+xSMhHQ=\""}
-    headers = {"Connection": "close", "Cache-Control": "max-age=0", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Sec-Fetch-Site": "none", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-User": "?1", "Sec-Fetch-Dest": "document", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7"}
+    url = "https://shopee.vn:443/mkt/coins/api/v2/checkin"
+    cookies = {"SPC_F": "351564216461632_fab1e307c22cc697_307c22cc697fab1e", "UA": "Shopee%20Android%20Beeshop%20locale%2Fvi%20version%3D413%20appver%3D26210", "SPC_AFTID": "114c5172-b8a3-405f-8289-c21ce735daa1", "shopee_app_version": "26210", "csrftoken": "r7y1Gvhw5xfoOw1ErBtbgmnQ6nkYOtiv", "SPC_CLIENTID": "DYaxnW9OavNiSBrtmgutsgogqjegbwqa", "REC_T_ID": "3926955b-2889-11eb-b707-10c172968115", "SPC_F": "351564216461632_fab1e307c22cc697_307c22cc697fab1e", "SPC_SI": "bffvn.nxdAlqbkNGsDd9rXmqq2Rj4CaTHhB7vo", "shopee_rn_version": "1605150888", "SPC_RNBV": "4037010", "userid": "18714056", "shopee_token": "l2V2S9T4+5GyfKwsx0Jgex4ov7HGRl9gmkkB8rCVqk0=", "username": "fzenix", "SPC_U": "18714056", "REC_MD_45": "1605586227", "REC_MD_41_1000121": "1605585928_0_50_0_44", "SPC_EC": "NLK6nTjccFxbee143RxE/j4NW//cY0oocEtFKl8ftcTo+TH8bdg9QfGzBiJTZYK+lvM4rYHDO89urGf3jH3btuO1PuQFexqg25Yiu5YXARa6mIveT1FIw4nGnvSB8pxJ87cFZpANuKCF5H7BDKCedg==", "SPC_R_T_ID": "qhO0SoR7gmB2mDEc/+i2vjaB+6pwAtU9oqfp5J7mZwMTWRavo7mWVCLUIEP3OzSfbDddQCXGbpp3tHhYLluXrvkfjh9HLC9PY4uA7haEKDA=", "SPC_R_T_IV": "dnSFo8KQnV4t7U6NuDy0+Q==", "_ga": "GA1.2.722922578.1605585657", "_gid": "GA1.2.1436838490.1605585657", "_gat": "1"}
+    headers = {"x-csrftoken": "r7y1Gvhw5xfoOw1ErBtbgmnQ6nkYOtiv", "x-api-source": "rn", "x-shopee-language": "vi", "referer": "https://shopee.vn/mkt/coins/api//bridge_cmd?cmd=reactPath%3Ftab%3Dbuy%26path%3Dshopee%252FHOME_PAGE%253Fis_tab%253Dtrue", "accept": "application/json", "content-type": "application/json", "if-none-match-": "55b03-afb69e438c4b48e93e5e3a9f7e6a9111", "Connection": "close", "Accept-Encoding": "gzip, deflate", "User-Agent": "Android app Shopee appver=26210 app_type=1"}
     resp = requests.post(url, headers=headers, cookies=cookies)
     data = json.loads(resp.text)
     try:
-        coin = data['increase_coins']
-        message = "Get " + coin + " shopee coins today!"
-        pushInfo("\U0001F514 Shopee Coins", message)
+        msg = data['msg']
+        jData = data['data']
+        check_in_day = jData['check_in_day']
+        increase_coins = jData['increase_coins']
+        if(msg == "success"):
+            message = "Got " + str(increase_coins) + " coins today! " + "\nStreak: " + str(check_in_day) + " day(s)"
+            pushInfo("\U0001F514 Shopee Coins", message)
+        else:
+            message = "Something Wrong!"
+            pushInfo("\U0001F514 Shopee Coins", message)
     except:
         message = "Shopee cookie may expired"
         pushInfo("\U000026A0 Shopee Coins", message)
@@ -169,7 +176,7 @@ if (day != "Sat" and day != "Sun"):
     status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
 
     #Random Delay
-    delay = random.randint(20, 310)
+    delay = random.randint(5, 310)
     if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
         pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
         #Check In
@@ -213,3 +220,5 @@ else:
 #Another Job. LOL
 if (dateTime.hour < 10):
     getShopeeCoin()
+
+
