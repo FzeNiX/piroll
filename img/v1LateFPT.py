@@ -133,9 +133,9 @@ def vuCheck(checkType):
         time = datetime.now()
         vuTime = time.strftime("%X")
         if (checkType == 1):
-            messages = "Sau này, chỉ có làm thì mới có ăn. Không làm thì chỉ có check in lúc " + str(vuTime) + " \U0001F606"
+            messages = "Đéo thích check in lúc " + str(vuTime)
         else:
-            messages = "Do đề kháng kém nên em không check out lúc " + str(vuTime) + " được \U0001F635"
+            messages = "Đéo thích check out lúc " + str(vuTime)
             
         telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
         requests.post(telegramAPI)       
