@@ -126,7 +126,6 @@ def vuCheck(checkType):
 
     authorizationToken = get_VuAuthorizationToken()
     appAuthorization_key = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlZ1VkhIMkBmcHQuY29tLnZuIiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJaT0ZVSE1UU0lDWURXTklWQkE0TkdRNVc0UUlRUlVQWSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkVtcGxveWVlIiwiaHR0cDovL3d3dy5hc3BuZXRib2lsZXJwbGF0ZS5jb20vaWRlbnRpdHkvY2xhaW1zL3RlbmFudElkIjoiMSIsIkVtcGxveWVlSWRDbGFpbSI6IjIxMjIxIiwic3ViIjoiMjEyNDYiLCJqdGkiOiJhMWFjY2NmYi1kMzc4LTQ0ZjktYTFiNy1kZTIxYWRiNjIxNDIiLCJpYXQiOjE2MDQ5NzkyOTgsIm5iZiI6MTYwNDk3OTI5OCwiZXhwIjoxNjEyNzU1Mjk4LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.2On5dhG0P4AWqVAhCBtQ5m2NAliZMSfBKoLZXcBCLpY"
-    
     url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/Checkin"
     headers = {
                 "accept": "application/json, text/plain, */*",
@@ -146,9 +145,10 @@ def vuCheck(checkType):
                 "SmartPhoneDeviceIMEI": "ec22dd1c85f4bc01"
                 }
     req = requests.post(url, headers=headers, json=json)
+    
+    bot = "bot1321871145:AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY"
+    title = "\U0001F618 Anh Vũ Ơi!"
     if (req.status_code == 200):
-        bot = "bot1321871145:AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY"
-        title = "\U0001F618 Anh Vũ Ơi!"
         time = datetime.now()
         vuTime = time.strftime("%X")
         if (checkType == 1):
