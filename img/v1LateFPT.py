@@ -7,7 +7,7 @@ from datetime import datetime
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-256-GCM-SHA384:ECDHE:!COMPLEMENTOFDEFAULT"
 
 AUTHORIZATION_KEY = "Basic dGh1eWhrMkBmcHQuY29tLnZuOjEyMzQ1Ng=="
-APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6IjdkZTJkM2U5LWFiYTItNGQxNC04NTgxLWU5YmE1YmViNDEzMiIsImlhdCI6MTYwNDQ2NjY4NCwibmJmIjoxNjA0NDY2Njg0LCJleHAiOjE2MTIyNDI2ODQsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.N8HQCtkSKj6YZWUJxIkvyI6ixn3NcOF99Ei4FC97ByA"
+APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6ImQwZDk3MzNkLWZmZmQtNDRjYS04MDg1LTM1YmZiYjcwNjE5ZCIsImlhdCI6MTYwNjEwMjYyMywibmJmIjoxNjA2MTAyNjIzLCJleHAiOjE2MTM4Nzg2MjMsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.YNBzpYAJIkxwOPu8kVHuSmK8g4mJzrgbd7JOfFLAemE"
 
 #T
 def pushInfo(title, messages):
@@ -22,7 +22,7 @@ def get_AuthorizationToken(authorization_key):
     headers = {
                 "Connection": "close",
                 "Accept": "application/json, text/plain, */*",
-                "User-Agent": "HRISProject/1611 CFNetwork/1197 Darwin/20.0.0",
+                "User-Agent": "HRISProject/1632 CFNetwork/1197 Darwin/20.0.0",
                 "Accept-Language": "en-us",
                 "Authorization": authorization_key,
                 "Accept-Encoding": "gzip, deflate"
@@ -31,7 +31,7 @@ def get_AuthorizationToken(authorization_key):
     token = ""
     if(raw_token.status_code == 200):
         token = "Bearer " + raw_token.text.replace('"','')
-        pushInfo("\U0001F511 Got Authorization Key", token)
+        # pushInfo("\U0001F511 Got Authorization Key", token)
         return token
     else:
         pushInfo("\U0001F510 Error Authorization Key", "Something Shitty Happen... Exit Program")
@@ -50,13 +50,13 @@ def checkInOut(authorizationToken, appAuthorization_key, checkType):
                 "Pragma": "no-cache",
                 "Accept": "application/json, text/plain, */*",
                 "Authorization": authorizationToken,
-                "currentversioncode": "1611",
-                "Expires": "0", "currentversion": "2.0.3",
+                "currentversioncode": "1632",
+                "Expires": "0", "currentversion": "2.1.1",
                 "Accept-Language": "en-us",
                 "Cache-Control": "no-cache, no-store, must-revalidate",
                 "platform": "ios", "Accept-Encoding": "gzip, deflate",
                 "app-authorization": appAuthorization_key,
-                "User-Agent": "HRISProject/1611 CFNetwork/1197 Darwin/20.0.0",
+                "User-Agent": "HRISProject/1632 CFNetwork/1197 Darwin/20.0.0",
                 "Connection": "close",
                 "Content-Type": "application/json"
                 }
@@ -80,12 +80,12 @@ def getCheckinStatus(authorizationToken, appAuthorization_key):
             "Pragma": "no-cache",
             "Accept": "application/json, text/plain, */*",
             "Authorization": authorizationToken,
-            "currentversioncode": "1611", "Expires": "0", "currentversion": "2.0.3", "Accept-Language": "en-us",
+            "currentversioncode": "1632", "Expires": "0", "currentversion": "2.1.1", "Accept-Language": "en-us",
             "Cache-Control": "no-cache, no-store, must-revalidate",
             "platform": "ios",
             "Accept-Encoding": "gzip, deflate",
             "app-authorization": appAuthorization_key,
-            "User-Agent": "HRISProject/1611 CFNetwork/1197 Darwin/20.0.0",
+            "User-Agent": "HRISProject/1632 CFNetwork/1197 Darwin/20.0.0",
             "Connection": "close",
             "Content-Type": "application/json"}
     jsonData={
@@ -134,17 +134,17 @@ def vuCheck(checkType):
         time = datetime.now()
         vuTime = time.strftime("%X")
         if (checkType == 1):
-            messages = "Đéo thích check in lúc " + str(vuTime)
+            messages = "\U0001F449\U0001F44C " + str(vuTime)
         else:
-            messages = "Đéo thích check out lúc " + str(vuTime)
-            
+            messages = "\U0001F4A6 " + str(vuTime)           
         telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
-        requests.post(telegramAPI)       
+        requests.post(telegramAPI)
+        pushInfo("\U0001F44C Vu Request type " + str(checkType), "OK")
     else:
         pushInfo("\U0000274C Error", req.text)
         messages = "\U0001F62D Phát này lỗi thật, đéo đùa đâu :((. Response đây: \n" + req.text
         telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
-        pushInfo("\U0001F629 Request type "+ str(checkType), "fail!, exit program...")
+        pushInfo("\U0001F629 Vu Request type "+ str(checkType), "fail!: \n" + req.text)
         exit()
 
 dateTime = getCurrentTime()
@@ -169,7 +169,7 @@ if (day != "Sat" and day != "Sun"):
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
         # Vu~
-        time.sleep(random.randint(1, 25))
+        time.sleep(random.randint(1, 10))
         vuCheck(1)
 
     elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
@@ -185,7 +185,7 @@ if (day != "Sat" and day != "Sun"):
                     "Check In: " + status['checkinTime'] + "\n" +
                     "Check Out: " + status['checkoutTime'])
         # Vu~
-        time.sleep(random.randint(1, 20))   
+        time.sleep(random.randint(1, 10))   
         vuCheck(2)
     else:      
         pushInfo("\U0001F4A1 Status",
@@ -195,5 +195,3 @@ if (day != "Sat" and day != "Sun"):
         pushInfo("\U0001F4A1 Info", "Nothing to do now, gotta work \U0001F4AA")
 else:
     pushInfo("\U0001F4A1 Info", "Enjoy The Weekend! \U0001F604")
-
-
