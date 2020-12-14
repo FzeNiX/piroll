@@ -223,4 +223,4 @@ def vuCheckin():
 t1 = threading.Thread(target=myCheckin)
 t2 = threading.Thread(target=vuCheckin)
 t1.start()
-#t2.start()
+t2.start()
