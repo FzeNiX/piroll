@@ -152,9 +152,9 @@ def vuCheck(checkType):
         time = datetime.now()
         vuTime = time.strftime("%X")
         if (checkType == 1):
-            messages = "\U0001F449\U0001F44C " + str(vuTime)
+            messages = "\U0001F449\U0001F44C Well Cum! " + str(vuTime)
         else:
-            messages = "\U0001F4A6 " + str(vuTime)           
+            messages = "Why do you cum? \U0001F633\U0001F4A6 " + str(vuTime)           
         telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
         requests.post(telegramAPI)
         pushInfo("\U0001F44C Vu Request type " + str(checkType), "OK")
@@ -217,7 +217,7 @@ def vuCheckin():
             time.sleep(random.randint(5, 300))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(1, 20))
+            time.sleep(random.randint(5, 61))
             vuCheck(2)
 
 t1 = threading.Thread(target=myCheckin)
