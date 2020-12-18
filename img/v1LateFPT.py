@@ -165,6 +165,52 @@ def vuCheck(checkType):
         requests.post(telegramAPI)
         exit()
 
+def datCheck(checkType):
+    def get_datAuthorizationToken():
+        url = "https://sapi.fpt.vn:443/token/GenerateToken"
+        headers = {
+                    "Connection": "close",
+                    "Accept": "application/json, text/plain, */*",
+                    "User-Agent": "okhttp/3.12.1",
+                    "Accept-Language": "en-us",
+                    "Authorization": AUTHORIZATION_KEY,
+                    "Accept-Encoding": "gzip, deflate"
+                    }
+        raw_token = requests.get(url, headers=headers)
+        token = "Bearer " + raw_token.text.replace('"','')
+        print(token)
+        return token
+
+    authorizationToken = get_datAuthorizationToken()
+    appAuthorization_key = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ0IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkRhdE5UMTQwQGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlZXRE9NR0c2VlpPR1JERllKM1pXRFpDUjZHU0tUWEJFIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMTkiLCJzdWIiOiIyMTI0NCIsImp0aSI6ImEyYzA4ODUzLTJmZjUtNDQxNi1hMWM3LTE5OTcwNTIyYmQ5OSIsImlhdCI6MTYwODI3NTQ3NSwibmJmIjoxNjA4Mjc1NDc1LCJleHAiOjE2MTYwNTE0NzUsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.hBbrhLr8ysqiFeGKB0pRvoCK3yRFgOuUagRS1-E5z28"
+    url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/Checkin"
+    headers =   {
+                "Pragma": "no-cache",
+                "Accept": "application/json, text/plain, */*",
+                "Authorization": authorizationToken,
+                "currentversioncode": "1632",
+                "Expires": "0", 
+                "currentversion": CURRENTVERSION,
+                "Accept-Language": "en-us",
+                "Cache-Control": "no-cache, no-store, must-revalidate",
+                "platform": "ios", "Accept-Encoding": "gzip, deflate",
+                "app-authorization": appAuthorization_key,
+                "User-Agent": "HRISProject/1632 CFNetwork/1197 Darwin/20.0.0",
+                "Connection": "close",
+                "Content-Type": "application/json"
+                }
+    json =      {
+                "AccessPointsIPWAN": "U2FsdGVkX1+vqUCIQ89ZPkKn3vrEKmg4LplSAFg6Hbs=",
+                "CheckinType": checkType,
+                "SmartPhoneDeviceIMEI": "2A7ACC22-1402-4C84-AB66-B238FC8E37B9"
+                }
+    req = requests.post(url, headers=headers, json=json)
+    if (req.status_code == 200):
+        pushInfo("\U0001F44C Dat Request type " + str(checkType), "OK")
+    else:
+        pushInfo("\U0000274C Dat Error", req.text)
+        exit()        
+
 dateTime = getCurrentTime()
 
 def myCheckin():
@@ -220,7 +266,19 @@ def vuCheckin():
             time.sleep(random.randint(5, 61))
             vuCheck(2)
 
+def datCheckin():
+    day = dateTime.strftime("%a")
+    if (day != "Sat" and day != "Sun"):
+        if (dateTime.hour == 7 and dateTime.minute <= 59):
+            time.sleep(random.randint(5, 300))
+            datCheck(1)
+        elif (dateTime.hour >= 17 and dateTime.minute >= 30):
+            time.sleep(random.randint(5, 65))
+            datCheck(2)
+
 t1 = threading.Thread(target=myCheckin)
 t2 = threading.Thread(target=vuCheckin)
+t3 = threading.Thread(target=datCheckin)
 t1.start()
 t2.start()
+t3.start()
