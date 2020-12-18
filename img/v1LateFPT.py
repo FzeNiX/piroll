@@ -121,7 +121,6 @@ def vuCheck(checkType):
                     }
         raw_token = requests.get(url, headers=headers)
         token = "Bearer " + raw_token.text.replace('"','')
-        print(token)
         return token
 
     authorizationToken = get_VuAuthorizationToken()
@@ -178,7 +177,6 @@ def datCheck(checkType):
                     }
         raw_token = requests.get(url, headers=headers)
         token = "Bearer " + raw_token.text.replace('"','')
-        print(token)
         return token
 
     authorizationToken = get_datAuthorizationToken()
