@@ -261,7 +261,7 @@ def vuCheckin():
             time.sleep(random.randint(5, 300))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 61))
+            time.sleep(random.randint(5, 80))
             vuCheck(2)
 
 def datCheckin():
@@ -271,7 +271,7 @@ def datCheckin():
             time.sleep(random.randint(5, 300))
             datCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 65))
+            time.sleep(random.randint(5, 100))
             datCheck(2)
 
 t1 = threading.Thread(target=myCheckin)
