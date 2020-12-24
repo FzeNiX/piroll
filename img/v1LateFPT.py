@@ -33,7 +33,7 @@ def get_AuthorizationToken():
     token = ""
     if(raw_token.status_code == 200):
         token = "Bearer " + raw_token.text.replace('"','')
-        pushInfo("\U0001F511 Got Authorization Key", token)
+        #pushInfo("\U0001F511 Got Authorization Key", token)
         return token
     else:
         pushInfo("\U0001F510 Error Authorization Key", "Something Shitty Happen... Exit Program")
@@ -146,7 +146,7 @@ def vuCheck(checkType):
     req = requests.post(url, headers=headers, json=json)
     
     bot = "bot1321871145:AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY"
-    title = "\U0001F618 Anh Vũ Ơi!"
+    title = "\U0001F9D9 Bụt hiện lên và nói:"
     if (req.status_code == 200):
         time = datetime.now()
         vuTime = time.strftime("%X")
@@ -214,12 +214,12 @@ dateTime = getCurrentTime()
 def myCheckin():
     day = dateTime.strftime("%a")
 
-    if (day != "Sat" and day != "Sun"):
-        time.sleep(random.randint(5, 10))
+    if (day != "Sat" and day != "Sun"):        
         AuthorizationToken = get_AuthorizationToken()
+        time.sleep(random.randint(1, 5))
         status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
         #Random Delay
-        delay = random.randint(5, 365)
+        delay = random.randint(50, 365)
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
             pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
             #Check In
@@ -261,7 +261,7 @@ def vuCheckin():
             time.sleep(random.randint(5, 300))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 80))
+            time.sleep(random.randint(3, 90))
             vuCheck(2)
 
 def datCheckin():
@@ -271,7 +271,7 @@ def datCheckin():
             time.sleep(random.randint(5, 300))
             datCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 100))
+            time.sleep(random.randint(5, 150))
             datCheck(2)
 
 t1 = threading.Thread(target=myCheckin)
