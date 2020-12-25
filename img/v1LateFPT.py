@@ -219,8 +219,8 @@ def myCheckin():
         time.sleep(random.randint(1, 5))
         status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
         #Random Delay
-        delay = random.randint(50, 365)
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
+            delay = random.randint(200, 365)
             pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
             #Check In
             time.sleep(delay)
@@ -234,6 +234,7 @@ def myCheckin():
                         "Check Out: " + status['checkoutTime'])
 
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
+            delay = random.randint(10, 650)
             pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
             #Check Out
             time.sleep(delay)
@@ -258,20 +259,20 @@ def vuCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 300))
+            time.sleep(random.randint(220, 300))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(3, 250))
+            time.sleep(random.randint(3, 400))
             vuCheck(2)
 
 def datCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 300))
+            time.sleep(random.randint(200, 300))
             datCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 250))
+            time.sleep(random.randint(5, 400))
             datCheck(2)
 
 t1 = threading.Thread(target=myCheckin)
