@@ -243,7 +243,6 @@ def vuCheckin():
             time.sleep(random.randint(360, 2000))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(1)
             vuCheck(2)
 
 def datCheckin():
