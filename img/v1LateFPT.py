@@ -144,25 +144,6 @@ def vuCheck(checkType):
                 "SmartPhoneDeviceIMEI": "ec22dd1c85f4bc01"
                 }
     req = requests.post(url, headers=headers, json=json)
-    
-    bot = "bot1321871145:AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY"
-    title = "\U0001F9D9 Bụt hiện lên và nói:"
-    if (req.status_code == 200):
-        time = datetime.now()
-        vuTime = time.strftime("%X")
-        if (checkType == 1):
-            messages = "\U0001F449\U0001F44C Well Cum! " + str(vuTime)
-        else:
-            messages = "Why do you cum? \U0001F633\U0001F4A6 " + str(vuTime)           
-        telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
-        requests.post(telegramAPI)
-        pushInfo("\U0001F44C Vu Request type " + str(checkType), "OK")
-    else:
-        pushInfo("\U0000274C Vu Error", req.text)
-        messages = "\U0001F62D Phát này lỗi thật, đéo đùa đâu :((. Response đây: \n" + req.text
-        telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
-        requests.post(telegramAPI)
-        exit()
 
 def datCheck(checkType):
     def get_datAuthorizationToken():
@@ -259,10 +240,10 @@ def vuCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(220, 300))
+            time.sleep(random.randint(360, 2000))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(3, 400))
+            time.sleep(1)
             vuCheck(2)
 
 def datCheckin():
