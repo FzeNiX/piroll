@@ -240,7 +240,7 @@ def vuCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(360, 2000))
+            time.sleep(random.randint(350, 4000))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
             vuCheck(2)
