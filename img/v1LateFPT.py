@@ -144,6 +144,25 @@ def vuCheck(checkType):
                 "SmartPhoneDeviceIMEI": "ec22dd1c85f4bc01"
                 }
     req = requests.post(url, headers=headers, json=json)
+    
+    bot = "bot1321871145:AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY"
+    title = "\U0001F9D9 Bụt hiện lên và nói:"
+    if (req.status_code == 200):
+        time = datetime.now()
+        vuTime = time.strftime("%X")
+        if (checkType == 1):
+            messages = "Checkin: " + str(vuTime)
+        else:
+            messages = "Checkout: " + str(vuTime)           
+        telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
+        requests.post(telegramAPI)
+        pushInfo("\U0001F44C Vu Request type " + str(checkType), "OK")
+    else:
+        pushInfo("\U0000274C Vu Error", req.text)
+        messages = "\U0001F62D Error: \n" + req.text
+        telegramAPI = "https://api.telegram.org/" + bot + "/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
+        requests.post(telegramAPI)
+        exit()
 
 def datCheck(checkType):
     def get_datAuthorizationToken():
@@ -200,8 +219,8 @@ def myCheckin():
         time.sleep(random.randint(1, 5))
         status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
         #Random Delay
+        delay = random.randint(50, 365)
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
-            delay = random.randint(200, 365)
             pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
             #Check In
             time.sleep(delay)
@@ -215,7 +234,6 @@ def myCheckin():
                         "Check Out: " + status['checkoutTime'])
 
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
-            delay = random.randint(10, 650)
             pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
             #Check Out
             time.sleep(delay)
@@ -240,24 +258,25 @@ def vuCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(350, 4000))
+            time.sleep(random.randint(5, 300))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
+            time.sleep(random.randint(3, 250))
             vuCheck(2)
 
 def datCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(200, 300))
+            time.sleep(random.randint(5, 300))
             datCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 400))
+            time.sleep(random.randint(5, 250))
             datCheck(2)
 
 t1 = threading.Thread(target=myCheckin)
 t2 = threading.Thread(target=vuCheckin)
 t3 = threading.Thread(target=datCheckin)
-#t1.start()
-#t2.start()
-#t3.start()
+t1.start()
+t2.start()
+t3.start()
