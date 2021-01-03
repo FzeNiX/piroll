@@ -146,7 +146,7 @@ def vuCheck(checkType):
     req = requests.post(url, headers=headers, json=json)
     
     bot = "bot1321871145:AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY"
-    title = "\U0001F9D9 Bụt hiện lên và nói:"
+    title = "Alert :"
     if (req.status_code == 200):
         time = datetime.now()
         vuTime = time.strftime("%X")
