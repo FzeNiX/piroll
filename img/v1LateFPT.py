@@ -10,7 +10,7 @@ requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-S
 
 AUTHORIZATION_KEY = "Basic dGh1eWhrMkBmcHQuY29tLnZuOjEyMzQ1Ng=="
 APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6ImQwZDk3MzNkLWZmZmQtNDRjYS04MDg1LTM1YmZiYjcwNjE5ZCIsImlhdCI6MTYwNjEwMjYyMywibmJmIjoxNjA2MTAyNjIzLCJleHAiOjE2MTM4Nzg2MjMsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.YNBzpYAJIkxwOPu8kVHuSmK8g4mJzrgbd7JOfFLAemE"
-CURRENTVERSION = "2.1.1"
+CURRENTVERSION = "2.2"
 #T
 def pushInfo(title, messages):
     bot = "bot1263316426"  
@@ -209,6 +209,51 @@ def datCheck(checkType):
         pushInfo("\U0000274C Dat Error", req.text)
         exit()        
 
+def nhungCheck(checkType):
+    def get_nhungAuthorizationToken():
+        url = "https://sapi.fpt.vn:443/token/GenerateToken"
+        headers = {
+                    "Connection": "close",
+                    "Accept": "application/json, text/plain, */*",
+                    "User-Agent": "okhttp/3.12.1",
+                    "Accept-Language": "en-us",
+                    "Authorization": AUTHORIZATION_KEY,
+                    "Accept-Encoding": "gzip, deflate"
+                    }
+        raw_token = requests.get(url, headers=headers)
+        token = "Bearer " + raw_token.text.replace('"','')
+        return token
+
+    authorizationToken = get_nhungAuthorizationToken()
+    appAuthorization_key = "XX"
+    url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/Checkin"
+    headers =   {
+                "Pragma": "no-cache",
+                "Accept": "application/json, text/plain, */*",
+                "Authorization": authorizationToken,
+                "currentversioncode": "1632",
+                "Expires": "0", 
+                "currentversion": CURRENTVERSION,
+                "Accept-Language": "en-us",
+                "Cache-Control": "no-cache, no-store, must-revalidate",
+                "platform": "ios", "Accept-Encoding": "gzip, deflate",
+                "app-authorization": appAuthorization_key,
+                "User-Agent": "HRISProject/1632 CFNetwork/1197 Darwin/20.0.0",
+                "Connection": "close",
+                "Content-Type": "application/json"
+                }
+    json =      {
+                "AccessPointsIPWAN": "XX",
+                "CheckinType": checkType,
+                "SmartPhoneDeviceIMEI": "XX"
+                }
+    req = requests.post(url, headers=headers, json=json)
+    if (req.status_code == 200):
+        pushInfo("\U0001F44C Nhung Request type " + str(checkType), "OK")
+    else:
+        pushInfo("\U0000274C Nhung Error", req.text)
+        exit()
+
 dateTime = getCurrentTime()
 
 def myCheckin():
@@ -258,25 +303,37 @@ def vuCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 300))
+            time.sleep(random.randint(5, 320))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(3, 250))
+            time.sleep(random.randint(3, 320))
             vuCheck(2)
 
 def datCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 300))
+            time.sleep(random.randint(5, 320))
             datCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 250))
+            time.sleep(random.randint(5, 320))
             datCheck(2)
+
+def nhungCheckin():
+    day = dateTime.strftime("%a")
+    if (day != "Sat" and day != "Sun"):
+        if (dateTime.hour == 7 and dateTime.minute <= 59):
+            time.sleep(random.randint(5, 320))
+            nhungCheck(1)
+        elif (dateTime.hour >= 17 and dateTime.minute >= 30):
+            time.sleep(random.randint(5, 320))
+            nhungCheck(2)            
 
 t1 = threading.Thread(target=myCheckin)
 t2 = threading.Thread(target=vuCheckin)
 t3 = threading.Thread(target=datCheckin)
+# t4 = threading.Thread(target=nhungCheckin)
 t1.start()
 t2.start()
 t3.start()
+# t4.start()
