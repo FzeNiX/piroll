@@ -9,7 +9,7 @@ from datetime import datetime
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-256-GCM-SHA384:ECDHE:!COMPLEMENTOFDEFAULT"
 
 AUTHORIZATION_KEY = "Basic dGh1eWhrMkBmcHQuY29tLnZuOjEyMzQ1Ng=="
-APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6ImQwZDk3MzNkLWZmZmQtNDRjYS04MDg1LTM1YmZiYjcwNjE5ZCIsImlhdCI6MTYwNjEwMjYyMywibmJmIjoxNjA2MTAyNjIzLCJleHAiOjE2MTM4Nzg2MjMsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.YNBzpYAJIkxwOPu8kVHuSmK8g4mJzrgbd7JOfFLAemE"
+APP_AUTHORIZATION_KEY = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6IjMyZTk5MmE1LTE0M2EtNDYxMS05ZWE0LWY2YzM3M2JlNjI0ZiIsImlhdCI6MTYwOTQ4ODk0MSwibmJmIjoxNjA5NDg4OTQxLCJleHAiOjE2MTcyNjQ5NDEsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.UpW3qePIK696q_aLeD-JNx2kKWFd1dvr6Ht3Tb-Jwm8"
 CURRENTVERSION = "2.2"
 #T
 def pushInfo(title, messages):
@@ -225,7 +225,7 @@ def nhungCheck(checkType):
         return token
 
     authorizationToken = get_nhungAuthorizationToken()
-    appAuthorization_key = "XX"
+    appAuthorization_key = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik5odW5nTFRIMzRAZnB0LmNvbS52biIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiM1hZNkFKU0w2M0FRQ0dUUVBYWlZBTlJGV1ZQQUdGWDUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFbXBsb3llZSIsImh0dHA6Ly93d3cuYXNwbmV0Ym9pbGVycGxhdGUuY29tL2lkZW50aXR5L2NsYWltcy90ZW5hbnRJZCI6IjEiLCJFbXBsb3llZUlkQ2xhaW0iOiIyMTIxOCIsInN1YiI6IjIxMjQzIiwianRpIjoiZDA1YjAwZGUtNGEwNy00Y2MzLWJmMGEtMWM5YmRlZTMxMjgzIiwiaWF0IjoxNjA5OTEwNzk3LCJuYmYiOjE2MDk5MTA3OTcsImV4cCI6MTYxNzY4Njc5NywiaXNzIjoiSFJJUyIsImF1ZCI6IkhSSVMifQ.oDJ3TR9U66IMd4MFvw-Do8SKTsKQKjHtBkwGuehSrow"
     url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/Checkin"
     headers =   {
                 "Pragma": "no-cache",
@@ -243,9 +243,9 @@ def nhungCheck(checkType):
                 "Content-Type": "application/json"
                 }
     json =      {
-                "AccessPointsIPWAN": "XX",
+                "AccessPointsIPWAN": "U2FsdGVkX1/ImVTUz1pROB6qOKzzF21xv7iKWySQFvg=",
                 "CheckinType": checkType,
-                "SmartPhoneDeviceIMEI": "XX"
+                "SmartPhoneDeviceIMEI": "3BF00794-5150-470E-83ED-54BBD3A18C8E"
                 }
     req = requests.post(url, headers=headers, json=json)
     if (req.status_code == 200):
@@ -327,13 +327,14 @@ def nhungCheckin():
             nhungCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
             time.sleep(random.randint(5, 320))
-            nhungCheck(2)            
+            nhungCheck(2)     
+    nhungCheck(1)       
 
 t1 = threading.Thread(target=myCheckin)
 t2 = threading.Thread(target=vuCheckin)
 t3 = threading.Thread(target=datCheckin)
-# t4 = threading.Thread(target=nhungCheckin)
+t4 = threading.Thread(target=nhungCheckin)
 t1.start()
 t2.start()
 t3.start()
-# t4.start()
+t4.start()
