@@ -264,7 +264,7 @@ def myCheckin():
         time.sleep(random.randint(1, 5))
         status = getCheckinStatus(AuthorizationToken, APP_AUTHORIZATION_KEY)
         #Random Delay
-        delay = random.randint(50, 365)
+        delay = random.randint(100, 365)
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
             pushInfo("\U000023F3 Delay Action", str(delay) + " seconds")
             #Check In
@@ -303,7 +303,7 @@ def vuCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 320))
+            time.sleep(random.randint(100, 320))
             vuCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
             time.sleep(random.randint(3, 320))
@@ -313,7 +313,7 @@ def datCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 320))
+            time.sleep(random.randint(100, 320))
             datCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
             time.sleep(random.randint(5, 320))
@@ -323,12 +323,11 @@ def nhungCheckin():
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(5, 320))
+            time.sleep(random.randint(100, 320))
             nhungCheck(1)
         elif (dateTime.hour >= 17 and dateTime.minute >= 30):
             time.sleep(random.randint(5, 320))
             nhungCheck(2)     
-    nhungCheck(1)       
 
 t1 = threading.Thread(target=myCheckin)
 t2 = threading.Thread(target=vuCheckin)
