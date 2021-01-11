@@ -182,7 +182,6 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                             "Date: " + status['date'] + "\n" +
                             "Check In: " + status['checkinTime'] + "\n" +
                             "Check Out: " + status['checkoutTime'])
-    checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
 
 t1 = threading.Thread(target=userCheck, args=("Khoa", "ios", KHOA['app-authorization'], KHOA['AccessPointsIPWAN'], KHOA['SmartPhoneDeviceIMEI']))
 t2 = threading.Thread(target=userCheck, args=("Vu", "android", VU['app-authorization'], VU['AccessPointsIPWAN'], VU['SmartPhoneDeviceIMEI']))
