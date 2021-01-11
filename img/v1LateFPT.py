@@ -118,8 +118,7 @@ def checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthor
         if(name == "Vu"):
             vuPushInfo("\U0001F44C " + "Check Type " + str(checkType), "OK")
     else:
-        pushInfo("\U0000274C " + name + " Error", req.text)
-        pushInfo("\U0001F629 " + name + " Request type "+ str(checkType), "fail!, exit program...")
+        pushInfo("\U0000274C " + name + " Error type " + str(checkType), req.text)
         if(name == "Vu"):
             vuPushInfo("\U0000274C Fail Check Type " + str(checkType), req.text)
 
@@ -183,6 +182,7 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                             "Date: " + status['date'] + "\n" +
                             "Check In: " + status['checkinTime'] + "\n" +
                             "Check Out: " + status['checkoutTime'])
+    checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
 
 t1 = threading.Thread(target=userCheck, args=("Khoa", "ios", KHOA['app-authorization'], KHOA['AccessPointsIPWAN'], KHOA['SmartPhoneDeviceIMEI']))
 t2 = threading.Thread(target=userCheck, args=("Vu", "android", VU['app-authorization'], VU['AccessPointsIPWAN'], VU['SmartPhoneDeviceIMEI']))
