@@ -160,22 +160,51 @@ def getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthor
 
 dateTime = getCurrentTime()
 
+def isLateTooMuch(authorizationToken, appAuthorization_key):
+    url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/GetListCheckinLogStatisticInMonth"
+    headers = {
+            "accept": "application/json, text/plain, */*",
+            "app-authorization": appAuthorization_key,
+            "authorization": authorizationToken,
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0", "Content-Type": "application/json",
+            "Connection": "close",
+            "Accept-Encoding": "gzip, deflate"
+            }
+    month = dateTime.strftime("%m")
+    year = dateTime.strftime("%Y")
+    data = {
+            "Month": month,
+            "Year": year
+            }
+    resp = requests.post(url, headers=headers, json=data)
+    monthStatistic = json.loads(resp.text)
+    if (monthStatistic['totalLate'] > 2):
+        return True
+    else:
+        return False
+
+NOT_LATEDELAY = 470
+LATEDELAY = 520
+
 def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
     authorizationToken = get_AuthorizationToken()
-
     if (platform == "ios"):
         currentVersionCode = IOS['currentversioncode']
         userAgent = IOS['User-Agent']
     else:
         currentVersionCode = ANDROID['currentversioncode']
         userAgent = ANDROID['User-Agent']
-    time.sleep(random.randint(1, 3))
     status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI)
     day = dateTime.strftime("%a")
 
     if (day != "Sat" and day != "Sun"):
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
-            time.sleep(random.randint(120, 512))
+            if (isLateTooMuch(authorizationToken, appAuthorization_key)):
+                time.sleep(random.randint(90, NOT_LATEDELAY))
+            else:
+                time.sleep(random.randint(90, LATEDELAY))
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
             time.sleep(random.randint(5, 500))
