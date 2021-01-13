@@ -186,7 +186,7 @@ def isLateTooMuch(authorizationToken, appAuthorization_key):
         return False
 
 NOT_LATEDELAY = 470
-LATEDELAY = 520
+LATEDELAY = 620
 
 def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
     authorizationToken = get_AuthorizationToken()
@@ -202,9 +202,9 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
     if (day != "Sat" and day != "Sun"):
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
             if (isLateTooMuch(authorizationToken, appAuthorization_key)):
-                time.sleep(random.randint(90, NOT_LATEDELAY))
+                time.sleep(random.randint(100, NOT_LATEDELAY))
             else:
-                time.sleep(random.randint(90, LATEDELAY))
+                time.sleep(random.randint(100, LATEDELAY))
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
             time.sleep(random.randint(5, 500))
