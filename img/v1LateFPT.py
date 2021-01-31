@@ -186,8 +186,8 @@ def isLateTooMuch(authorizationToken, appAuthorization_key):
         return False
 
 def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
-    NOT_LATEDELAY = random.randint(100, 465)
-    LATEDELAY = random.randint(100, 654)
+    NOT_LATEDELAY = random.randint(110, 465)
+    LATEDELAY = random.randint(100, 1000)
     authorizationToken = get_AuthorizationToken()
     if (platform == "ios"):
         currentVersionCode = IOS['currentversioncode']
@@ -206,7 +206,7 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                 time.sleep(LATEDELAY)
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 500))
+            time.sleep(random.randint(5, 600))
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 2, deviceIMEI)
             if (name == "Khoa"):
                 status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI)
