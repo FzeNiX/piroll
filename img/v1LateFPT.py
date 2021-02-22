@@ -84,7 +84,7 @@ def get_AuthorizationToken():
 #Get Current Time
 def getCurrentTime():
     dateTime = datetime.now()
-    pushInfo("\U0001F55C Current Time", dateTime.strftime("%c"))
+    #pushInfo("\U0001F55C Current Time", dateTime.strftime("%c"))
     return dateTime
 
 #Do Check in and Check out. 1 = Checkin, 2 = Checkout
