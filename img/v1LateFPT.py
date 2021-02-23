@@ -53,6 +53,13 @@ NHUNG = {
     "SmartPhoneDeviceIMEI": "3BF00794-5150-470E-83ED-54BBD3A18C8E",
 }
 
+#DUCANH - KEY
+DUCANH = {
+    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ1IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkFuaE5ENzVAZnB0LmNvbS52biIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiTUpOTVFUTklDT1JRTTdHMkZHVEVGN1lWT0tERDZZREEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFbXBsb3llZSIsImh0dHA6Ly93d3cuYXNwbmV0Ym9pbGVycGxhdGUuY29tL2lkZW50aXR5L2NsYWltcy90ZW5hbnRJZCI6IjEiLCJFbXBsb3llZUlkQ2xhaW0iOiIyMTIyMCIsInN1YiI6IjIxMjQ1IiwianRpIjoiYzkyZGE3YWQtOGU5My00MGI3LWE3ZWItMWQwYjYxNzM3MmM5IiwiaWF0IjoxNjA4MDQ4NDc4LCJuYmYiOjE2MDgwNDg0NzgsImV4cCI6MTYxNTgyNDQ3OCwiaXNzIjoiSFJJUyIsImF1ZCI6IkhSSVMifQ.8Da5xCkh9OYDu5EJxMlQNoBATrS6V3gZSExtfDraIY4",
+    "AccessPointsIPWAN": "U2FsdGVkX19hdtZWLYs11QntC/Kutn10fp45jFHlsc4=",
+    "SmartPhoneDeviceIMEI": "8831e6145a26efc6",
+}
+
 #TelegramBot
 def pushInfo(title, messages):
     bot = "bot1263316426:"  
@@ -219,7 +226,9 @@ t1 = threading.Thread(target=userCheck, args=("Khoa", "ios", KHOA['app-authoriza
 #t2 = threading.Thread(target=userCheck, args=("Vu", "android", VU['app-authorization'], VU['AccessPointsIPWAN'], VU['SmartPhoneDeviceIMEI']))
 t3 = threading.Thread(target=userCheck, args=("Dat", "ios", DAT['app-authorization'], DAT['AccessPointsIPWAN'], DAT['SmartPhoneDeviceIMEI']))
 t4 = threading.Thread(target=userCheck, args=("Nhung", "ios", NHUNG['app-authorization'], NHUNG['AccessPointsIPWAN'], NHUNG['SmartPhoneDeviceIMEI']))
+t5 = threading.Thread(target=userCheck, args=("Duc Anh", "android", DUCANH['app-authorization'], DUCANH['AccessPointsIPWAN'], DUCANH['SmartPhoneDeviceIMEI']))
 t1.start()
 #t2.start()
 t3.start()
 t4.start()
+t5.start()
