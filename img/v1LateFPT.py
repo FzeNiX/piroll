@@ -34,9 +34,9 @@ KHOA = {
 
 #VU - KEY
 VU = {
-    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlZ1VkhIMkBmcHQuY29tLnZuIiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJaT0ZVSE1UU0lDWURXTklWQkE0TkdRNVc0UUlRUlVQWSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkVtcGxveWVlIiwiaHR0cDovL3d3dy5hc3BuZXRib2lsZXJwbGF0ZS5jb20vaWRlbnRpdHkvY2xhaW1zL3RlbmFudElkIjoiMSIsIkVtcGxveWVlSWRDbGFpbSI6IjIxMjIxIiwic3ViIjoiMjEyNDYiLCJqdGkiOiJhMWFjY2NmYi1kMzc4LTQ0ZjktYTFiNy1kZTIxYWRiNjIxNDIiLCJpYXQiOjE2MDQ5NzkyOTgsIm5iZiI6MTYwNDk3OTI5OCwiZXhwIjoxNjEyNzU1Mjk4LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.2On5dhG0P4AWqVAhCBtQ5m2NAliZMSfBKoLZXcBCLpY",
-    "AccessPointsIPWAN": "U2FsdGVkX19UuLpcx3VkUTxmNvXBu1759LPVyNH43As=",
-    "SmartPhoneDeviceIMEI": "ec22dd1c85f4bc01",
+    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlZ1VkhIMkBmcHQuY29tLnZuIiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJaT0ZVSE1UU0lDWURXTklWQkE0TkdRNVc0UUlRUlVQWSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkVtcGxveWVlIiwiaHR0cDovL3d3dy5hc3BuZXRib2lsZXJwbGF0ZS5jb20vaWRlbnRpdHkvY2xhaW1zL3RlbmFudElkIjoiMSIsIkVtcGxveWVlSWRDbGFpbSI6IjIxMjIxIiwic3ViIjoiMjEyNDYiLCJqdGkiOiI2M2E1ZTJhOC1lOTJkLTQ1ZmEtODU4MS03ZGEzYzMxNmVhNjMiLCJpYXQiOjE2MTQ1ODE2ODksIm5iZiI6MTYxNDU4MTY4OSwiZXhwIjoxNjIyMzU3Njg5LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.CpqcEO_NIIJlAtWIVV2WVTtk6oEe17KdwxGSYI3zRvk",
+    "AccessPointsIPWAN": "U2FsdGVkX1+WI/3am5LGXn3apaH2IqemneTS2h24bO0=",
+    "SmartPhoneDeviceIMEI": "71f536d5a3049837",
 }
 
 #DAT - KEY
@@ -132,7 +132,7 @@ def checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthor
         if(name == "Vu"):
             vuPushInfo("\U0000274C Fail Check" + checkingType, req.text)
 
-def getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI):
+def getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name):
     url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/GetCheckinStatus"
     headers = {
             "Pragma": "no-cache",
@@ -153,17 +153,21 @@ def getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthor
             "SmartPhoneDeviceIMEI": deviceIMEI
             }
     req = requests.post(url, headers=headers, json=jsonData)
-    jsonStatus = json.loads(req.text)
-    result = jsonStatus['result']
-    status = result['status']
-    checkinStatus = {
-                    "date": status['date'][:10],
-                    "checkinTime": status['checkinTime'],
-                    "checkoutTime": status['checkoutTime'],
-                    "checkinStatus": status['checkinStatus'],
-                    "checkoutStatus": status['checkoutStatus']
-                    }
-    return checkinStatus
+    if(req.status_code == 401):
+        pushInfo("\U000026A0 Warning ", name + " token expired!")
+        return 0
+    else:
+        jsonStatus = json.loads(req.text)
+        result = jsonStatus['result']
+        status = result['status']
+        checkinStatus = {
+                        "date": status['date'][:10],
+                        "checkinTime": status['checkinTime'],
+                        "checkoutTime": status['checkoutTime'],
+                        "checkinStatus": status['checkinStatus'],
+                        "checkoutStatus": status['checkoutStatus']
+                        }
+        return checkinStatus
 
 dateTime = getCurrentTime()
 
@@ -202,9 +206,8 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
     else:
         currentVersionCode = ANDROID['currentversioncode']
         userAgent = ANDROID['User-Agent']
-    status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI)
+    status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name)
     day = dateTime.strftime("%a")
-
     if (day != "Sat" and day != "Sun"):
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
             if (isLateTooMuch(authorizationToken, appAuthorization_key)):
@@ -213,10 +216,10 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                 time.sleep(LATEDELAY)
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
-            time.sleep(random.randint(5, 600))
+            time.sleep(random.randint(5, 300))
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 2, deviceIMEI)
             if (name == "Khoa"):
-                status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI)
+                status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name)
                 pushInfo("\U0001F4A1 Status",
                             "Date: " + status['date'] + "\n" +
                             "Check In: " + status['checkinTime'] + "\n" +
