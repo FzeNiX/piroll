@@ -231,7 +231,7 @@ t3 = threading.Thread(target=userCheck, args=("Dat", "ios", DAT['app-authorizati
 t4 = threading.Thread(target=userCheck, args=("Nhung", "ios", NHUNG['app-authorization'], NHUNG['AccessPointsIPWAN'], NHUNG['SmartPhoneDeviceIMEI']))
 t5 = threading.Thread(target=userCheck, args=("Duc Anh", "android", DUCANH['app-authorization'], DUCANH['AccessPointsIPWAN'], DUCANH['SmartPhoneDeviceIMEI']))
 t1.start()
-t2.start()
+#t2.start()
 t3.start()
 t4.start()
 t5.start()
