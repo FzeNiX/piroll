@@ -216,7 +216,7 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                 time.sleep(LATEDELAY)
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 1, deviceIMEI)
         elif (status['checkoutStatus'] == 1 and dateTime.hour >= 17 and dateTime.minute >= 30):
-            #time.sleep(random.randint(5, 300))
+            time.sleep(random.randint(5, 300))
             checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, ipWAN, 2, deviceIMEI)
             if (name == "Khoa"):
                 status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name)
