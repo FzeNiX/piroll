@@ -27,7 +27,7 @@ ANDROID = {
 
 #KHOA - KEY
 KHOA = {
-    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbXBsb3llZUlkQ2xhaW0iOiIyMTIxOCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjEyNDMiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMjEyNDMiLCJqdGkiOiJmM2U4MDAwOS0xN2Y1LTQwZDMtYThmMS0wNzgwNzgyNWQ2MzkiLCJpYXQiOjE2MTc3NjE0NTAsIm5iZiI6MTYxNzc2MTQ1MCwiZXhwIjoxNjI1NTM3NDUwLCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.D0VV4r_Dnr0TQ6pWmjhva487irtbAnETEd4jqfyD9aE",
+    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbXBsb3llZUlkQ2xhaW0iOiIyMTIyMiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjEyNDciLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMjEyNDciLCJqdGkiOiI2YjJiOTQwZi1iODllLTQzNjUtOGNkYy05ZDRlNDRiODVlZTMiLCJpYXQiOjE2MTg1ODMyOTUsIm5iZiI6MTYxODU4MzI5NSwiZXhwIjoxNjI2MzU5Mjk1LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.DE_5cwg4fJaAcxxDEb9py7pM6N2UYdlQvF6TL6x6DJk",
     "AccessPointsIPWAN": "U2FsdGVkX182wSyRzH+IiJ2jsswaQrjSvtrVyN3toe0=",
     "SmartPhoneDeviceIMEI": "559B0902-E434-4509-8FBB-5D5DCAF2F0E3",
 }
@@ -226,7 +226,7 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                             "Check Out: " + status['checkoutTime'])
 
 t1 = threading.Thread(target=userCheck, args=("Khoa", "ios", KHOA['app-authorization'], KHOA['AccessPointsIPWAN'], KHOA['SmartPhoneDeviceIMEI']))
-t2 = threading.Thread(target=userCheck, args=("Vu", "android", VU['app-authorization'], VU['AccessPointsIPWAN'], VU['SmartPhoneDeviceIMEI']))
+#t2 = threading.Thread(target=userCheck, args=("Vu", "android", VU['app-authorization'], VU['AccessPointsIPWAN'], VU['SmartPhoneDeviceIMEI']))
 t3 = threading.Thread(target=userCheck, args=("Dat", "ios", DAT['app-authorization'], DAT['AccessPointsIPWAN'], DAT['SmartPhoneDeviceIMEI']))
 t4 = threading.Thread(target=userCheck, args=("Nhung", "ios", NHUNG['app-authorization'], NHUNG['AccessPointsIPWAN'], NHUNG['SmartPhoneDeviceIMEI']))
 t5 = threading.Thread(target=userCheck, args=("Duc Anh", "android", DUCANH['app-authorization'], DUCANH['AccessPointsIPWAN'], DUCANH['SmartPhoneDeviceIMEI']))
