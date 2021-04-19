@@ -32,13 +32,6 @@ KHOA = {
     "SmartPhoneDeviceIMEI": "559B0902-E434-4509-8FBB-5D5DCAF2F0E3",
 }
 
-#VU - KEY
-VU = {
-    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlZ1VkhIMkBmcHQuY29tLnZuIiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJaT0ZVSE1UU0lDWURXTklWQkE0TkdRNVc0UUlRUlVQWSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkVtcGxveWVlIiwiaHR0cDovL3d3dy5hc3BuZXRib2lsZXJwbGF0ZS5jb20vaWRlbnRpdHkvY2xhaW1zL3RlbmFudElkIjoiMSIsIkVtcGxveWVlSWRDbGFpbSI6IjIxMjIxIiwic3ViIjoiMjEyNDYiLCJqdGkiOiI2M2E1ZTJhOC1lOTJkLTQ1ZmEtODU4MS03ZGEzYzMxNmVhNjMiLCJpYXQiOjE2MTQ1ODE2ODksIm5iZiI6MTYxNDU4MTY4OSwiZXhwIjoxNjIyMzU3Njg5LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.CpqcEO_NIIJlAtWIVV2WVTtk6oEe17KdwxGSYI3zRvk",
-    "AccessPointsIPWAN": "U2FsdGVkX1+WI/3am5LGXn3apaH2IqemneTS2h24bO0=",
-    "SmartPhoneDeviceIMEI": "71f536d5a3049837",
-}
-
 #DAT - KEY
 DAT = {
     "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbXBsb3llZUlkQ2xhaW0iOiIyMTIxOSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjEyNDQiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMjEyNDQiLCJqdGkiOiJjNGFkMDI0YS1mMTViLTQwNjQtOTA3Mi05ZjY3ZDMzZjU2ZWEiLCJpYXQiOjE2MTYxNDk5MjksIm5iZiI6MTYxNjE0OTkyOSwiZXhwIjoxNjIzOTI1OTI5LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.s1ffhF5EDI8ZC0vYsx3VosV4sWtcZhwA8uKZR_8ElLM",
@@ -64,12 +57,6 @@ DUCANH = {
 def pushInfo(title, messages):
     bot = "bot1263316426:"  
     telegramAPI = "https://api.telegram.org/"+ bot +"AAEsMDr5IUbrwRVV2jGgudIwrAuQNiPpy_Q/sendMessage?chat_id=540921490&text=" + title + ":\n" + messages
-    print(title + ":\n" + messages + "\n")
-    requests.post(telegramAPI)
-
-def vuPushInfo(title, messages):
-    bot = "bot1321871145:"
-    telegramAPI = "https://api.telegram.org/"+ bot +"AAHHCaUVoJZPQepX3j_1_3ss1lEnXG5vExY/sendMessage?chat_id=1336890414&text=" + title + ":\n" + messages
     print(title + ":\n" + messages + "\n")
     requests.post(telegramAPI)
 
@@ -125,12 +112,8 @@ def checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthor
     if (req.status_code == 200):
         print(name + " Request OK")
         pushInfo("\U0001F44C " + name + " Check" + checkingType, "OK")
-        if(name == "Vu"):
-            vuPushInfo("\U0001F44C " + " Check" + checkingType, "OK")
     else:
         pushInfo("\U0000274C " + name + " Error type " + str(checkType), req.text)
-        if(name == "Vu"):
-            vuPushInfo("\U0000274C Fail Check" + checkingType, req.text)
 
 def getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name):
     url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/GetCheckinStatus"
