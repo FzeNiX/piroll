@@ -27,7 +27,7 @@ ANDROID = {
 
 #KHOA - KEY
 KHOA = {
-    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbXBsb3llZUlkQ2xhaW0iOiIyMTIyMiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjEyNDciLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMjEyNDciLCJqdGkiOiI2YjJiOTQwZi1iODllLTQzNjUtOGNkYy05ZDRlNDRiODVlZTMiLCJpYXQiOjE2MTg1ODMyOTUsIm5iZiI6MTYxODU4MzI5NSwiZXhwIjoxNjI2MzU5Mjk1LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.DE_5cwg4fJaAcxxDEb9py7pM6N2UYdlQvF6TL6x6DJk",
+    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Iktob2FOVjE3QGZwdC5jb20udm4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IlVJTklLSEg3M0ZJTUxPNUU2T0M0UVdTT0daRkpDTUM3IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiRW1wbG95ZWUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwiRW1wbG95ZWVJZENsYWltIjoiMjEyMjIiLCJzdWIiOiIyMTI0NyIsImp0aSI6IjE1YWI5ODhlLTFlNmItNDVkNy04YmNhLWNmZTg1ZmYyN2M2MCIsImlhdCI6MTYyNTQ2MjQxNywibmJmIjoxNjI1NDYyNDE3LCJleHAiOjE2MzMyMzg0MTcsImlzcyI6IkhSSVMiLCJhdWQiOiJIUklTIn0.tV21kLaUUkGE3QYXRl8ZmqbajN1KumBqD9QQOBa6vMY",
     "AccessPointsIPWAN": "U2FsdGVkX182wSyRzH+IiJ2jsswaQrjSvtrVyN3toe0=",
     "SmartPhoneDeviceIMEI": "559B0902-E434-4509-8FBB-5D5DCAF2F0E3",
 }
@@ -213,6 +213,6 @@ t3 = threading.Thread(target=userCheck, args=("Dat", "ios", DAT['app-authorizati
 t4 = threading.Thread(target=userCheck, args=("Nhung", "ios", NHUNG['app-authorization'], NHUNG['AccessPointsIPWAN'], NHUNG['SmartPhoneDeviceIMEI']))
 t5 = threading.Thread(target=userCheck, args=("Duc Anh", "android", DUCANH['app-authorization'], DUCANH['AccessPointsIPWAN'], DUCANH['SmartPhoneDeviceIMEI']))
 t1.start()
-t3.start()
-t4.start()
-t5.start()
+#t3.start()
+#t4.start()
+#t5.start()
