@@ -48,7 +48,7 @@ NHUNG = {
 
 #DUCANH - KEY
 DUCANH = {
-    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbXBsb3llZUlkQ2xhaW0iOiIyMTIyMCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjEyNDUiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMjEyNDUiLCJqdGkiOiJkNDFiY2ZjNi01ODk5LTQ4ODItOTVmNC1lZjUxMjdhMjg5NGYiLCJpYXQiOjE2MTYzOTY5MTAsIm5iZiI6MTYxNjM5NjkxMCwiZXhwIjoxNjI0MTcyOTEwLCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.PbxA0HUQeJ44vbUh1YEtzUHdUeTtxODgLRvZf1r7pMU",
+    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQ1IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkFuaE5ENzVAZnB0LmNvbS52biIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiTUpOTVFUTklDT1JRTTdHMkZHVEVGN1lWT0tERDZZREEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFbXBsb3llZSIsImh0dHA6Ly93d3cuYXNwbmV0Ym9pbGVycGxhdGUuY29tL2lkZW50aXR5L2NsYWltcy90ZW5hbnRJZCI6IjEiLCJFbXBsb3llZUlkQ2xhaW0iOiIyMTIyMCIsInN1YiI6IjIxMjQ1IiwianRpIjoiMTgzZjgzNWQtODk4Ni00NWY4LTg1M2UtODY5NTRiNDg5OGUzIiwiaWF0IjoxNjI1NzI3NTUzLCJuYmYiOjE2MjU3Mjc1NTMsImV4cCI6MTYzMzUwMzU1MywiaXNzIjoiSFJJUyIsImF1ZCI6IkhSSVMifQ.UbmAPpQWF8NPiBrVu81ctbM_4l_Mkc-lzO8-kbPmsMg",
     "AccessPointsIPWAN": "U2FsdGVkX19hdtZWLYs11QntC/Kutn10fp45jFHlsc4=",
     "SmartPhoneDeviceIMEI": "8831e6145a26efc6",
 }
@@ -214,4 +214,4 @@ t4 = threading.Thread(target=userCheck, args=("Nhung", "ios", NHUNG['app-authori
 t5 = threading.Thread(target=userCheck, args=("Duc Anh", "android", DUCANH['app-authorization'], DUCANH['AccessPointsIPWAN'], DUCANH['SmartPhoneDeviceIMEI']))
 t1.start()
 t4.start()
-#t5.start()
+t5.start()
