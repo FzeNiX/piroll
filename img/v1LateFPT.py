@@ -126,8 +126,7 @@ def getCheckinStatus(authorizationToken, appAuthorization_key, name):
         return 0
     else:
         jsonStatus = json.loads(req.text)
-        result = jsonStatus['result']
-        status = result['status']
+        status = jsonStatus['status']
         checkinStatus = {
                         "date": status['date'][:10],
                         "checkinTime": status['checkinTime'],
