@@ -32,13 +32,6 @@ KHOA = {
     "SmartPhoneDeviceIMEI": "559B0902-E434-4509-8FBB-5D5DCAF2F0E3",
 }
 
-#DAT - KEY
-DAT = {
-    "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbXBsb3llZUlkQ2xhaW0iOiIyMTIxOSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjEyNDQiLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMjEyNDQiLCJqdGkiOiJjNGFkMDI0YS1mMTViLTQwNjQtOTA3Mi05ZjY3ZDMzZjU2ZWEiLCJpYXQiOjE2MTYxNDk5MjksIm5iZiI6MTYxNjE0OTkyOSwiZXhwIjoxNjIzOTI1OTI5LCJpc3MiOiJIUklTIiwiYXVkIjoiSFJJUyJ9.s1ffhF5EDI8ZC0vYsx3VosV4sWtcZhwA8uKZR_8ElLM",
-    "AccessPointsIPWAN": "U2FsdGVkX1+P/JXtxxsuXgn+L5Hq/M8JxMChpMQaGek=",
-    "SmartPhoneDeviceIMEI": "2A7ACC22-1402-4C84-AB66-B238FC8E37B9",
-}
-
 #NHUNG - KEY
 NHUNG = {
     "app-authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxMjQzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik5odW5nTFRIMzRAZnB0LmNvbS52biIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiM1hZNkFKU0w2M0FRQ0dUUVBYWlZBTlJGV1ZQQUdGWDUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFbXBsb3llZSIsImh0dHA6Ly93d3cuYXNwbmV0Ym9pbGVycGxhdGUuY29tL2lkZW50aXR5L2NsYWltcy90ZW5hbnRJZCI6IjEiLCJFbXBsb3llZUlkQ2xhaW0iOiIyMTIxOCIsInN1YiI6IjIxMjQzIiwianRpIjoiMjU5MmJhNTMtOTI2Zi00NjE1LWI4YjEtNzYzZTg0NTYwNTliIiwiaWF0IjoxNjI1NTY3Mzc2LCJuYmYiOjE2MjU1NjczNzYsImV4cCI6MTYzMzM0MzM3NiwiaXNzIjoiSFJJUyIsImF1ZCI6IkhSSVMifQ.XZ7d_wh49NRoeEvGO9AEzXAiL6ls4UAc6NbPhnLgm8w",
@@ -115,26 +108,18 @@ def checkInOut(name, authorizationToken, currentVersionCode, platform, appAuthor
     else:
         pushInfo("\U0000274C " + name + " Error type " + str(checkType), req.text)
 
-def getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name):
+def getCheckinStatus(authorizationToken, appAuthorization_key, name):
     url = "https://sapi.fpt.vn:443/hrapi/api/services/app/Checkin/GetCheckinStatus"
     headers = {
-            "Pragma": "no-cache",
-            "Accept": "application/json, text/plain, */*",
-            "Authorization": authorizationToken,
-            "currentversioncode": currentVersionCode,
-            "Expires": "0",
-            "currentversion": CURRENTVERSION,
-            "Accept-Language": "en-us",
-            "Cache-Control": "no-cache, no-store, must-revalidate",
-            "platform": platform,
-            "Accept-Encoding": "gzip, deflate",
-            "app-authorization": appAuthorization_key,
-            "User-Agent": userAgent,
-            "Connection": "close",
-            "Content-Type": "application/json"}
+                "Accept": "application/json, text/plain, */*",
+                "Authorization": authorizationToken,
+                "App-Authorization": appAuthorization_key,
+                "Content-Type": "application/json",
+                "Connection": "close"
+                }
     jsonData = {
-            "SmartPhoneDeviceIMEI": deviceIMEI
-            }
+                "SmartPhoneDeviceIMEI": ""
+                 }
     req = requests.post(url, headers=headers, json=jsonData)
     if(req.status_code == 401):
         pushInfo("\U000026A0 Warning ", name + " token expired!")
@@ -189,7 +174,7 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
     else:
         currentVersionCode = ANDROID['currentversioncode']
         userAgent = ANDROID['User-Agent']
-    status = getCheckinStatus(authorizationToken, currentVersionCode, platform, appAuthorization_key, userAgent, deviceIMEI, name)
+    status = getCheckinStatus(authorizationToken, appAuthorization_key, name)
     day = dateTime.strftime("%a")
     if (day != "Sat" and day != "Sun"):
         if (status['checkinStatus'] == 1 and dateTime.hour == 7 and dateTime.minute <= 59):
@@ -209,7 +194,6 @@ def userCheck(name, platform, appAuthorization_key, ipWAN, deviceIMEI):
                             "Check Out: " + status['checkoutTime'])
 
 t1 = threading.Thread(target=userCheck, args=("Khoa", "ios", KHOA['app-authorization'], KHOA['AccessPointsIPWAN'], KHOA['SmartPhoneDeviceIMEI']))
-t3 = threading.Thread(target=userCheck, args=("Dat", "ios", DAT['app-authorization'], DAT['AccessPointsIPWAN'], DAT['SmartPhoneDeviceIMEI']))
 t4 = threading.Thread(target=userCheck, args=("Nhung", "ios", NHUNG['app-authorization'], NHUNG['AccessPointsIPWAN'], NHUNG['SmartPhoneDeviceIMEI']))
 t5 = threading.Thread(target=userCheck, args=("Duc Anh", "android", DUCANH['app-authorization'], DUCANH['AccessPointsIPWAN'], DUCANH['SmartPhoneDeviceIMEI']))
 t1.start()
